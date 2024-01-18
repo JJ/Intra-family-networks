@@ -1,0 +1,336 @@
+% LaTeX rebuttal letter example. 
+% 
+% Copyright 2019 Friedemann Zenke, zenkelab.org
+%
+% Based on examples by Dirk Eddelbuettel, Fran and others from 
+% https://tex.stackexchange.com/questions/2317/latex-style-or-macro-for-detailed-response-to-referee-report
+% 
+% Licensed under cc by-sa 3.0 with attribution required.
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+
+% import Eq and Section references from the main manuscript where needed
+% \usepackage{xr}
+% \externaldocument{manuscript}
+
+% package needed for optional arguments
+\usepackage{xifthen}
+% define counters for reviewers and their points
+\newcounter{reviewer}
+\setcounter{reviewer}{0}
+\newcounter{point}[reviewer]
+\setcounter{point}{0}
+
+% This refines the format of how the reviewer/point reference will appear.
+\renewcommand{\thepoint}{P\,\thereviewer.\arabic{point}} 
+
+% command declarations for reviewer points and our responses
+\newcommand{\reviewersection}{\stepcounter{reviewer} \bigskip \hrule
+                  \section*{Reviewer \thereviewer}}
+
+\newenvironment{point}
+   {\refstepcounter{point} \bigskip \noindent {\textbf{Reviewer~Point~\thepoint} } ---\ }
+   {\par }
+
+\newcommand{\shortpoint}[1]{\refstepcounter{point}  \bigskip \noindent 
+	{\textbf{Reviewer~Point~\thepoint} } ---~#1\par }
+
+\newenvironment{reply}
+   {\medskip \noindent \begin{sf}\textbf{Reply}:\  }
+   {\medskip \end{sf}}
+
+\newcommand{\shortreply}[2][]{\medskip \noindent \begin{sf}\textbf{Reply}:\  #2
+	\ifthenelse{\equal{#1}{}}{}{ \hfill \footnotesize (#1)}%
+	\medskip \end{sf}}
+
+\begin{document}
+
+Dear sirs:
+
+    Please find attached the first revision of the paper {\em Intra-family links
+      in the analysis of marital networks} for your consideration. Following
+    your and the reviewers' advice, the paper has improved greatly in the
+    content as well as in the presentation areas. These are the general changes
+    that the paper has undergone:\begin{itemize}
+    \item The paper has now 26 pages, as opposed to the original 20; this
+      accounts for the inclusion of new illustrations and a totally new social
+      network analyzed.
+    \item There are now 33 references, as opposed to the original 28; there are
+      9 new references, since 4 original references that were less germane to
+      the topic of the paper has been dropped.
+    \item A new section that describes and compares the high-level features of
+      the two datasets under study has been added.
+    \item Illustrations for all methods tested have been added.
+    \item Explanations of the different methodologies studied have been
+      clarified and expanded where needed.
+    \end{itemize}
+
+Please find below a point-by-point response to all comments by the reviewers.
+
+\section*{Response to the reviewers}
+
+We would like to thank the editor and reviewers for the attention that our work has received. We will address their concerns next
+
+\reviewersection
+
+\begin{point}
+The article delves into the often overlooked dimension of matrimonial networks:
+intra-family marriages. Specifically, the authors explore three methodologies
+for incorporating intra-family ties into marital networks. They endorse a
+procedure that duplicates nodes for families with intra-family marriages, adding
+new edges to account for these ties. Despite this method being highlighted for
+its computational simplicity and conceptual soundness, there are some
+recommendations and suggestions to improve the quality of the paper:
+	\label{pt:1:1}
+      \end{point}
+
+      \begin{reply}
+        This is an accurate summary of our work. We thank the reviewer for
+        his/her recommendations, and will address every point below one by one.
+        \end{reply}
+
+\begin{point}
+The structure of the article does not represent the contribution of the article
+to scientific research. Authors should clearly explain what their contributions
+are, specifying the main field of research concerned;
+\end{point}
+
+    \begin{reply}
+     The contribution of the article to scientific research
+     is the proposal of a simple procedure, called {\em duplicated nodes}, that
+     incorporates self-loops into graphs by duplicating nodes of families with
+     self-loops and linking them with an edge whose weight is equivalent to the
+     number of self-marriages. This procedure allows centrality measures such as PageRank
+     and betweenness centrality to numerically include these self-loops into their
+     results. This has been explained more clearly in the abstract and the
+     introduction. We have also added the analysis of a different network,
+     applying the method proposed, and finding how incorporating self-loops yield
+     a better representation of status via centrality measures.
+     \end{reply}
+
+
+\begin{point}
+    While the paper discusses matrimonial connections in a specific historical
+    and geographical milieu, it might not have elaborated enough on the
+    historical, cultural, and social factors that drive intra-family marriages
+    in different societies.
+\end{point}
+
+    \begin{reply}
+      We introduced references to Luke et al.~(2004) and Kuper (2001) to
+       highlight the cultural differences between East Asia and Africa and
+       between religions in the social acceptance of intra-family marriages. To
+       go further might lead us astray, since the paper proposes a computational
+       method. However,  the new method proposed will help to better study the historical, cultural and social factors that drive
+       self-marriages in different societies.
+    \end{reply}
+
+\begin{point}
+  The study seems to focus on a specific kind of network. While the findings
+  might be significant within this context, their applicability to other marital
+  networks from different cultures or historical periods remains uncertain.
+\end{point}
+
+    \begin{reply}
+         The method is now applied to a second marriage networks of 1271
+         Taiwanese elite families from 1895 to 1996. This second network is
+         quite different from the Venice network, as shown in the comparison in
+         (the totally new) Section 3: It is more sparse, covers a shorter period
+         of time, and has fewer intra-family marriages.  We believe that
+         applying our method to two marriage networks with substantial
+         differences provides a better test of its robustness.
+    \end{reply}
+
+\begin{point}
+    By duplicating nodes for families with intra-family marriages, there's a risk
+    of oversimplifying the network and possibly overlooking some nuanced
+    connections or relationships. How did the authors overcome these issues?
+\end{point}
+
+\begin{reply}
+    This is a very good question indeed. Short answer: by ensuring that the new,
+    duplicated, nodes, are structurally equivalent to the ones they replicate,
+    we avoid this risk of simplification; as a matter of fact, we go in the
+    opposite direction: dropping self-loops {\em does} simplify the network to
+    the point that some measures might not reflect correctly the status of the
+    family.
+
+    There is a long answer too. The {\sf duplicated mode} procedure, introduced
+    in this paper, turns pseudographs into unipartite or regular graphs, by
+    converting a type of multi-edge, self-loops, into an additional loop and
+    edge; as opposed to the standard way, which simply drops the self-loops. So
+    it simplifies the model of the graph (going from a complex, multi-edge)
+    model, to a simple, regular, single-edge/weight model. However, by
+    simplifying the model, we win the capability to perform analysis using
+    off-the-shelf tools without losing a iota of interpretability or adding
+    ad-hoc artifacts. As a matter of fact, multigraphs incorporate all kind of
+    relationship, modeling them as different kind of edges: political ties might
+    use a different type of edge than commercial or familiar ties. However,
+    usual social network analysis will simply coalesce these ties into a single
+    edge, losing the possible differences and nuances between those
+    relationships. Dealing with these kind of relationships in this paper is
+    probably out of scope; however, the procedure of duplication used in this
+    paper paves the way for introducing other {\em regularization} procedures by
+    mapping these nuanced relationships to a {\em regular} graph in such a way
+    that the nuances in the relationship are not lost, but at the same time you
+    can compute and compare with prior work that uses regular centrality
+    measures. So if we would have to generalize our methodology, regularization
+    of multigraphs should be done in such a way that the structural properties
+    of the nodes in the network are conserved, while at the same time the
+    nuanced ties can numerically be incorporated into the regular graph.
+
+    In the paper, the fact that this regularization of the network does not
+    simplify it is validated by analyzing the resulting values of the centrality
+    measures with the {\sf duplication} method in both networks tested (Venice
+    and Taiwan) and comparing them with the status of the families involved as
+    reflected in the original paper that published the datasets.
+\end{reply}
+
+\begin{point}
+    Despite the English writing is quite good, the methods and architecture
+    proposed are not convincing and very confusing. Please improve it and
+    provide better motivation for the chosen approach, and, in the methods
+    section, communicate in a simple way to make the article understandable even
+    those who do not know this area.
+  \end{point}
+
+  \begin{reply}
+    We have added illustrations for all the methods proposed, so that it is
+    clear what happens with the involved nodes, and their connections, with
+    every one of them; these are now Figures 2, 3 and 5. The explanation of
+    every one of the methods has been revised and improved, referring to these
+    illustrations.
+
+    The motivation for the chosen approach has been expanded in the
+    Introduction: essentially, social network analysis of marriage networks drop
+    a very important part of it: intra-family ties. Our method is able to
+    incorporate it into the analysis, and in a way that leverages existing
+    measures and software infrastructure.
+  \end{reply}
+
+\begin{point}
+    The paragraph structure, information flow and connectivity of the article can be improved.
+\end{point}
+
+\begin{reply}
+  We thoroughly reviewed the architecture of the paper, by rewriting the
+  abstract and the introduction but also changing the paragraph structure in
+  order to make the paper easier to read. We have now divided Section 4 (which
+  was previously section 3) in several subsections to highlight every different
+  method tested (and how the finally selected method, {\sf duplicated nodes}, is
+  able to reflect better status in centrality measures for the Taiwanese network.
+\end{reply}
+
+% Begin a new reviewer section
+\reviewersection
+
+\begin{point}
+  The authors proposed three different ways of incorporating loops into marital
+  network analysis. At first, a selection of methods to convert bipartite
+  networks into single-mode networks is proposed. These methods are then applied
+  to a dataset of marriages in the Republic of Venice. Finally, the best method
+  is selected. Although the paper topic is significant, I found it unclear and
+  difficult to read. These are my comments to improve it:
+\end{point}
+
+\begin{reply}
+  Thanks for this summary, which accurately reflects our intent with this
+  paper. We have tried to make it clearer and easier to read in this new
+  version, that incorporates new analysis, as well as improvements to the
+  structure and individual claims. We will now address the rest of your
+  concerns.
+\end{reply}
+
+
+\begin{point}
+    The number of references in Section 2 (State of the art) are not
+    sufficient. The authors can make a deeper study on the literature of the
+    more recent years.
+\end{point}
+
+\begin{reply}
+  Part of this Section has been moved to the Introduction; this Section is
+  called now ``A survey of marriage networks'' and has a narrower focus on
+  social network analysis applied to marriage networks. It is divided by
+  different geographical milieus and extended with added Zamborain-Mason (2017)
+  (in the introduction), Tacket (2020), Cruz et al. (2017), Haim et al. (2021) and
+  Naidu et al. (2021). We have also added new references to papers that refer
+  explicitly to self-loops: Smith et al., 2021 and Lichoti et al., 2016.
+
+  Unfortunately, the lack of good tools to take into account self-loops in
+  marital networks has probably contributed to the dearth of literature in this
+  area; we expect that this paper will help researchers bridge the existing gap.
+\end{reply}
+
+
+\begin{point}
+    Section 3 (Methods) is very confusing. In my opinion, a mathematical
+    formulation of the problem is missing. Definitions of graph, loops, and so
+    on should be inserted together with a list of steps or even a pseudocode
+    with clearly states the procedure used by the authors to incorporated
+    loops. These contents can become a subsection. Moreover, an other subsection
+    to clearly explain the dataset could be added.
+\end{point}
+
+\begin{reply}
+Every method now contains illustrations of what is meant by every term,
+illustrating also the concept of self-loop (intra-marriages in our case). A new
+section, Section 3, is now devoted to explain the datasets used, the Venetian
+marriage network as well as the new one analyzed in this paper, the Taiwanese
+elite family network. A more precise definition of the graph that is generally
+used to model a social network is now in the Introduction. Please note that we
+are not using specific models in this paper, instead using the regular graph
+representation of marital networks where nodes are families and edges represent
+matrimonial links between them.
+\end{reply}
+
+
+\begin{point}
+  Section 4 (Results) should contain a list of items of the three used methods
+  and also contain plots to show the experiment results. Moreover, only one
+  network with 348 nodes and 11842 edges has been used in the experiments. I am
+  not sure it is sufficient to support the obtained results.
+\end{point}
+
+\begin{reply}
+   Former Sections 3 and 4 have been merged into Section 4, which is now divided
+   in several subsections, every one for one of the proposed
+   methods. Additionally, Section 3 now contains a summary of the two datasets
+   used. The second dataset of Taiwanese elite families is analyzed in
+   Subsection 4.4. Since this dataset is totally different in most high-level
+   aspects (such as transitivity, average degree and even total number of
+   self-loops) and we still obtain significant results (validated with the
+   analysis made in the paper that published the results in the first place),
+   this implies that our proposed {\sf duplicated nodes} method is robust enough
+   to be applied to a wide variety of networks with self-loops, even beyond the
+   context, marital networks, that is the focus of this paper.
+\end{reply} 
+
+\begin{point}
+  The bibliography part requires an accurate revision.
+\end{point}
+
+\begin{reply}
+  The bibliography has been revised and new references have been added, both to
+  the literature on marriage networks and to the literature on social networks
+  analysis and self-loops. To avoid an unnecessarily long list of references, we
+  have also removed some works that dealt with marriage networks but did not
+  make specific use of social network analysis. Minor errors have also been
+  fixed, specifically errors in the paper on Ragusan families, where the
+  proceedings editor had been wrongly listed as the paper author.
+\end{reply} 
+
+\begin{point}
+    Links along the paper, bibliography and declarations also require revision.
+\end{point}
+
+\begin{reply}
+
+  Every part of the paper has been revised thoroughly. We thank the reviewer for
+  these helpful suggestions.
+
+\end{reply}
+
+\end{document}

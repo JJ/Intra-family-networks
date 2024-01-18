@@ -1,0 +1,1367 @@
+SourcePersonID,TargetPersonID,SourceFamilyID,TargetFamilyID,Type,SourcePersonName,TargetPersonName,SourceFamilyName,TargetFamilyName,Relation,Self-loop,TranslatedSourceFamilyName,TranslatedTargetFamilyName
+10001,10246,20001,20076,Undirected,JudyHillKornhoff,劉國鎮,Kornhoff,劉闊才,hasHusband,FALSE,Kornhoff,Liu Kuocai
+10022,11013,20007,20232,Undirected,丁桐,張心洽,丁桐,張子武,hasHusband,FALSE,Ding Tong,Zhang Ziwu
+10025,10422,21206,20094,Undirected,丁玲兒,吳凱民,鹿港丁,吳三連,hasHusband,FALSE,Kugang Daeda,Wu Sanlian
+10026,14082,21206,21105,Undirected,丁琴英,陳滿盈,鹿港丁,陳滿盈,hasHusband,FALSE,Kugang Daeda,Chen Manying
+10036,13272,21206,20864,Undirected,丁采芬,蘇成仁,鹿港丁,蘇成仁,hasHusband,FALSE,Kugang Daeda,Su Chengren
+10037,11077,21206,20266,Undirected,丁采華,張石崇,鹿港丁,張石崇,hasHusband,FALSE,Kugang Daeda,Zhang Shizong
+10039,11721,21206,20452,Undirected,丁采靜,林徵龍,鹿港丁,林徵龍,hasHusband,FALSE,Kugang Daeda,Lin Zhenglong
+10040,10422,21206,20094,Undirected,丁鈴兒,吳凱民,鹿港丁,吳三連,hasHusband,FALSE,Kugang Daeda,Wu Sanlian
+10046,13225,20009,20839,Undirected,丘如雪,蔣緯國,丘健賓,蔣介石,hasHusband,FALSE,Qiu Jianbin,Chiang Kai -shek
+10052,11573,20010,20087,Undirected,中村泰江,林全祿,中村泰江,台南林,hasHusband,FALSE,Yasue Nakamura,Lin from Tainan
+10053,13414,20012,20921,Undirected,于一麗,謝大成,于秉溪,謝東閔,hasHusband,FALSE,Yu Bingxi,Xie Dongmin
+10054,14412,20011,21183,Undirected,于心素,馬積善,于心素,馬積善,hasHusband,FALSE,Yu Xin Su,Ma Jishan
+10056,14561,20013,21222,Undirected,于素姍,黃崇仁,于素姍,黃崇仁,hasHusband,FALSE,Yu Sushan,Huang Chongren
+10058,13738,20015,21008,Undirected,伊藤優子,鄧至軒,伊藤優子,鄧文岳,hasHusband,FALSE,Yuko Ito,Deng Wenyue
+10059,10149,20024,20035,Undirected,He京樺,侯博裕,He義,侯雨利,hasHusband,FALSE,He He Yi,Hou Yuli
+10061,14605,20016,21236,Undirected,He佩珊,黃正廷,He傳,黃正廷,hasHusband,FALSE,How,Huang Zhengting
+10062,10355,20016,20074,Undirected,He佩珍,劉長順,He傳,劉長順,hasHusband,FALSE,How,Liu Changshun
+10072,10998,20024,20234,Undirected,He季樺,張桹,He義,張桹,hasHusband,FALSE,He He Yi,Lofty
+10077,10631,20018,20792,Undirected,He彩雲,呂天欽,He彩雲,萬華呂,hasHusband,FALSE,He Caiyun,Wanhua Lu
+10078,12322,20020,20572,Undirected,He惠珍,楊基炘,He永,楊肇嘉,hasHusband,FALSE,How forever,Yang Zhaojia
+10082,11431,20016,20398,Undirected,He換治,李火木,He傳,李火木,hasHusband,FALSE,How,Li Huomu
+10089,10099,20019,20019,Undirected,He毓琰,He紹牧,He應欽,He應欽,hasHusband,TRUE,He Yingqin,He Yingqin
+10091,10004,20021,21206,Undirected,He玲春,丁一天,He玲春,鹿港丁,hasHusband,FALSE,He Lingchun,Kugang Daeda
+10092,10720,20022,20172,Undirected,He瑞卿,嚴以德,He瑞卿,嚴復,hasHusband,FALSE,He Ruiqing,Yan Fu
+10094,10606,20023,20114,Undirected,He碧珠,吳金虎,He碧珠,吳火獅,hasHusband,FALSE,He Bizhu,Wu Huoshi
+10100,12535,20019,20638,Undirected,He紹珣,洪允武,He應欽,洪蘭友,hasHusband,FALSE,He Yingqin,Hong Lanyou
+10101,11331,20019,20350,Undirected,He紹珪,朱厚人,He應欽,朱厚人,hasHusband,FALSE,He Yingqin,Zhu Houren
+10102,12479,20019,20606,Undirected,He紹瑤,汪敬煦,He應欽,汪敬煦,hasHusband,FALSE,He Yingqin,Wang Jingyu
+10103,11189,20019,20306,Undirected,He紹璉,徐華斯,He應欽,徐華斯,hasHusband,FALSE,He Yingqin,Xu Huas
+10106,13022,20019,20819,Undirected,He美卿,董孝誼,He應欽,董孝誼,hasHusband,FALSE,He Yingqin,Dong Xiaoyi
+10107,12533,20024,20627,Undirected,He美慧,洪俊雄,He義,洪俊雄,hasHusband,FALSE,He He Yi,Hong Junxiong
+10108,13429,20016,20918,Undirected,He美慶,謝忠弼,He傳,謝成源,hasHusband,FALSE,How,Xie Chengyuan
+10109,12532,20016,20626,Undirected,He美昌,洪伯元,He傳,洪伯元,hasHusband,FALSE,How,Hong Boyuan
+10110,14553,20016,21220,Undirected,He美育,黃宗仁,He傳,黃宗仁,hasHusband,FALSE,How,Huang Zongren
+10111,13645,20016,20972,Undirected,He美賢,連華圻,He傳,連華圻,hasHusband,FALSE,How,Lian Huaji
+10114,12480,20026,20606,Undirected,He肇菁,汪敬熙,He肇菁,汪敬煦,hasHusband,FALSE,He Zhaojing,Wang Jingyu
+10115,13019,20024,20816,Undirected,He蔭治,董全壽,He義,董全壽,hasHusband,FALSE,He He Yi,Dong Quanshou
+10117,10516,20024,20114,Undirected,He辜樺,吳東昇,He義,吳火獅,hasHusband,FALSE,He He Yi,Wu Huoshi
+10119,13836,20024,21089,Undirected,He金,陳丁酉,He義,陳星恆,hasHusband,FALSE,He He Yi,Chen Xingheng
+10121,13200,20019,20840,Undirected,He麗珠,蔣友光,He應欽,蔣友光,hasHusband,FALSE,He Yingqin,Jiang Youguang
+10122,14562,20027,21222,Undirected,余佩玲,黃崇恆,余佩玲,黃崇仁,hasHusband,FALSE,Yu Peiling,Huang Chongren
+10133,12202,20029,20458,Undirected,余玫靜,林鎮華,余玫靜,林挺生,hasHusband,FALSE,Yu Meijing,Lin Tingsheng
+10135,13350,20030,20890,Undirected,余玲敏,許明倫,余登發,許啓祐,hasHusband,FALSE,Yu Dengfa,Xu Qiyou
+10137,12169,20030,20522,Undirected,余玲雅,林邦勝,余登發,林邦勝,hasHusband,FALSE,Yu Dengfa,Lin Bangsheng
+10141,14519,20030,21213,Undirected,余綉鑾,黃友仁,余登發,黃友仁,hasHusband,FALSE,Yu Dengfa,Huang Youren
+10143,10139,20030,20030,Undirected,余陳月瑛,余瑞言,余登發,余登發,hasHusband,TRUE,Yu Dengfa,Yu Dengfa
+10144,13171,20031,20174,Undirected,余鳳嬌,蔡萬春,余鳳嬌,國泰蔡,hasHusband,FALSE,Yu Fengjiao,Cathay Cai
+10150,10257,20032,20052,Undirected,侯和順,劉崇崑,侯全成,劉崇崑,hasHusband,FALSE,Hou Quancheng,Liu Chongkun
+10152,13622,20033,20968,Undirected,侯天儀,辜成允,侯天儀,辜顯榮,hasHusband,FALSE,Hou Tianyi,Gu Xianrong
+10153,11245,20032,20330,Undirected,侯如意,施貞祥,侯全成,施貞祥,hasHusband,FALSE,Hou Quancheng,Shi Zhenxiang
+10154,10919,20032,20207,Undirected,侯平安,尤進來,侯全成,尤進來,hasHusband,FALSE,Hou Quancheng,Coming in
+10156,12721,20035,20697,Undirected,侯敏英,王致健,侯雨利,王致健,hasHusband,FALSE,Hou Yuli,Wang Zhijian
+10160,14326,20035,21167,Undirected,侯明伶,顏政吉,侯雨利,顏岫峰,hasHusband,FALSE,Hou Yuli,Yan Yanfeng
+10166,12410,20035,20582,Undirected,侯榮秋,楊鐵侯,侯雨利,楊鐵侯,hasHusband,FALSE,Hou Yuli,Yang Tiehou
+10169,13878,20035,21060,Undirected,侯玉嫌,陳國振,侯雨利,陳國振,hasHusband,FALSE,Hou Yuli,Chen Guozhen
+10172,12980,20032,20796,Undirected,侯瑞瑾,葉宗達,侯全成,葉宗達,hasHusband,FALSE,Hou Quancheng,Ye Zongda
+10173,12640,20032,20663,Undirected,侯瑞穗,王乃三,侯全成,王乃三,hasHusband,FALSE,Hou Quancheng,Wang Nai San
+10174,12978,20032,20794,Undirected,侯瑞英,葉嘉猷,侯全成,葉嘉猷,hasHusband,FALSE,Hou Quancheng,Ye Jiazheng
+10175,13355,20035,20900,Undirected,侯盈足,許東湖,侯雨利,許東湖,hasHusband,FALSE,Hou Yuli,Xu Donghu
+10176,14687,20035,21261,Undirected,侯謝榴,黃金岱,侯雨利,黃金岱,hasHusband,FALSE,Hou Yuli,Golden
+10177,10529,20035,20110,Undirected,侯貴貞,吳榮秋,侯雨利,吳榮秋,hasHusband,FALSE,Hou Yuli,Wu Rongqiu
+10178,14302,20035,21167,Undirected,侯金柑,顏岫峰,侯雨利,顏岫峰,hasHusband,FALSE,Hou Yuli,Yan Yanfeng
+10179,12285,20035,20536,Undirected,侯金英,梁國樹,侯雨利,梁其煙,hasHusband,FALSE,Hou Yuli,Liang Qiyan
+10181,12866,20035,20745,Undirected,侯銀月,簡煥期,侯雨利,簡煥期,hasHusband,FALSE,Hou Yuli,Jian Huanqi
+10186,14429,20032,20088,Undirected,侯青蓮,高再得,侯全成,台南高,hasHusband,FALSE,Hou Quancheng,Tainan Gao
+10193,10226,20036,20046,Undirected,俞大綵,傅斯年,俞大維,傅斯年,hasHusband,FALSE,Yu Dawei,Fu Sinian
+10199,14248,20037,21153,Undirected,俞志芳,陶一珊,俞志芳,陶一珊,hasHusband,FALSE,Yu Zhifang,Tao Yishan
+10202,10098,20038,20019,Undirected,俞文淵,He紹源,俞政,He應欽,hasHusband,FALSE,Yuzheng,He Yingqin
+10204,13837,20036,21074,Undirected,俞明詩,陳三立,俞大維,陳寶箴,hasHusband,FALSE,Yu Dawei,Chen Baozhen
+10209,10084,20039,20024,Undirected,倪健敏,He敏廷,倪健敏,He義,hasHusband,FALSE,Ni Jianmin,He He Yi
+10213,10716,20041,20166,Undirected,倪安妮,唐震東,倪安妮,唐縱,hasHusband,FALSE,Ni Anni,Tang Zong
+10216,14260,20042,21160,Undirected,倪美安,雷彬生,倪文亞,雷法章,hasHusband,FALSE,Ni Wenya,Rayfazer
+10217,10488,20042,20126,Undirected,倪美怡,吳昌明,倪文亞,吳芝生,hasHusband,FALSE,Ni Wenya,Wu Zhisheng
+10218,13309,20042,20882,Undirected,倪美皓,袁榮霖,倪文亞,袁仲頤,hasHusband,FALSE,Ni Wenya,Yuan Zhongyi
+10219,12276,21177,20533,Undirected,偕以利,柯維思,馬偕,柯維思,hasHusband,FALSE,Stable,Kevis
+10223,13872,20044,21058,Undirected,傅企弘,陳嘉尚,傅企弘,陳嘉尚,hasHusband,FALSE,Fu Qihong,Chen Jiashang
+10260,11702,20054,20440,Undirected,劉延,林崇基,劉延,林呈祿,hasHusband,FALSE,Liu Yan,Lin Chenglu
+10263,10740,20057,20172,Undirected,劉德秦,嚴孝誠,劉文騰,嚴復,hasHusband,FALSE,Liu Wenteng,Yan Fu
+10264,13004,20075,20809,Undirected,劉心心,葉英堃,劉闊,葉英堃,hasHusband,FALSE,Liu Kuo,Ye Yingyu
+10265,12657,20086,21196,Undirected,劉快治,王天賞,台南劉,高雄企行王,hasHusband,FALSE,Tainan Liu,Wang from Gaoxiong
+10266,11698,20075,20450,Undirected,劉惠妍,林山青,劉闊,林山青,hasHusband,FALSE,Liu Kuo,Lin Shanqing
+10267,14039,20075,21098,Undirected,劉惠昭,陳欽明,劉闊,陳欽明,hasHusband,FALSE,Liu Kuo,Chen Qinming
+10268,11969,20075,20491,Undirected,劉惠津,林瑞貞,劉闊,林瑞貞,hasHusband,FALSE,Liu Kuo,Lin Ruizhen
+10269,10224,20076,20045,Undirected,劉惠瑛,傅光賢,劉闊才,傅光賢,hasHusband,FALSE,Liu Kuocai,Fu Guangxian
+10270,10965,20055,20300,Undirected,劉惠美,張伯翔,劉惠美,彰化銀行張伯欣,hasHusband,FALSE,Liu Huimei,Changhua Bank Zhang Boxin
+10271,11413,20075,20382,Undirected,劉惠麗,李昭仁,劉闊,李昭仁,hasHusband,FALSE,Liu Kuo,Li Zhaoren
+10272,13545,20086,20951,Undirected,劉慶理,賴永祥,台南劉,賴永祥,hasHusband,FALSE,Tainan Liu,Lai Yongxiang
+10274,11475,20056,20418,Undirected,劉憶如,李鍾熙,劉慶瑞,李鍾熙,hasHusband,FALSE,Liu Qingrui,Li Zhongxi
+10275,13379,20075,20903,Undirected,劉招英,許通章,劉闊,許通章,hasHusband,FALSE,Liu Kuo,Xu Tongzhang
+10276,12611,20075,20647,Undirected,劉招華,溫洋一,劉闊,溫洋一,hasHusband,FALSE,Liu Kuo,Ocean
+10289,13718,20075,20996,Undirected,劉昭惠,郭東星,劉闊,郭東星,hasHusband,FALSE,Liu Kuo,Guo Dongxing
+10290,10097,20061,20019,Undirected,劉會勝,He紹徵,劉會勝,He應欽,hasHusband,FALSE,Liu Huisheng,He Yingqin
+10295,10743,20062,20171,Undirected,劉期純,嚴淦,劉期純,嚴淦,hasHusband,FALSE,Liu Qichun,Yan Fu
+10304,11087,20056,20274,Undirected,劉毓玲,張紹南,劉慶瑞,張紹南,hasHusband,FALSE,Liu Qingrui,Zhang Shaonan
+10306,10007,20064,21206,Undirected,劉淑妙,丁仲翹,劉淑妙,鹿港丁,hasHusband,FALSE,Liu Shumian,Kugang Daeda
+10309,10674,20086,20149,Undirected,劉渝,周晴,台南劉,周晴,hasHusband,FALSE,Tainan Liu,Zhou Qing
+10311,14181,20076,21129,Undirected,劉潤瑛,陳興祥,劉闊才,陳興祥,hasHusband,FALSE,Liu Kuocai,Chen Xingxiang
+10319,13677,20076,20981,Undirected,劉玉英,邱雲賜,劉闊才,邱阿雄,hasHusband,FALSE,Liu Kuocai,Qiu Axion
+10320,12688,20068,20704,Undirected,劉琨業,王正誼,劉琨業,王賢甲,hasHusband,FALSE,Liu Yeye,Wang Xianjia
+10322,12727,20076,20702,Undirected,劉瑞瑛,王葆生,劉闊才,王葆生,hasHusband,FALSE,Liu Kuocai,Wang Yisheng
+10323,12815,20069,20734,Undirected,劉瓊,石志泉,劉瓊,石鳳翔,hasHusband,FALSE,Liu Qiong,Shi Fengxiang
+10325,11379,20086,20381,Undirected,劉秀滿,李婉然,台南劉,李春生,hasHusband,FALSE,Tainan Liu,Li Chunsheng
+10327,13072,20086,20644,Undirected,劉秀琴,蔡孟鑫,台南劉,清水蔡惠如,hasHusband,FALSE,Tainan Liu,Qingshui Cai
+10329,11682,20060,20505,Undirected,劉秀英,林宗毅,劉明朝,林維源,hasHusband,FALSE,Liu Mingchao,Lin Weiyuan
+10330,12325,20086,20546,Undirected,劉秀華,楊基銓,台南劉,楊基銓,hasHusband,FALSE,Tainan Liu,Yang Jizhen
+10331,11422,20060,20389,Undirected,劉秀蓉,李榮廷,劉明朝,李榮廷,hasHusband,FALSE,Liu Mingchao,Li Rongting
+10332,12381,20060,20565,Undirected,劉秀薗,楊祥發,劉明朝,楊祥發,hasHusband,FALSE,Liu Mingchao,Yang Xiangfa
+10333,11630,20086,20485,Undirected,劉秀霞,林垂芳,台南劉,林獻堂,hasHusband,FALSE,Tainan Liu,Lin Xiantang
+10334,14549,20070,21218,Undirected,劉笑,黃子欽,劉笑,黃子欽,hasHusband,FALSE,Liu Xiao,Huang Ziqin
+10336,10794,20071,20175,Undirected,劉綺雪,城忠志,劉綺雪,城仲模,hasHusband,FALSE,Liu Qixue,Cheng Zhong Mo
+10337,14152,20066,20085,Undirected,劉美惠,陳端堂,劉焜煌,台中陳,hasHusband,FALSE,Liu Yehuang,Taichung Chen
+10339,13732,20075,21005,Undirected,劉翠煥,郭鬱松,劉闊,郭鬱松,hasHusband,FALSE,Liu Kuo,Guo Yansong
+10344,11390,20073,20373,Undirected,劉莊,李崇禮,劉莊,李崇禮,hasHusband,FALSE,Liuzhuang,Li Chongli
+10345,13403,20086,20914,Undirected,劉蕙君,謝友彥,台南劉,謝友彥,hasHusband,FALSE,Tainan Liu,Xie Youyan
+10350,10239,20076,20076,Undirected,劉郁瑛,劉兆英,劉闊才,劉闊才,hasHusband,TRUE,Liu Kuocai,Liu Kuocai
+10351,11945,20075,20484,Undirected,劉金,林燈煙,劉闊,林燈煙,hasHusband,FALSE,Liu Kuo,Forest lantern cigarette
+10352,11049,20075,20252,Undirected,劉銀,張榮喜,劉闊,張榮喜,hasHusband,FALSE,Liu Kuo,Zhang Rongxi
+10353,11637,20075,20443,Undirected,劉錢,林天壽,劉闊,林天壽,hasHusband,FALSE,Liu Kuo,Lin Tianshou
+10359,12907,20060,20761,Undirected,劉雲娥,翁炳榮,劉明朝,翁紹煥,hasHusband,FALSE,Liu Mingchao,Weng Shaohuan
+10374,12896,20076,20760,Undirected,劉鶴珊,翁廷藩,劉闊才,翁瑞春,hasHusband,FALSE,Liu Kuocai,Weng Ruichun
+10378,12177,20081,20440,Undirected,卓守,林金磚,卓守,林呈祿,hasHusband,FALSE,Table guard,Lin Chenglu
+10384,10064,20090,20019,Undirected,史氏,He其敏,史氏,He應欽,hasHusband,FALSE,Shi Shi,He Yingqin
+10397,13256,20091,20858,Undirected,吉承飛,藍光熙,吉章簡,藍以恪,hasHusband,FALSE,Ji Zhangjian,Lan Yike
+10400,11338,20092,20349,Undirected,吉納維,朱建堯,吉納維,朱世慶,hasHusband,FALSE,Ginav,Zhu Shiqing
+10404,12991,20114,20802,Undirected,吳京,葉榮秋,吳火獅,葉榮秋,hasHusband,FALSE,Wu Huoshi,Ye Rongqiu
+10408,13475,20114,20932,Undirected,吳介文,謝豪晃,吳火獅,謝豪晃,hasHusband,FALSE,Wu Huoshi,Xie Haohuang
+10424,10231,20096,20086,Undirected,吳吉利,劉主安,吳吉利,台南劉,hasHusband,FALSE,Wu Jili,Tainan Liu
+10429,10161,20120,20032,Undirected,吳壁姿,侯書宗,吳秋微,侯全成,hasHusband,FALSE,Wu Qiuwei,Hou Quancheng
+10433,10452,20114,20114,Undirected,吳如幸,吳富雄,吳火獅,吳火獅,hasHusband,TRUE,Wu Huoshi,Wu Huoshi
+10434,13721,20114,21003,Undirected,吳如月,郭瑞嵩,吳火獅,郭金塔,hasHusband,FALSE,Wu Huoshi,Guo Jinta
+10435,11407,20114,20379,Undirected,吳如淑,李文三,吳火獅,李文三,hasHusband,FALSE,Wu Huoshi,Li Wensan
+10436,11415,20114,20383,Undirected,吳如淳,李景隆,吳火獅,李景隆,hasHusband,FALSE,Wu Huoshi,Li Jinglong
+10437,13223,20095,20845,Undirected,吳如玉,蔣福銘,吳修齊,蔣福銘,hasHusband,FALSE,Wu Xiuji,Jiang Fuming
+10438,12982,20114,20798,Undirected,吳如真,葉忠祐,吳火獅,葉忠祐,hasHusband,FALSE,Wu Huoshi,Tadayu Tadayu
+10439,12214,20114,20442,Undirected,吳如英,林隆士,吳火獅,林大波,hasHusband,FALSE,Wu Huoshi,Waves of the forest
+10440,10678,20114,20152,Undirected,吳如雪,周毓煒,吳火獅,周毓煒,hasHusband,FALSE,Wu Huoshi,Zhou Yuwei
+10441,11586,20095,20500,Undirected,吳姿秀,林凱南,吳修齊,林篤勳,hasHusband,FALSE,Wu Xiuji,Lin Duxun
+10443,12941,20095,20775,Undirected,吳娟,莊南田,吳修齊,莊南田,hasHusband,FALSE,Wu Xiuji,Zhuang Nantian
+10445,11277,20100,20336,Undirected,吳婷婷,曾依仁,吳婷婷,曾依仁,hasHusband,FALSE,Wu Tingting,Zeng Yiren
+10454,14208,20114,21139,Undirected,吳寶珠,陳邦亮,吳火獅,陳邦亮,hasHusband,FALSE,Wu Huoshi,Chen Bangliang
+10456,13150,20095,20832,Undirected,吳對,蔡碖,吳修齊,蔡碖,hasHusband,FALSE,Wu Xiuji,Cai Yan
+10457,13659,20535,20976,Undirected,吳小眉,邱慶源,桃園吳,邱慶源,hasHusband,FALSE,Taoyuan Wu,Qiu Qingyuan
+10460,12151,20111,20446,Undirected,吳帖,林資彬,吳汝翰,林定邦,hasHusband,FALSE,Wu Ruhan,Lin Dingbang
+10504,14087,20114,21107,Undirected,吳映,陳火怠,吳火獅,陳火怠,hasHusband,FALSE,Wu Huoshi,Chen Huoyi
+10505,11930,20136,20485,Undirected,吳映雪,林澄堂,吳鸞旂,林獻堂,hasHusband,FALSE,Wu Yanqi,Lin Xiantang
+10512,13835,20535,21045,Undirected,吳杏仙,陳丁聖,桃園吳,陳丁聖,hasHusband,FALSE,Taoyuan Wu,Chen Dingsheng
+10523,14583,20114,21229,Undirected,吳柚柑,黃新登,吳火獅,黃新登,hasHusband,FALSE,Wu Huoshi,Huang Xindeng
+10524,14502,20535,21208,Undirected,吳梅芬,黃中正,桃園吳,黃中正,hasHusband,FALSE,Taoyuan Wu,Huang Zhongzheng
+10530,13946,20134,21075,Undirected,吳樂雲,陳履潔,吳鐵城,陳履安,hasHusband,FALSE,Wu Tiecheng,Chen Lingan
+10546,14020,20095,21090,Undirected,吳淑女,陳昭雄,吳修齊,陳昭雄,hasHusband,FALSE,Wu Xiuji,Chen Zhaoxiong
+10547,13834,20120,21044,Undirected,吳淑姿,陳一鶴,吳秋微,陳一鶴,hasHusband,FALSE,Wu Qiuwei,Chen Yizhe
+10548,14309,20112,21172,Undirected,吳淑婉,顏惠光,吳淑婉,顏雲年,hasHusband,FALSE,Wu Shuwan,Yan Yunnian
+10549,10967,20095,20227,Undirected,吳清美,張信雄,吳修齊,張信雄,hasHusband,FALSE,Wu Xiuji,Zhang Xinxiong
+10550,12891,20123,20761,Undirected,吳湘蘋,翁俊明,吳筱霞,翁紹煥,hasHusband,FALSE,Wu Xiaoxia,Weng Shaohuan
+10552,11305,20113,20336,Undirected,吳滿治,曾炳奎,吳滿治,曾依仁,hasHusband,FALSE,Wu Manzhi,Zeng Yiren
+10555,11549,20535,20479,Undirected,吳珠如,林佾魁,桃園吳,林清文,hasHusband,FALSE,Taoyuan Wu,Lin Qingwen
+10558,13860,20535,21056,Undirected,吳瑞枝,陳哲銘,桃園吳,陳哲銘,hasHusband,FALSE,Taoyuan Wu,Chen Zheming
+10560,10820,20115,20175,Undirected,吳瑪Lao,城阿全,吳瑪Lao,城仲模,hasHusband,FALSE,Wu Ma Lao,Cheng Zhong Mo
+10561,14407,20535,21178,Undirected,吳璧玲,馬宏,桃園吳,馬克任,hasHusband,FALSE,Taoyuan Wu,Mark Ren
+10564,10652,20117,20792,Undirected,吳真真,呂阿昌,吳真真,萬華呂,hasHusband,FALSE,Wu Zhenzhen,Wanhua Lu
+10565,12121,20118,20506,Undirected,吳碧香,林衡偉,吳碧香,林維讓,hasHusband,FALSE,Wu Bixiang,Lin Weirang
+10566,10689,20119,20156,Undirected,吳秋冬,周百鍊,吳秋冬,周百鍊,hasHusband,FALSE,Wu Qiudong,Zhou Bai Lian
+10568,11730,20121,20453,Undirected,吳秋玲,林怡呈,吳秋玲,林怡呈,hasHusband,FALSE,Wu Qiuling,Lin Yizheng
+10571,10656,20124,20156,Undirected,吳粉,周佛,吳粉,周百鍊,hasHusband,FALSE,Wu Fan,Zhou Bai Lian
+10572,10155,20095,20034,Undirected,吳素娥,侯德義,吳修齊,侯德義,hasHusband,FALSE,Wu Xiuji,Hou Deyi
+10577,14125,20133,21047,Undirected,吳芳枝,陳田義,吳鏡秋,陳中和,hasHusband,FALSE,Wu Jingqiu,Chen Zhonghe
+10578,10902,20535,20197,Undirected,吳芳英,宋瑞樓,桃園吳,宋燕詒,hasHusband,FALSE,Taoyuan Wu,Song Yanzheng
+10580,11148,20120,20295,Undirected,吳英姿,彭明哲,吳秋微,彭明敏,hasHusband,FALSE,Wu Qiuwei,Peng Mingmin
+10584,10797,20129,20175,Undirected,吳英鶯,城榮廷,吳英鶯,城仲模,hasHusband,FALSE,Wu Yingying,Cheng Zhong Mo
+10586,11716,20095,20451,Undirected,吳蕙蘭,林建廷,吳修齊,林建廷,hasHusband,FALSE,Wu Xiuji,Lin Jianting
+10587,13398,20535,20911,Undirected,吳蘭芬,詹湧泉,桃園吳,詹湧泉,hasHusband,FALSE,Taoyuan Wu,Zhan Yongquan
+10588,13441,20535,20920,Undirected,吳蘭英,謝有福,桃園吳,謝有福,hasHusband,FALSE,Taoyuan Wu,Xie Youfu
+10589,12131,20130,20506,Undirected,吳謙謙,林衡蕭,吳謙謙,林維讓,hasHusband,FALSE,Wu Qianqian,Lin Weirang
+10591,13069,20131,20826,Undirected,吳足,蔡培火,吳足,蔡培火,hasHusband,FALSE,Wuzu,Cai Peihuo
+10605,10864,20095,20187,Undirected,吳金棗,孫炳霖,吳修齊,孫炳霖,hasHusband,FALSE,Wu Xiuji,Sun Binglin
+10612,10593,20135,20094,Undirected,吳阿勉,吳逸民,吳阿勉,吳三連,hasHusband,FALSE,Wu Aian,Wu Sanlian
+10615,13735,20535,21008,Undirected,吳雪梅,鄧文岳,桃園吳,鄧文岳,hasHusband,FALSE,Taoyuan Wu,Deng Wenyue
+10617,10639,20126,20139,Undirected,吳韻宜,呂有文,吳芝生,呂有文,hasHusband,FALSE,Wu Zhisheng,Lu Youwen
+10629,14037,20094,21096,Undirected,吳黎雪,陳樸一,吳三連,陳樸一,hasHusband,FALSE,Wu Sanlian,Chen Puyi
+10630,11609,20137,20440,Undirected,呂唇,林呈禎,呂唇,林呈祿,hasHusband,FALSE,Lip,Lin Chenglu
+10637,11639,20138,20445,Undirected,呂文珠,林奇瑩,呂文珠,林宏,hasHusband,FALSE,Lu Wenzhu,Lin Hong
+10640,11002,20792,20282,Undirected,呂某,張山鐘,萬華呂,張豐緒,hasHusband,FALSE,Wanhua Lu,Zhang Fengxu
+10642,10519,20141,20114,Undirected,呂玫芬,吳東泰,呂玫芬,吳火獅,hasHusband,FALSE,Lu Meifen,Wu Huoshi
+10645,11355,20792,20352,Undirected,呂瓊珠,朱瑞庚,萬華呂,朱應三,hasHusband,FALSE,Wanhua Lu,Zhu Ying San
+10646,11369,20792,20423,Undirected,呂瓊琚,李克鐘,萬華呂,李騰嶽,hasHusband,FALSE,Wanhua Lu,Li Tengyue
+10649,11116,20792,20282,Undirected,呂瓊英,張豐胤,萬華呂,張豐緒,hasHusband,FALSE,Wanhua Lu,Zhang Fengxu
+10650,13533,20792,20944,Undirected,呂瓊華,賴其廉,萬華呂,賴其廉,hasHusband,FALSE,Wanhua Lu,Depending on
+10661,11209,21031,20315,Undirected,周和惠,戴東生,金石堂周,戴鳳倚,hasHusband,FALSE,Jinshitang Week,Dai Fengyi
+10662,12275,21031,20532,Undirected,周品慧,柯立橋,金石堂周,柯立橋,hasHusband,FALSE,Jinshitang Week,Kocoli Bridge
+10664,13581,20156,20964,Undirected,周婉華,趙英明,周百鍊,趙英明,hasHusband,FALSE,Zhou Bai Lian,Zhao Yingming
+10668,13173,20145,20174,Undirected,周寶琴,蔡萬霖,周寶琴,國泰蔡,hasHusband,FALSE,Zhou Baoqin,Cathay Cai
+10671,10920,20147,20208,Undirected,周方初,居伯均,周方初,居定賢,hasHusband,FALSE,Early Zhou Fang,Ju Dingxian
+10672,14644,20148,21245,Undirected,周旦,黃純青,周旦,黃百祿,hasHusband,FALSE,Zhou Dan,Huang Bailu
+10676,10978,20151,20228,Undirected,周查某,張園,周查某,張園,hasHusband,FALSE,Zhou Chamou,Zhangyuan
+10681,13864,20154,21047,Undirected,周淑容,陳啓川,周淑容,陳中和,hasHusband,FALSE,Zhou Shurong,Chen Zhonghe
+10682,14072,20156,21094,Undirected,周淑華,陳清忠,周百鍊,陳查某,hasHusband,FALSE,Zhou Bai Lian,Chen Chamou
+10685,14249,20155,21154,Undirected,周琪芬,陶天林,周煥璋,陶天林,hasHusband,FALSE,Zhou Huanzhang,Tao Tianlin
+10686,10087,20155,20020,Undirected,周瑜芬,He森庭,周煥璋,He永,hasHusband,FALSE,Zhou Huanzhang,How forever
+10687,13001,20155,20808,Undirected,周瑞芬,葉祖堯,周煥璋,葉祖堯,hasHusband,FALSE,Zhou Huanzhang,Ye Zuyao
+10691,12302,20162,20542,Undirected,周秀子,梁銘遠,周陳玉樹,梁鼎銘,hasHusband,FALSE,Zhou Chen Yushu,Liang Dingming
+10692,11704,20158,20505,Undirected,周竹英,林崇智,周竹英,林維源,hasHusband,FALSE,Zhou Zhuying,Lin Weiyuan
+10693,14281,20159,21163,Undirected,周粉治,韓石福,周粉治,韓子星,hasHusband,FALSE,Zhou Fanzhi,Han Zixing
+10694,11365,20157,20361,Undirected,周純如,李兄愛,周碧,李兄愛,hasHusband,FALSE,Zhoubi,Brother Li Ai
+10695,13351,21031,20897,Undirected,周素慧,許書章,金石堂周,許書章,hasHusband,FALSE,Jinshitang Week,Xu Shuzhang
+10696,12415,20156,20584,Undirected,周素華,楊鴻游,周百鍊,楊鴻游,hasHusband,FALSE,Zhou Bai Lian,Yang Hongyou
+10697,11795,20156,20466,Undirected,周絳華,林文彥,周百鍊,林木桂,hasHusband,FALSE,Zhou Bai Lian,Lin Mugui
+10698,11210,20160,20315,Undirected,周美惠,戴東雄,周美惠,戴鳳倚,hasHusband,FALSE,Zhou Meihui,Dai Fengyi
+10699,13292,21031,20875,Undirected,周美慧,蘇重光,金石堂周,蘇紹文,hasHusband,FALSE,Jinshitang Week,Su Shaowen
+10701,13322,20156,20887,Undirected,周豆粒,許加,周百鍊,許加,hasHusband,FALSE,Zhou Bai Lian,Xu Jia
+10703,10349,20162,20060,Undirected,周錦雲,劉邦雄,周陳玉樹,劉明朝,hasHusband,FALSE,Zhou Chen Yushu,Liu Mingchao
+10705,13613,20163,20968,Undirected,周靖華,辜仲立,周靖華,辜顯榮,hasHusband,FALSE,Zhou Jinghua,Gu Xianrong
+10706,14116,20164,21047,Undirected,唐慧,陳田慶,唐慧,陳中和,hasHusband,FALSE,Tang Hui,Chen Zhonghe
+10711,13932,20165,21074,Undirected,唐瑩,陳寅恪,唐瑩jiazu,陳寶箴,hasHusband,FALSE,Karo Jiazu,Chen Baozhen
+10712,10963,20166,20300,Undirected,唐紀渝,張伯欣,唐縱,彰化銀行張伯欣,hasHusband,FALSE,Tang Zong,Changhua Bank Zhang Boxin
+10714,14139,20167,21063,Undirected,唐美君,陳碧蓉,唐美君,陳奇祿,hasHusband,FALSE,Tang Meijun,Chen Qilu
+10717,11450,20166,20408,Undirected,唐馥華,李紹林,唐縱,李紹林,hasHusband,FALSE,Tang Zong,Li Shaolin
+10718,12416,20168,20577,Undirected,商涼,楊鵬搏,商涼j,楊藍洲,hasHusband,FALSE,Shangliang J,Yang Lanzhou
+10719,12753,20169,20704,Undirected,單氏,王震南,單氏,王賢甲,hasHusband,FALSE,Single,Wang Xianjia
+10723,14432,20172,21188,Undirected,嚴倚雲,高叔哿,嚴復,高叔哿,hasHusband,FALSE,Yan Fu,Gao Shuyi
+10724,13623,20172,20968,Undirected,嚴倬雲,辜振甫,嚴復,辜顯榮,hasHusband,FALSE,Yan Fu,Gu Xianrong
+10725,12987,20172,20799,Undirected,嚴停雲,葉明勳,嚴復,葉明勳,hasHusband,FALSE,Yan Fu,Ye Mingxun
+10733,10823,20172,20176,Undirected,嚴孝京,姚兆元,嚴復,姚兆元,hasHusband,FALSE,Yan Fu,Yao Zhaoyuan
+10734,11807,20172,20462,Undirected,嚴孝媛,林斯聰,嚴復,林斯聰,hasHusband,FALSE,Yan Fu,Linkcong
+10737,10023,20172,20008,Undirected,嚴孝秀,丁榮松,嚴復,丁榮松,hasHusband,FALSE,Yan Fu,Ding Rongsong
+10741,12973,20171,20791,Undirected,嚴宜,萬紹謀,嚴淦,萬紹謀,hasHusband,FALSE,Yan Fu,Wan Shao Mou
+10756,12528,20172,20623,Undirected,嚴方,油原哲夫,嚴復,油原哲夫,hasHusband,FALSE,Yan Fu,Oyaki Toshov
+10765,14550,20172,21219,Undirected,嚴璸,黃子通,嚴復,黃子通,hasHusband,FALSE,Yan Fu,Huang Zitong
+10767,14672,20172,21259,Undirected,嚴瓏,黃聯登,嚴復,黃聯登,hasHusband,FALSE,Yan Fu,Huang Liandeng
+10769,13956,20172,21077,Undirected,嚴茲為,陳幼麟,嚴復,陳幼麟,hasHusband,FALSE,Yan Fu,Chen Youlin
+10778,12966,20171,20791,Undirected,嚴雋英,萬彥儒,嚴淦,萬紹謀,hasHusband,FALSE,Yan Fu,Wan Shao Mou
+10779,13528,20171,20943,Undirected,嚴雋荃,賈培源,嚴淦,賈德懷,hasHusband,FALSE,Yan Fu,Jia Dehuai
+10780,10229,20171,20047,Undirected,嚴雋菊,冷紹烇,嚴淦,冷紹烇,hasHusband,FALSE,Yan Fu,Leng Shaoji
+10780,11080,20171,20269,Undirected,嚴雋菊,張祖超,嚴淦,張祖超,hasHusband,FALSE,Yan Fu,Zhang Zuchao
+10781,12965,20171,20791,Undirected,嚴雋華,萬彥信,嚴淦,萬紹謀,hasHusband,FALSE,Yan Fu,Wan Shao Mou
+10782,12962,20173,20791,Undirected,嚴雋郁,萬彥仁,嚴雋郁,萬紹謀,hasHusband,FALSE,Harsh,Wan Shao Mou
+10783,10877,20172,20193,Undirected,嚴頊,孫葆棠,嚴復,孫葆棠,hasHusband,FALSE,Yan Fu,Sun Yantang
+10795,13448,20175,20923,Undirected,城惠畹,謝武憲,城仲模,謝武憲,hasHusband,FALSE,Cheng Zhong Mo,Xie Wuxian
+10800,13028,20175,20821,Undirected,城淑賢,董忠司,城仲模,董忠司,hasHusband,FALSE,Cheng Zhong Mo,Dong Zhongshi
+10801,13273,20175,20865,Undirected,城滿惠,蘇承邦,城仲模,蘇承邦,hasHusband,FALSE,Cheng Zhong Mo,Su Chengbang
+10808,13538,20175,20947,Undirected,城璧連,賴崇賢,城仲模,賴崇慶,hasHusband,FALSE,Cheng Zhong Mo,Lai Chongqing
+10810,10936,20175,20212,Undirected,城碧環,川名健治,城仲模,川名健治,hasHusband,FALSE,Cheng Zhong Mo,Kenji Kawana
+10813,14282,20175,21163,Undirected,城紫雲,韓良俊,城仲模,韓子星,hasHusband,FALSE,Cheng Zhong Mo,Han Zixing
+10815,10335,20175,20086,Undirected,城翠吟,劉篤信,城仲模,台南劉,hasHusband,FALSE,Cheng Zhong Mo,Tainan Liu
+10821,12652,20175,20670,Undirected,城雅惠,王嘉申,城仲模,王嘉申,hasHusband,FALSE,Cheng Zhong Mo,Wang Jiashen
+10822,13967,20175,21078,Undirected,城雅美,陳彥年,城仲模,陳彥年,hasHusband,FALSE,Cheng Zhong Mo,Chen Yannian
+10827,11008,20178,20238,Undirected,姜文緇,張建邦,姜紹謨,張建邦,hasHusband,FALSE,Kang -sho -sha,Zhang Jianbang
+10829,11397,20178,20375,Undirected,姜文鈞,李心培,姜紹謨,李心培,hasHusband,FALSE,Kang -sho -sha,Li Xinpei
+10835,10977,20179,20268,Undirected,姜蒓芳,張國瀏,姜蒓芳,張祖澤,hasHusband,FALSE,Jiang Yanfang,Zhang Zuze
+10842,13943,20181,21075,Undirected,季光明,陳履平,季光明,陳履安,hasHusband,FALSE,Ji Guangming,Chen Lingan
+10855,13535,20183,20945,Undirected,孫德芳,賴名湯,孫德芳,賴名湯,hasHusband,FALSE,Sun Defang,Lai Ming Tang
+10856,12270,20184,20505,Undirected,孫慧英,林鼎禮,孫慧英,林維源,hasHusband,FALSE,Sun Huiying,Lin Weiyuan
+10859,10872,20186,20188,Undirected,孫桂香,孫經驤,孫桂香,孫琴風,hasHusband,FALSE,Sun Guixiang,Sun Qinfeng
+10860,14147,20182,21121,Undirected,孫殿,陳秋光,孫大成,陳秋光,hasHusband,FALSE,Sun Dacheng,Chen Qiuguang
+10861,13226,20188,20839,Undirected,孫氏,蔣肇聰,孫琴風,蔣介石,hasHusband,FALSE,Sun Qinfeng,Chiang Kai -shek
+10865,11042,20185,20242,Undirected,孫玫兒,張東平,孫景華,張敏鈺,hasHusband,FALSE,Sun Jinghua,Zhang Minyu
+10865,12513,20185,20616,Undirected,孫玫兒,沈燕士,孫景華,沈燕士,hasHusband,FALSE,Sun Jinghua,Shen Yanshi
+10869,12166,20182,20521,Undirected,孫穗英,林達文,孫大成,林達文,hasHusband,FALSE,Sun Dacheng,Lindan
+10870,10996,20182,20284,Undirected,孫穗華,張恭,孫大成,張邦翰,hasHusband,FALSE,Sun Dacheng,Zhang Banghan
+10871,12663,20189,20667,Undirected,孫素琴,王度,孫素琴,王兆槐,hasHusband,FALSE,Sun Suqin,Wang Zhaohuai
+10873,14266,20190,21160,Undirected,孫美珍,雷文生,孫美珍,雷法章,hasHusband,FALSE,Sun Meizhen,Rayfazer
+10875,10466,20191,20095,Undirected,孫自強,吳建德,孫自強,吳修齊,hasHusband,FALSE,Sun Ziqiang,Wu Xiuji
+10876,10521,20192,20114,Undirected,孫若男,吳東賢,孫若男,吳火獅,hasHusband,FALSE,Grandson,Wu Huoshi
+10881,11207,20182,20312,Undirected,孫金琬,戴恩賽,孫大成,戴恩賽,hasHusband,FALSE,Sun Dacheng,Dainai
+10883,12438,20194,20592,Undirected,宋其蘇,毛景彪,宋其蘇,毛贊廷,hasHusband,FALSE,Song Qisu,Mao Zhanting
+10884,10348,20200,20086,Undirected,宋壽壽,劉逸民,宋進英,台南劉,hasHusband,FALSE,Song Jinying,Tainan Liu
+10890,13909,20197,21067,Undirected,宋慧玲,陳宇樑,宋燕詒,陳宇樑,hasHusband,FALSE,Song Yanzheng,Chen Yuliang
+10891,10857,20199,20182,Undirected,宋慶齡,孫文,宋美齡,孫大成,hasHusband,FALSE,Song Meiling,Sun Dacheng
+10894,11570,20197,20434,Undirected,宋文玲,林克明,宋燕詒,林克明,hasHusband,FALSE,Song Yanzheng,Linkming
+10907,11576,20198,20087,Undirected,宋美,林全義,宋美,台南林,hasHusband,FALSE,Song beauty,Lin from Tainan
+10908,13198,20199,20839,Undirected,宋美齡,蔣介石,宋美齡,蔣介石,hasHusband,FALSE,Song Meiling,Chiang Kai -shek
+10909,14041,20197,21099,Undirected,宋翠玲,陳正憲,宋燕詒,陳正憲,hasHusband,FALSE,Song Yanzheng,Chen Zhengxian
+10910,10215,20199,20043,Undirected,宋耀如,倪桂珍,宋美齡,倪桂珍,hasHusband,FALSE,Song Meiling,Ni Guizhen
+10911,10841,20199,20180,Undirected,宋藹齡,孔祥熙,宋美齡,孔祥熙,hasHusband,FALSE,Song Meiling,Kong Xiangxi
+10912,10426,20200,20097,Undirected,宋貞貞,吳嘉興,宋進英,吳嘉興,hasHusband,FALSE,Song Jinying,Wu Jiaxing
+10914,10833,20201,20178,Undirected,宗之珍,姜文錦,宗之珍,姜紹謨,hasHusband,FALSE,Sonoyuki Rin,Kang -sho -sha
+10916,14518,20204,21245,Undirected,容金善,黃及時,容祺年,黃百祿,hasHusband,FALSE,Rong Qinian,Huang Bailu
+10917,14690,20205,21263,Undirected,富惠,黃銀漢,富惠,黃銀漢,hasHusband,FALSE,Wealthy,Huang Yinhan
+10923,12664,20208,20679,Undirected,居桂平,王建庭,居定賢,王建庭,hasHusband,FALSE,Ju Dingxian,Wang Jianting
+10926,11133,20208,20238,Undirected,居瀛玖,張驚聲,居定賢,張建邦,hasHusband,FALSE,Ju Dingxian,Zhang Jianbang
+10930,11023,20208,20232,Undirected,居美,張愛倫,居定賢,張子武,hasHusband,FALSE,Ju Dingxian,Zhang Ziwu
+10933,11506,20209,20427,Undirected,山本和子,杜祖健,山本和子,杜聰明,hasHusband,FALSE,Kazuko Yamamoto,Du Chongming
+10938,11549,20214,20479,Undirected,巫芳枝,林佾魁,巫芳枝,林清文,hasHusband,FALSE,Wu Fangzhi,Lin Qingwen
+10940,10887,20215,20199,Undirected,席曼英,宋子良,席曼英,宋美齡,hasHusband,FALSE,Siter,Song Meiling
+10942,10774,20216,20171,Undirected,席裕英,嚴雋森,席鑑庭,嚴淦,hasHusband,FALSE,Xi Jianting,Yan Fu
+10946,14442,20218,21191,Undirected,廖塵美,高智亮,廖塵美,高湯盤,hasHusband,FALSE,Liao Chenmei,Soup plate
+10947,10607,20219,20114,Undirected,廖寶鶯,吳金龍,廖寶鶯,吳火獅,hasHusband,FALSE,Liao Baoding,Wu Huoshi
+10952,13069,20223,20826,Undirected,廖溫音,蔡培火,廖溫音,蔡培火,hasHusband,FALSE,Liao Wenyin,Cai Peihuo
+10953,13045,20644,20644,Undirected,廖玉霜,蔡仲峰,清水蔡惠如,清水蔡惠如,hasHusband,TRUE,Qingshui Cai,Qingshui Cai
+10954,11623,20224,20493,Undirected,廖秀枝,林坤山,廖秀枝,林真梓,hasHusband,FALSE,Liao Xiuzhi,Lin Zhenzi
+10955,13361,20225,20887,Undirected,廖菊香,許欽璋,廖菊香,許加,hasHusband,FALSE,Liao Juxiang,Xu Jia
+10960,14414,20242,21183,Undirected,張仙平,馬紹祥,張敏鈺,馬積善,hasHusband,FALSE,Zhang Minyu,Ma Jishan
+10974,12989,20284,20800,Undirected,張品莊,葉桂采,張邦翰,葉桂采,hasHusband,FALSE,Zhang Banghan,Ye Guicai
+10981,12882,20282,20754,Undirected,張妏,羅燦,張豐緒,羅燦,hasHusband,FALSE,Zhang Fengxu,Luo Chan
+10982,11852,20230,20505,Undirected,張妙瑛,林松壽,張妙瑛,林維源,hasHusband,FALSE,Zhang Miaoying,Lin Weiyuan
+10983,12649,20282,20674,Undirected,張媞,王冠烈,張豐緒,王天球,hasHusband,FALSE,Zhang Fengxu,King
+10994,14047,20238,21102,Undirected,張宜,陳永誠,張建邦,陳永誠,hasHusband,FALSE,Zhang Jianbang,Chen Yongcheng
+11000,13315,20889,20889,Undirected,張寶玉,許伯埏,許博允,許博允,hasHusband,TRUE,Xu Boyun,Xu Boyun
+11004,11170,20268,20303,Undirected,張幼俄,徐志摩,張祖澤,徐志摩,hasHusband,FALSE,Zhang Zuze,Xu Zhimo
+11010,12192,20239,20442,Undirected,張式雲,林錫爵,張式雲,林大波,hasHusband,FALSE,Zhang Shiyun,Waves of the forest
+11014,10021,20232,20006,Undirected,張心滄,丁念莊,張子武,丁念莊,hasHusband,FALSE,Zhang Ziwu,Ding Nianzhuang
+11015,13525,20232,20941,Undirected,張心漪,費驊,張子武,費驊,hasHusband,FALSE,Zhang Ziwu,Puppet
+11016,11057,20232,20238,Undirected,張心澹,張汝綸,張子武,張建邦,hasHusband,FALSE,Zhang Ziwu,Zhang Jianbang
+11030,13020,20268,20817,Undirected,張敦復,董啓超,張祖澤,董啓超,hasHusband,FALSE,Zhang Zuze,Dong Qichao
+11031,12655,20268,20673,Undirected,張敦華,王大蔚,張祖澤,王大蔚,hasHusband,FALSE,Zhang Zuze,Wang Dawei
+11033,13794,20244,21024,Undirected,張旦,鄭興,張旦,鄭興,hasHusband,FALSE,Zhang Dan,Zheng Xing
+11035,14112,20245,21047,Undirected,張春江,陳田原,張春江,陳中和,hasHusband,FALSE,Zhang Chunjiang,Chen Zhonghe
+11037,11306,20247,20336,Undirected,張晶晶,曾炳輝,張晶晶,曾依仁,hasHusband,FALSE,Zhang Jingjing,Zeng Yiren
+11038,12537,20254,20629,Undirected,張月李,洪壽南,張歐結,洪壽南,hasHusband,FALSE,Zhang Oujie,Hongshounan
+11040,11402,20248,20404,Undirected,張月雲,李憲文,張月雲,李登輝,hasHusband,FALSE,Zhang Yueyun,Li Denghui
+11041,10068,20300,20016,Undirected,張杏如,He壽川,彰化銀行張伯欣,He傳,hasHusband,FALSE,Changhua Bank Zhang Boxin,How
+11047,10663,20250,21031,Undirected,張桂香,周塗樹,張桂香,金石堂周,hasHusband,FALSE,Zhang Guixiang,Jinshitang Week
+11048,10862,20251,20182,Undirected,張楣,孫治平,張楣,孫大成,hasHusband,FALSE,Open up,Sun Dacheng
+11051,10886,20253,20199,Undirected,張樂怡,宋子文,張樂怡,宋美齡,hasHusband,FALSE,Zhang Leyi,Song Meiling
+11055,11206,20282,20315,Undirected,張毓奇,戴怡德,張豐緒,戴鳳倚,hasHusband,FALSE,Zhang Fengxu,Dai Fengyi
+11059,14011,20241,20085,Undirected,張溫鷹,陳文憲,張慶鎮,台中陳,hasHusband,FALSE,Zhang Qingzhen,Taichung Chen
+11067,12158,20260,20520,Undirected,張燕,林迦,張燕,林迦,hasHusband,FALSE,Zhang Yan,Lin Jia
+11069,14623,20268,21243,Undirected,張玉惠,黃熙夫,張祖澤,黃玉麟,hasHusband,FALSE,Zhang Zuze,Huang Yulin
+11070,11577,20261,20087,Undirected,張玉琴,林全興,張玉琴,台南林,hasHusband,FALSE,Zhang Yuqin,Lin from Tainan
+11071,13432,20262,20918,Undirected,張玉鳳,謝成源,張玉鳳,謝成源,hasHusband,FALSE,Zhang Yufeng,Xie Chengyuan
+11072,13184,20263,20174,Undirected,張玉齡,蔡辰洋,張玉齡,國泰蔡,hasHusband,FALSE,Zhang Yuling,Cathay Cai
+11073,14313,20264,21172,Undirected,張琴喨,顏惠忠,張琴喨,顏雲年,hasHusband,FALSE,Zhang Qinyu,Yan Yunnian
+11074,14310,20265,21172,Undirected,張申申,顏惠卿,張申申,顏雲年,hasHusband,FALSE,Zhang Shenshen,Yan Yunnian
+11076,12130,20282,20506,Undirected,張知惠,林衡約,張豐緒,林維讓,hasHusband,FALSE,Zhang Fengxu,Lin Weirang
+11078,12394,20267,20572,Undirected,張碧雲,楊肇嘉,張碧雲,楊肇嘉,hasHusband,FALSE,Zhang Biyun,Yang Zhaojia
+11082,11826,20271,20505,Undirected,張福英,林景仁,張福英,林維源,hasHusband,FALSE,Zhang Fuying,Lin Weiyuan
+11085,11083,20272,20255,Undirected,張節子,張秀政,張節子,張添根,hasHusband,FALSE,Zhang Jiezi,Zhang Tiangen
+11086,11868,20273,20469,Undirected,張素娥,林榮三,張素娥,林榮三,hasHusband,FALSE,Zhang Su'e,Lin Rongsan
+11088,13344,20270,20889,Undirected,張絹絹,許敏惠,張福堂,許博允,hasHusband,FALSE,Zhang Futang,Xu Boyun
+11090,11211,20282,20315,Undirected,張緞,戴炎輝,張豐緒,戴鳳倚,hasHusband,FALSE,Zhang Fengxu,Dai Fengyi
+11092,14029,20276,21094,Undirected,張美玉,陳查某,張美玉,陳查某,hasHusband,FALSE,Zhang Meiyu,Chen Chamou
+11095,11396,20228,20374,Undirected,張翠玉,李復禮,張園,李復禮,hasHusband,FALSE,Zhangyuan,Li Fuli
+11103,14403,20278,21177,Undirected,張聰明-1,馬偕,張聰明-1,馬偕,hasHusband,FALSE,Zhang Smart-1,Stable
+11104,14382,20820,21173,Undirected,張肇瀾,顧國華,董建華,顧宗瑞,hasHusband,FALSE,Dong Jianhua,Gu Zongrui
+11105,10130,20280,20030,Undirected,張良穗,余政道,張良穗,余登發,hasHusband,FALSE,Zhang Liangsui,Yu Dengfa
+11106,13896,20282,21063,Undirected,張若,陳奇祿,張豐緒,陳奇祿,hasHusband,FALSE,Zhang Fengxu,Chen Qilu
+11107,11260,20281,20334,Undirected,張若華,曹永和,張若華,曹永和,hasHusband,FALSE,Zhang Ruohua,Cao Yonghe
+11118,10230,20279,20048,Undirected,張超雄,凌建民,張聰明,凌建民,hasHusband,FALSE,Zhang smart,Ling Jianmin
+11120,11191,20283,20308,Undirected,張選倩,徐訏,張選倩,徐訏,hasHusband,FALSE,Zhang Xuanqian,Martial arts
+11123,11165,20238,20302,Undirected,張錫華,徐之豐,張建邦,徐之豐,hasHusband,FALSE,Zhang Jianbang,Xu Zhifeng
+11127,11520,20286,20479,Undirected,張雅琳,林久翔,張雅琳,林清文,hasHusband,FALSE,Zhang Yalin,Lin Qingwen
+11132,11769,20282,20456,Undirected,張靜,林我澤,張豐緒,林我澤,hasHusband,FALSE,Zhang Fengxu,Lin Wuze
+11134,13957,20288,21094,Undirected,張麗仙,陳廷忠,張麗仙,陳查某,hasHusband,FALSE,Zhang Lixian,Chen Chamou
+11135,13528,20289,20943,Undirected,彥雋荃,賈培源,彥雋荃,賈德懷,hasHusband,FALSE,Yan Yan Tsui,Jia Dehuai
+11136,12446,20290,20589,Undirected,彭佳玉,毛祖詒,彭佳玉,毛人鳳,hasHusband,FALSE,Peng Jiayu,Mao Renfeng
+11137,10520,20291,20114,Undirected,彭吟芳,吳東興,彭吟芳,吳火獅,hasHusband,FALSE,Peng Yinfang,Wu Huoshi
+11145,13288,20293,20875,Undirected,彭常青,蘇耿光,彭戰存,蘇紹文,hasHusband,FALSE,Peng Zhancun,Su Shaowen
+11147,12524,20294,20612,Undirected,彭斐,沈錡,彭斐,沈孝先,hasHusband,FALSE,Peng Fei,Shen Xiaoxian
+11153,12047,20295,20511,Undirected,彭淑媛,林耀福,彭明敏,林耀福,hasHusband,FALSE,Peng Mingmin,Lin Yaofu
+11153,14153,20295,20085,Undirected,彭淑媛,陳端方-2,彭明敏,台中陳,hasHusband,FALSE,Peng Mingmin,Taichung Chen
+11162,10513,20299,20114,Undirected,彭雪芬,吳東亮,彭雪芬,吳火獅,hasHusband,FALSE,Peng Xuefen,Wu Huoshi
+11163,13615,20301,20968,Undirected,後藤具味,辜偉甫,後藤具味,辜顯榮,hasHusband,FALSE,Ghost taste,Gu Xianrong
+11164,13208,20309,20839,Undirected,徐乃錦,蔣孝文,徐錫麟,蔣介石,hasHusband,FALSE,Xu Xilin,Chiang Kai -shek
+11166,11222,20309,20320,Undirected,徐君樂,方恩緒,徐錫麟,方恩緒,hasHusband,FALSE,Xu Xilin,Fang Enxu
+11168,13532,20302,20945,Undirected,徐小華,賴世聲,徐之豐,賴名湯,hasHusband,FALSE,Xu Zhifeng,Lai Ming Tang
+11184,14408,20310,21180,Undirected,徐美智,馬尚修,徐鳳鳴,馬尚修,hasHusband,FALSE,Xu Fengming,Ma Shangxiu
+11188,12391,20305,20570,Undirected,徐美琴,楊繼先,徐美琴,楊繼先,hasHusband,FALSE,Xu Meiqin,Yang Jixian
+11190,10925,20307,20208,Undirected,徐萱,居浩然,徐萱,居定賢,hasHusband,FALSE,Xu Xuan,Ju Dingxian
+11203,13214,20315,20843,Undirected,戴喜美,蔣承堯,戴鳳倚,蔣承堯,hasHusband,FALSE,Dai Fengyi,Jiang Chengyao
+11204,11292,20315,20339,Undirected,戴壽美,曾文弘,戴鳳倚,曾文弘,hasHusband,FALSE,Dai Fengyi,Great sentence
+11212,13171,20313,20174,Undirected,戴瑞穗,蔡萬春,戴瑞穗,國泰蔡,hasHusband,FALSE,Dai Ruisui,Cathay Cai
+11213,10409,20314,20535,Undirected,戴美玉,吳伯雄,戴美玉,桃園吳,hasHusband,FALSE,Dai Meiyu,Taoyuan Wu
+11223,11034,20320,20257,Undirected,方智寧,張春旺,方恩緒,張炎元,hasHusband,FALSE,Fang Enxu,Zhang Yanyuan
+11224,13207,20320,20839,Undirected,方智怡,蔣孝勇,方恩緒,蔣介石,hasHusband,FALSE,Fang Enxu,Chiang Kai -shek
+11225,13639,20322,20969,Undirected,方瑀,連戰,方聲恆,連戰,hasHusband,FALSE,Fang Shengheng,Launch of war
+11228,12873,20321,20756,Undirected,方粵芳,羅光華,方粵芳,羅萬俥,hasHusband,FALSE,Fang Yuefang,Luo Wanyi
+11229,14123,20324,21047,Undirected,方美琴,陳田禮,方雲祥,陳中和,hasHusband,FALSE,Fang Yunxiang,Chen Zhonghe
+11239,12328,20326,20546,Undirected,施珊迪,楊天生,施珊迪,楊基銓,hasHusband,FALSE,Susandi,Yang Jizhen
+11241,12095,20328,20458,Undirected,施瑤珍,林蔚山,施瑤珍,林挺生,hasHusband,FALSE,Shi Yaozhen,Lin Tingsheng
+11242,11632,20331,20446,Undirected,施璇璣,林培英,施雨鄉,林定邦,hasHusband,FALSE,Shi Yu Township,Lin Dingbang
+11243,10277,20203,20086,Undirected,施禮理,劉改造,,台南劉,hasHusband,FALSE,Shi Li Li,Tainan Liu
+11244,14352,20329,21166,Undirected,施素筠,顏滄濤,施素筠,顏國年,hasHusband,FALSE,Shi Suyi,Yan Guonian
+11250,12686,20334,20687,Undirected,曹妍,王榮壽,曹永和,王榮壽,hasHusband,FALSE,Cao Yonghe,Wang Rongshou
+11255,10211,20333,20042,Undirected,曹文娟,倪公炤,曹文娟,倪文亞,hasHusband,FALSE,Cao Wenjuan,Ni Wenya
+11267,14172,20334,21124,Undirected,曹淑清,陳美明,曹永和,陳美明,hasHusband,FALSE,Cao Yonghe,Chen Meiming
+11268,10284,20334,20059,Undirected,曹玉梅,劉昌隆,曹永和,劉昌隆,hasHusband,FALSE,Cao Yonghe,Liu Changlong
+11270,11220,20334,20318,Undirected,曹美玉,方仁欽,曹永和,方仁欽,hasHusband,FALSE,Cao Yonghe,Fang Rinchen
+11272,10252,20334,20051,Undirected,曹菊芬,劉奕榮,曹永和,劉奕榮,hasHusband,FALSE,Cao Yonghe,Liu Yirong
+11276,10379,20337,20082,Undirected,曾伽因,卓雋,曾國藩,卓高煊,hasHusband,FALSE,Zeng Guofan,Zhuo Gaozheng
+11281,10702,20345,20161,Undirected,曾娟,周賢烈,曾石岳,周賢烈,hasHusband,FALSE,Zeng Shiyue,Zhou Xianlie
+11284,11451,20337,20406,Undirected,曾廣璇,李經馥,曾國藩,李立安,hasHusband,FALSE,Zeng Guofan,Li Li'an
+11293,11443,20345,20404,Undirected,曾文惠,李登輝,曾石岳,李登輝,hasHusband,FALSE,Zeng Shiyue,Li Denghui
+11300,13481,20337,20936,Undirected,曾昭楣,譚季甫,曾國藩,譚文勤,hasHusband,FALSE,Zeng Guofan,Tan Wenqin
+11301,10415,20340,20095,Undirected,曾昭美,吳修齊,曾昭美,吳修齊,hasHusband,FALSE,Zeng Zhaomei,Wu Xiuji
+11303,12307,20345,20543,Undirected,曾淑人,楊仲佐,曾石岳,楊克彰,hasHusband,FALSE,Zeng Shiyue,Yang Kezhang
+11304,14113,20341,21047,Undirected,曾淑慧,陳田圃,曾淑慧,陳中和,hasHusband,FALSE,Zeng Shuhui,Chen Zhonghe
+11307,11359,20342,20354,Undirected,曾玉枕,朱華陽,曾玉枕,朱昭陽,hasHusband,FALSE,Zeng Yu Pillow,Zhu Zhaoyang
+11308,13407,20342,20915,Undirected,曾玉璣,謝國城,曾玉枕,謝國城,hasHusband,FALSE,Zeng Yu Pillow,Xie Guocheng
+11309,12724,20336,20700,Undirected,曾玉霞,王芝香,曾依仁,王芝香,hasHusband,FALSE,Zeng Yiren,Wang Zhixiang
+11310,14427,20342,20088,Undirected,曾玉鶯,高俊雄,曾玉枕,台南高,hasHusband,FALSE,Zeng Yu Pillow,Tainan Gao
+11311,11776,20343,20485,Undirected,曾珠如,林攀龍,曾珠如,林獻堂,hasHusband,FALSE,Zeng Zhuru,Lin Xiantang
+11312,12834,20344,20734,Undirected,曾瓊英,石鵠翔,曾瓊英,石鳳翔,hasHusband,FALSE,Zeng Qiongying,Shi Fengxiang
+11316,13686,20337,20988,Undirected,曾紀純,郭剛基,曾國藩,郭嵩燾,hasHusband,FALSE,Zeng Guofan,Guo Songzheng
+11317,12925,20337,20766,Undirected,曾紀芬,聶仲芳,曾國藩,聶爾康,hasHusband,FALSE,Zeng Guofan,Nie Erkang
+11320,14113,20346,21047,Undirected,曾裕貞,陳田圃,曾裕貞,陳中和,hasHusband,FALSE,Zeng Yuzhen,Chen Zhonghe
+11322,11062,20347,20257,Undirected,曾雪鴻,張炎元,曾雪鴻,張炎元,hasHusband,FALSE,Zeng Xuehong,Zhang Yanyuan
+11325,12646,20336,20665,Undirected,曾麗朱,王俊明,曾依仁,王俊明,hasHusband,FALSE,Zeng Yiren,Wang Junming
+11326,12495,20348,20613,Undirected,曾麗華,沈君山,曾麗華,沈宗瀚,hasHusband,FALSE,Zeng Lihua,Shen Zonghan
+11329,14140,20349,21118,Undirected,朱佩芳,陳祖表,朱世慶,陳祖表,hasHusband,FALSE,Zhu Shiqing,Chen Zu watch
+11330,12922,20349,20765,Undirected,朱佩麗,翟炳祥,朱世慶,翟炳祥,hasHusband,FALSE,Zhu Shiqing,Zhai Bingxiang
+11334,14256,20351,21153,Undirected,朱娟蘭,陶鴻肇,朱娟蘭,陶一珊,hasHusband,FALSE,Zhu Juanlan,Tao Yishan
+11335,10367,20352,20086,Undirected,朱孟俐,劉革新,朱應三,台南劉,hasHusband,FALSE,Zhu Ying San,Tainan Liu
+11342,13570,20353,20958,Undirected,朱懷芳,趙廷箴,朱懷芳,趙廷箴,hasHusband,FALSE,Zhu Huaifang,Zhao Tingzhen
+11349,10600,20355,20535,Undirected,朱智惠,吳運豐,朱智惠,桃園吳,hasHusband,FALSE,Zhu Zhihui,Taoyuan Wu
+11350,10747,20356,20172,Undirected,朱氏,嚴復,朱氏,嚴復,hasHusband,FALSE,Zhu,Yan Fu
+11356,12579,20354,20643,Undirected,朱秋月,洪祖培,朱昭陽,淡水洪,hasHusband,FALSE,Zhu Zhaoyang,Freshwater flood
+11362,12985,20358,20799,Undirected,李乙樺,葉文立,李乙樺,葉明勳,hasHusband,FALSE,Li Yihua,Ye Mingxun
+11364,11111,20360,20282,Undirected,李佩玲,張裕屛,李佩玲,張豐緒,hasHusband,FALSE,Li Peiling,Zhang Fengxu
+11367,12606,20363,20645,Undirected,李光容,游復熙,李光容,游彌堅,hasHusband,FALSE,Li Guangrong,You Mi
+11370,10966,20365,20300,Undirected,李効群,張伯誠,李効群,彰化銀行張伯欣,hasHusband,FALSE,Li Xiaoqun,Changhua Bank Zhang Boxin
+11378,14474,20359,21200,Undirected,李妙珠,魏仲嘉,李仲義,魏火曜,hasHusband,FALSE,Lee's friendship,Wei Fire
+11380,13539,20381,20948,Undirected,李嬌姿,賴文禮,李春生,賴文禮,hasHusband,FALSE,Li Chunsheng,Lai Wenli
+11381,14086,20381,21106,Undirected,李嬌容,陳澤旭,李春生,陳澤旭,hasHusband,FALSE,Li Chunsheng,Chen Zexu
+11382,14013,20381,21087,Undirected,李嬌麗,陳文華,李春生,陳文華,hasHusband,FALSE,Li Chunsheng,Chen Wenhua
+11385,13536,20404,20946,Undirected,李安妮,賴國洲,李登輝,賴國洲,hasHusband,FALSE,Li Denghui,Lai Guozhou
+11386,14568,20404,21224,Undirected,李安娜,黃循武,李登輝,黃循武,hasHusband,FALSE,Li Denghui,Huang Xunwu
+11389,12691,20372,20689,Undirected,李寶珠,王永慶,李寶珠,王永慶,hasHusband,FALSE,Li Baozhu,Wang Yongqing
+11398,13777,20376,21010,Undirected,李惠汀,鄭煒煌,李惠汀,鄭周敏,hasHusband,FALSE,Li Huiting,Zheng Zhoumin
+11400,14283,20395,21163,Undirected,李慧嫻,韓良信,李添枝,韓子星,hasHusband,FALSE,Li Tianzhi,Han Zixing
+11406,10063,20378,20016,Undirected,李招治,He傳,李招治,He傳,hasHusband,FALSE,Li Zhaizhi,How
+11419,14311,20386,21172,Undirected,李本勝,顏惠哲,李本勝,顏雲年,hasHusband,FALSE,Li Bensheng,Yan Yunnian
+11421,14000,20388,20202,Undirected,李棦,陳振業,李棦,宜蘭陳,hasHusband,FALSE,Li Yan,Yilan Chen
+11424,10713,20391,20166,Undirected,李次建,唐縱,李次建,唐縱,hasHusband,FALSE,Li Jianjian,Tang Zong
+11430,13682,20414,20984,Undirected,李潤青,郎醒石,李蘭,郎醒石,hasHusband,FALSE,Li Lan,Lang Xingshi
+11437,10104,20401,20019,Undirected,李珍儀,He紹雄,李珍儀,He應欽,hasHusband,FALSE,Li Zhenyi,He Yingqin
+11438,13531,20402,20945,Undirected,李琪美,賴世倫,李琪美,賴名湯,hasHusband,FALSE,Li Qimei,Lai Ming Tang
+11440,10361,20403,20086,Undirected,李璧娥,劉青江,李璧娥,台南劉,hasHusband,FALSE,Li Yi'e,Tainan Liu
+11441,11351,20415,20352,Undirected,李瓊梅,朱江淮,李進興,朱應三,hasHusband,FALSE,Li Jinxing,Zhu Ying San
+11445,12286,20405,20536,Undirected,李真真-1,梁國源,李真真-1,梁其煙,hasHusband,FALSE,Li Zhenzhen-1,Liang Qiyan
+11447,13729,20368,21002,Undirected,李純京,郭達標,李合珠,郭達標,hasHusband,FALSE,Li Hezhu,Guo Diao
+11448,10076,20407,20024,Undirected,李純子,He建廷,李純子,He義,hasHusband,FALSE,Li Chunzi,He He Yi
+11449,13383,20368,20888,Undirected,李純良,許顯榮,李合珠,許勝發,hasHusband,FALSE,Li Hezhu,Xu Shengfa
+11456,13592,20387,20967,Undirected,李芬惠,辛忠達,李枝盈,辛連生,hasHusband,FALSE,Li Zhiying,Xin Liansheng
+11457,11036,20387,20246,Undirected,李芳惠,張昭雄,李枝盈,張昭雄,hasHusband,FALSE,Li Zhiying,Zhang Zhaoxiong
+11458,12304,20411,20542,Undirected,李若蘭,梁鼎銘,李若蘭,梁鼎銘,hasHusband,FALSE,Li Ruoran,Liang Dingming
+11464,10402,20362,20094,Undirected,李菱,吳三連,李兆偉,吳三連,hasHusband,FALSE,Li Zhaowei,Wu Sanlian
+11465,14684,20413,21222,Undirected,李蓮妹,黃逢時,李蓮妹,黃崇仁,hasHusband,FALSE,Li Lianmei,Huang Chongren
+11467,14381,20349,21173,Undirected,李行健,顧國敏,朱世慶,顧宗瑞,hasHusband,FALSE,Zhu Shiqing,Gu Zongrui
+11472,14618,20417,20089,Undirected,李金基,黃溪泉,李金基,台南黃,hasHusband,FALSE,Li Jinji,Tainan Huang
+11476,13773,20419,21024,Undirected,李鏡,鄭添根,李鏡,鄭興,hasHusband,FALSE,Mirror,Zheng Xing
+11477,13866,20366,21047,Undirected,李開娥,陳啓清,李南,陳中和,hasHusband,FALSE,Li Nan,Chen Zhonghe
+11481,13866,20420,21047,Undirected,李阿雪,陳啓清,李阿雪,陳中和,hasHusband,FALSE,Li Axue,Chen Zhonghe
+11483,11937,20399,20479,Undirected,李靜妹,林為恭,李火生,林清文,hasHusband,FALSE,Li Huosheng,Lin Qingwen
+11484,13459,20421,20926,Undirected,李靜宜,謝灝齡,李靜宜,謝灝齡,hasHusband,FALSE,Li Jingyi,Xie Yiling
+11485,10214,20422,20042,Undirected,李韻秋,倪文亞,李韻秋,倪文亞,hasHusband,FALSE,Li Yunqiu,Ni Wenya
+11486,14512,20381,21211,Undirected,李順子,黃勇生,李春生,黃勇生,hasHusband,FALSE,Li Chunsheng,Huang Yongsheng
+11487,13415,20381,20916,Undirected,李順美,謝大文,李春生,謝大文,hasHusband,FALSE,Li Chunsheng,Xie Dawen
+11493,11976,20366,20520,Undirected,李鳳美,林瓊瑤,李南,林迦,hasHusband,FALSE,Li Nan,Lin Jia
+11499,14424,20424,20088,Undirected,李麗珍,高俊明,李麗珍,台南高,hasHusband,FALSE,Li Lizhen,Tainan Gao
+11500,11726,20425,20505,Undirected,李麗英,林志寬,李麗英,林維源,hasHusband,FALSE,Li Liying,Lin Weiyuan
+11502,12643,20426,21196,Undirected,杜敏世,王仁宏,杜敏世,高雄企行王,hasHusband,FALSE,Du Min Shi,Wang from Gaoxiong
+11503,12132,20427,20506,Undirected,杜淑純,林衡道,杜聰明,林維讓,hasHusband,FALSE,Du Chongming,Lin Weirang
+11510,14319,20428,21172,Undirected,杜麗雪,顏惠重,杜麗雪,顏雲年,hasHusband,FALSE,Du Lixue,Yan Yunnian
+11511,14120,20429,21047,Undirected,東良子,陳田植,東良子,陳中和,hasHusband,FALSE,Higashirako,Chen Zhonghe
+11522,12570,20430,20634,Undirected,林亂,洪水龍,林亂,洪水龍,hasHusband,FALSE,Forestry,Flood dragon
+11527,13195,20513,20827,Undirected,林人哲,蔡青陽,林自西,蔡得一,hasHusband,FALSE,Lin Zixi,Cai Deyi
+11528,10182,20513,20035,Undirected,林人好,侯錫榮,林自西,侯雨利,hasHusband,FALSE,Lin Zixi,Hou Yuli
+11530,10950,20513,20221,Undirected,林人理,廖朝煌,林自西,廖朝煌,hasHusband,FALSE,Lin Zixi,Liao Chaohuang
+11531,10563,20513,20116,Undirected,林人程,吳皆欣,林自西,吳皆欣,hasHusband,FALSE,Lin Zixi,Wu Duxin
+11544,14579,20460,21223,Undirected,林佳瑾,黃教漳,林政雄,黃崇西,hasHusband,FALSE,Lin Zhengxiong,Huang Chongxi
+11545,13193,20460,20174,Undirected,林佳穎,蔡鎮球,林政雄,國泰蔡,hasHusband,FALSE,Lin Zhengxiong,Cathay Cai
+11560,14214,20458,21141,Undirected,林修寬,陳錦恆,林挺生,陳錦恆,hasHusband,FALSE,Lin Tingsheng,Chen Jinheng
+11562,10863,20432,20182,Undirected,林倫可,孫治強,林倫可,孫大成,hasHusband,FALSE,Lin Lunke,Sun Dacheng
+11563,10882,20458,20185,Undirected,林倫寬,孫黔,林挺生,孫景華,hasHusband,FALSE,Lin Tingsheng,Sun Jinghua
+11593,14560,20437,21243,Undirected,林勝美,黃尚夫,林勝美,黃玉麟,hasHusband,FALSE,Katsumi Hayashi,Huang Yulin
+11599,12678,20438,20689,Undirected,林千蕙,王文堯,林千蕙,王永慶,hasHusband,FALSE,Lin Qianzhen,Wang Yongqing
+11607,13511,20439,20938,Undirected,林友媖,谷秀衡,林友媖,谷蘭皋,hasHusband,FALSE,Lin Youzheng,Gu Lanyu
+11613,13277,20480,20869,Undirected,林喜喜,蘇柳田,林溫如,蘇柳田,hasHusband,FALSE,Lin Wenru,Su Liutian
+11642,12801,20513,20726,Undirected,林如意,盧有都,林自西,盧有都,hasHusband,FALSE,Lin Zixi,Lu Youdu
+11643,12651,20513,20669,Undirected,林如草,王啓文,林自西,王啓文,hasHusband,FALSE,Lin Zixi,Wang Qiwen
+11646,13703,20440,20991,Undirected,林妙,郭幼柏,林呈祿,郭廷俊,hasHusband,FALSE,Lin Chenglu,Guo Tingjun
+11647,10085,20444,20016,Undirected,林妙真,He星輝,林妙真,He傳,hasHusband,FALSE,Lin Miaizhen,How
+11649,12860,20087,20742,Undirected,林娟妃,簡建堂,台南林,簡建堂,hasHusband,FALSE,Lin from Tainan,Jian Jiantang
+11650,10988,20445,20233,Undirected,林婉如,張季強,林宏,張季強,hasHusband,FALSE,Lin Hong,Zhang Jiqiang
+11652,11574,20087,20087,Undirected,林嫦娥,林全福,台南林,台南林,hasHusband,TRUE,Lin from Tainan,Lin from Tainan
+11660,14518,20520,21245,Undirected,林孟淑,黃及時,林迦,黃百祿,hasHusband,FALSE,Lin Jia,Huang Bailu
+11661,12536,20520,20628,Undirected,林孟玉,洪哲台,林迦,洪哲台,hasHusband,FALSE,Lin Jia,Hong Zhetai
+11686,12567,20447,20641,Undirected,林富子,洪樵榕,林富子,洪遜欣,hasHusband,FALSE,Tomiko Hayashi,Hun Xunxin
+11687,14131,20087,21115,Undirected,林富美,陳由豪,台南林,陳由豪,hasHusband,FALSE,Lin from Tainan,Chen Youhao
+11688,10063,20448,20016,Undirected,林富香,He傳,林富香,He傳,hasHusband,FALSE,Lin Fuxiang,How
+11689,14533,20449,20089,Undirected,林寶葉,黃天民,林寶葉,台南黃,hasHusband,FALSE,Lin Baoye,Tainan Huang
+11708,14331,20506,21168,Undirected,林希仁-1,顏春和,林維讓,顏振聲,hasHusband,FALSE,Lin Weirang,Yan Zhensheng
+11711,10762,20506,20172,Undirected,林幕蘭,嚴琥,林維讓,嚴復,hasHusband,FALSE,Lin Weirang,Yan Fu
+11714,14151,20454,20085,Undirected,林幸幸,陳端儀,林恆生,台中陳,hasHusband,FALSE,Lin Hengheng,Taichung Chen
+11719,12738,20466,20706,Undirected,林彩娥,王金成,林木桂,王金成,hasHusband,FALSE,Lin Mugui,Wang Jincheng
+11731,12311,20087,20544,Undirected,林怡秀,楊克智,台南林,楊克智,hasHusband,FALSE,Lin from Tainan,Yang Kezhi
+11744,10715,20493,20166,Undirected,林惠清,唐雪東,林真梓,唐縱,hasHusband,FALSE,Lin Zhenzi,Tang Zong
+11754,12141,20505,20505,Undirected,林愛玲,林誠道,林維源,林維源,hasHusband,TRUE,Lin Weiyuan,Lin Weiyuan
+11760,12505,20506,20620,Undirected,林慕安,沈成棟,林維讓,沈葆楨,hasHusband,FALSE,Lin Weirang,Shen Zhen
+11761,10762,20506,20172,Undirected,林慕蘭,嚴琥,林維讓,嚴復,hasHusband,FALSE,Lin Weirang,Yan Fu
+11772,14122,20457,21047,Undirected,林振金,陳田熞,林振金,陳中和,hasHusband,FALSE,Lin Zhenjin,Chen Zhonghe
+11792,12841,20431,20739,Undirected,林文仁,章偉,林伯奏,章偉,hasHusband,FALSE,Lin Bo,Zhang Wei
+11799,13727,20431,21001,Undirected,林文月,郭豫倫,林伯奏,郭豫倫,hasHusband,FALSE,Lin Bo,Guo Yulun
+11802,11568,20431,20446,Undirected,林文珍,林光輝,林伯奏,林定邦,hasHusband,FALSE,Lin Bo,Lin Dingbang
+11804,12673,20431,20685,Undirected,林文花,王政文,林伯奏,王政文,hasHusband,FALSE,Lin Bo,Wang Zhengwen
+11804,12829,20431,20734,Undirected,林文花,石爾鐸,林伯奏,石鳳翔,hasHusband,FALSE,Lin Bo,Shi Fengxiang
+11805,14528,20431,21247,Undirected,林文英,黃大洲,林伯奏,黃秀卿,hasHusband,FALSE,Lin Bo,Huang Xiuqing
+11820,12644,20463,21196,Undirected,林春蓮,王仁政,林春蓮,高雄企行王,hasHusband,FALSE,Lin Chunlian,Wang from Gaoxiong
+11822,12859,20440,20741,Undirected,林時櫻,簡建勳,林呈祿,簡建勳,hasHusband,FALSE,Lin Chenglu,Jian Jianxun
+11825,12520,20435,20620,Undirected,林普晴,沈葆楨,林則徐,沈葆楨,hasHusband,FALSE,Lin Zexu,Shen Zhen
+11827,14023,20485,20085,Undirected,林晴美,陳曉堂,林獻堂,台中陳,hasHusband,FALSE,Lin Xiantang,Taichung Chen
+11831,13047,20644,20644,Undirected,林月波,蔡伯汾,清水蔡惠如,清水蔡惠如,hasHusband,TRUE,Qingshui Cai,Qingshui Cai
+11832,12330,20464,20572,Undirected,林月規,楊天錫,林月規,楊肇嘉,hasHusband,FALSE,Tsukisa Legal,Yang Zhaojia
+11833,11065,20485,20259,Undirected,林月霞,張煥珪,林獻堂,張煥珪,hasHusband,FALSE,Lin Xiantang,Zhang Huanzheng
+11858,10245,20087,20076,Undirected,林桂朱,劉國昭,台南林,劉闊才,hasHusband,FALSE,Lin from Tainan,Liu Kuocai
+11859,14205,20459,20202,Undirected,林桂靜,陳進東,林捷龍,宜蘭陳,hasHusband,FALSE,Lin Jielong,Yilan Chen
+11860,12601,20468,20645,Undirected,林桃,游並茂,林桃,游彌堅,hasHusband,FALSE,Peach,You Mi
+11862,10951,20485,20222,Undirected,林桑琴,廖溫進,林獻堂,廖溫進,hasHusband,FALSE,Lin Xiantang,Liao Wenjin
+11873,10027,20470,21206,Undirected,林樹蘭,丁瑞圖,林樹蘭,鹿港丁,hasHusband,FALSE,Forestry,Kugang Daeda
+11878,13687,20480,20985,Undirected,林欣欣,郭國銓,林溫如,郭國銓,hasHusband,FALSE,Lin Wenru,Guo Guozhen
+11900,14297,20472,21172,Undirected,林氏,顏國年,林氏,顏雲年,hasHusband,FALSE,Lin's,Yan Yunnian
+11912,13443,20441,20915,Undirected,林淑娟,謝東震,林坤鐘,謝國城,hasHusband,FALSE,Lin Kunzhong,Xie Guocheng
+11913,10278,20475,20086,Undirected,林淑平,劉文岳,林淑平,台南劉,hasHusband,FALSE,Lin Shuping,Tainan Liu
+11914,14441,20087,21189,Undirected,林淑慎,高政治,台南林,高政治,hasHusband,FALSE,Lin from Tainan,High politics
+11915,11208,20476,20315,Undirected,林淑慧,戴東原,林淑慧,戴鳳倚,hasHusband,FALSE,Lin Shuhui,Dai Fengyi
+11916,11408,20458,20380,Undirected,林淑明,李文意,林挺生,李文意,hasHusband,FALSE,Lin Tingsheng,Li Wenyi
+11917,12321,20477,20572,Undirected,林淑珠,楊基椿,林淑珠,楊肇嘉,hasHusband,FALSE,Lin Shuzhu,Yang Zhaojia
+11919,10363,20478,20086,Undirected,林淑芬,劉青眼,林淑芬,台南劉,hasHusband,FALSE,Lin Shufen,Tainan Liu
+11925,14186,20469,21132,Undirected,林滿,陳萬富,林榮三,陳萬富,hasHusband,FALSE,Lin Rongsan,Chen Wanfu
+11931,13423,20480,20921,Undirected,林澄枝,謝孟雄,林溫如,謝東閔,hasHusband,FALSE,Lin Wenru,Xie Dongmin
+11956,10283,20479,20058,Undirected,林玉燕,劉昌慶,林清文,劉昌慶,hasHusband,FALSE,Lin Qingwen,Liu Changqing
+11959,14003,20486,21069,Undirected,林玉芬,陳政忠,林玉芬,陳安,hasHusband,FALSE,Lin Yufen,Chen An
+11960,13513,20479,20939,Undirected,林玉蓮,豐澤浩一,林清文,豐澤浩一,hasHusband,FALSE,Lin Qingwen,Toyo Haoichi
+11961,10892,20487,20200,Undirected,林玲珠,宋文彬,林玲珠,宋進英,hasHusband,FALSE,Lin Lingzhu,Song Jinying
+11963,11606,20488,20485,Undirected,林理美,林博正,林理美,林獻堂,hasHusband,FALSE,Lin Limei,Lin Xiantang
+11966,13627,20490,20968,Undirected,林瑞慧,辜濂松,林瑞慧,辜顯榮,hasHusband,FALSE,Lin Ruihui,Gu Xianrong
+11973,10683,20465,20155,Undirected,林瑾,周煥璋,林木土,周煥璋,hasHusband,FALSE,Lin Mutu,Zhou Huanzhang
+11978,12897,20446,20760,Undirected,林瓊花,翁廷雄,林定邦,翁瑞春,hasHusband,FALSE,Lin Dingbang,Weng Ruichun
+11984,13921,20469,21069,Undirected,林盡,陳安,林榮三,陳安,hasHusband,FALSE,Lin Rongsan,Chen An
+11989,14042,20513,21100,Undirected,林碧梧-1,陳武璋,林自西,陳武璋,hasHusband,FALSE,Lin Zixi,Chen Wuzhen
+11991,10075,20469,20024,Undirected,林碧真,He宗龍,林榮三,He義,hasHusband,FALSE,Lin Rongsan,He He Yi
+11993,13706,20494,20992,Undirected,林碧蓮,郭德焜,林碧蓮,郭德焜,hasHusband,FALSE,Lin Bilian,Guo Dezheng
+11994,14117,20469,21047,Undirected,林碧蕙,陳田文,林榮三,陳中和,hasHusband,FALSE,Lin Rongsan,Chen Zhonghe
+11995,12323,20466,20572,Undirected,林碧貞,楊基焜,林木桂,楊肇嘉,hasHusband,FALSE,Lin Mugui,Yang Zhaojia
+11996,10979,20485,20229,Undirected,林碧霞,張天錫,林獻堂,張天錫,hasHusband,FALSE,Lin Xiantang,Zhang Tianxi
+11996,12888,20485,20756,Undirected,林碧霞,羅萬俥,林獻堂,羅萬俥,hasHusband,FALSE,Lin Xiantang,Luo Wanyi
+12001,10376,20087,20079,Undirected,林秀,劉麟賜,台南林,劉麟賜,hasHusband,FALSE,Lin from Tainan,Liu Linci
+12002,13928,20496,21132,Undirected,林秀卿,陳宏昌,林秀卿,陳萬富,hasHusband,FALSE,Lin Xiuqing,Chen Wanfu
+12003,12642,20495,21196,Undirected,林秀卿-1,王仁孚,林秀卿-1,高雄企行王,hasHusband,FALSE,Lin Xiuqing-1,Wang from Gaoxiong
+12009,14354,20497,21172,Undirected,林秀馥,顏瑞霖,林秀馥,顏雲年,hasHusband,FALSE,Lin Xiuli,Yan Yunnian
+12012,13748,20499,21024,Undirected,林穎慧,鄭壽星,林穎慧,鄭興,hasHusband,FALSE,Lin Yinghui,Zheng Xing
+12015,10658,20501,20162,Undirected,林精麗,周信雄,林精麗,周陳玉樹,hasHusband,FALSE,Lin Jingli,Zhou Chen Yushu
+12023,11427,20485,20394,Undirected,林純惠,李治學,林獻堂,李治學,hasHusband,FALSE,Lin Xiantang,Li Zhixue
+12025,10807,20502,20175,Undirected,林素雲,城燦鉎,林素雲,城仲模,hasHusband,FALSE,Lin Suyun,Cheng Zhong Mo
+12036,13685,20507,20987,Undirected,林綾孋,郭俊雄,林綾孋,郭天恩,hasHusband,FALSE,Lin Aya,Guo Tianen
+12038,10893,20508,20200,Undirected,林美惠,宋文恭,林美惠,宋進英,hasHusband,FALSE,Lin Meihui,Song Jinying
+12039,14620,20087,21241,Undirected,林美慧,黃演鈔,台南林,黃演鈔,hasHusband,FALSE,Lin from Tainan,Yellow performance
+12040,11354,20509,20352,Undirected,林美津,朱瑞墉,林美津,朱應三,hasHusband,FALSE,Lin Meijin,Zhu Ying San
+12041,13281,21247,20873,Undirected,林美淑,蘇登求,黃秀卿,蘇登求,hasHusband,FALSE,Huang Xiuqing,Su Dengqiu
+12043,11174,20474,20310,Undirected,林翠玲,徐正冠,林河鑽,徐鳳鳴,hasHusband,FALSE,Forest diamond,Xu Fengming
+12044,10510,20493,20122,Undirected,林翠瓊,吳景箕,林真梓,吳秋菊,hasHusband,FALSE,Lin Zhenzi,Wu Qiuju
+12045,10285,20510,20075,Undirected,林翠鑾,劉明,林翠鑾,劉闊,hasHusband,FALSE,Lin Cuiyu,Liu Kuo
+12046,12594,20510,20641,Undirected,林翠鳳,洪遜欣,林翠鑾,洪遜欣,hasHusband,FALSE,Lin Cuiyu,Hun Xunxin
+12066,13767,20445,21017,Undirected,林芸香,鄭極民,林宏,鄭極民,hasHusband,FALSE,Lin Hong,Zheng Jimin
+12067,11347,20506,20354,Undirected,林苕,朱明陽,林維讓,朱昭陽,hasHusband,FALSE,Lin Weirang,Zhu Zhaoyang
+12094,10726,20506,20172,Undirected,林蒨,嚴僑,林維讓,嚴復,hasHusband,FALSE,Lin Weirang,Yan Fu
+12099,10739,20516,20172,Undirected,林蕙娜,嚴孝裕,林蕙娜,嚴復,hasHusband,FALSE,Lin Yanna,Yan Fu
+12100,12894,20517,20760,Undirected,林蕙婉,翁廷肇,林蕙婉,翁瑞春,hasHusband,FALSE,Lin Yanwan,Weng Ruichun
+12117,11246,20446,20331,Undirected,林蘭蕙,施雨鄉,林定邦,施雨鄉,hasHusband,FALSE,Lin Dingbang,Shi Yu Township
+12122,11152,20506,20297,Undirected,林衡儀,彭植功,林維讓,彭植功,hasHusband,FALSE,Lin Weirang,Peng Zhigong
+12126,12947,20506,20780,Undirected,林衡敏,莊Cun誠,林維讓,莊Cun誠,hasHusband,FALSE,Lin Weirang,CunZhuang CunCunCun
+12127,10511,20506,20109,Undirected,林衡敬,吳朝惠,林維讓,吳朝惠,hasHusband,FALSE,Lin Weirang,Wu Chaohui
+12128,14386,20506,21174,Undirected,林衡柔,顧效禹,林維讓,顧效禹,hasHusband,FALSE,Lin Weirang,Gu Xiaoyu
+12134,12622,20506,20651,Undirected,林衡靜,潘允中,林維讓,潘允中,hasHusband,FALSE,Lin Weirang,Pan Yunzhong
+12138,10956,20479,20226,Undirected,林訪秀,廖運茂,林清文,廖運茂,hasHusband,FALSE,Lin Qingwen,Liao Yunmao
+12139,10627,20479,20535,Undirected,林訪蘭,吳鴻麟,林清文,桃園吳,hasHusband,FALSE,Lin Qingwen,Taoyuan Wu
+12140,10556,20479,20535,Undirected,林訪賢,吳瑞乾,林清文,桃園吳,hasHusband,FALSE,Lin Qingwen,Taoyuan Wu
+12142,11417,20469,20384,Undirected,林說,李會國,林榮三,李會國,hasHusband,FALSE,Lin Rongsan,Li Huiguo
+12143,14038,20466,21097,Undirected,林豆粒,陳樹林,林木桂,陳樹林,hasHusband,FALSE,Lin Mugui,Chen Shulin
+12145,11847,20466,20467,Undirected,林豔玉,林本庸,林木桂,林本庸,hasHusband,FALSE,Lin Mugui,Lin Benyong
+12146,11939,20466,20483,Undirected,林豔珠,林煌明,林木桂,林煌明,hasHusband,FALSE,Lin Mugui,Lin Huangming
+12147,11155,20466,20156,Undirected,林豔貞,彭耀褱,林木桂,周百鍊,hasHusband,FALSE,Lin Mugui,Zhou Bai Lian
+12156,11401,20469,20377,Undirected,林足,李慶煌,林榮三,李慶煌,hasHusband,FALSE,Lin Rongsan,Li Qinghuang
+12179,14625,20523,21232,Undirected,林金鑾,黃玉堂,林金鑾,黃朝琴,hasHusband,FALSE,Lin Jinzheng,Huang Chaoqin
+12209,14434,20485,20088,Undirected,林關關,高天成,林獻堂,台南高,hasHusband,FALSE,Lin Xiantang,Tainan Gao
+12210,10802,20524,20175,Undirected,林阿春,城炳模,林阿春,城仲模,hasHusband,FALSE,Lin Achun,Cheng Zhong Mo
+12220,13147,20446,20644,Undirected,林雙娟,蔡珍曜,林定邦,清水蔡惠如,hasHusband,FALSE,Lin Dingbang,Qingshui Cai
+12222,10287,20446,20060,Undirected,林雙彎,劉明朝,林定邦,劉明朝,hasHusband,FALSE,Lin Dingbang,Liu Mingchao
+12224,13678,20446,20982,Undirected,林雙星,邱魏任,林定邦,邱魏任,hasHusband,FALSE,Lin Dingbang,Qiu Weiren
+12228,11509,20446,20427,Undirected,林雙隨,杜聰明,林定邦,杜聰明,hasHusband,FALSE,Lin Dingbang,Du Chongming
+12233,12633,20525,20657,Undirected,林雪治,潘貫,林雪治,潘貫,hasHusband,FALSE,Lin Xuezhi,Pan Guan
+12234,11261,20526,20334,Undirected,林雪琴,曹永坤,林雪琴,曹永和,hasHusband,FALSE,Lin Xueqin,Cao Yonghe
+12235,14045,20503,20085,Undirected,林雪霞,陳水潭,林維修,台中陳,hasHusband,FALSE,Lin Weixiu,Taichung Chen
+12236,10362,20465,20086,Undirected,林雲華,劉青波,林木土,台南劉,hasHusband,FALSE,Lin Mutu,Tainan Liu
+12240,13391,20458,20908,Undirected,林靜寬,詹可己,林挺生,詹可己,hasHusband,FALSE,Lin Tingsheng,Zhan Keji
+12241,12660,20485,20677,Undirected,林靜惠,王守仁,林獻堂,王守仁,hasHusband,FALSE,Lin Xiantang,Wang Shouren
+12242,12064,20498,20514,Undirected,林靜芸,林芳郁,林秋江,林芳郁,hasHusband,FALSE,Lin Qiujiang,Lin Fangyu
+12247,13850,20465,21052,Undirected,林香,陳傳旺,林木土,陳傳旺,hasHusband,FALSE,Lin Mutu,Chen Chuanwang
+12251,10515,20527,20114,Undirected,林鳶英,吳東憲,林鳶英,吳火獅,hasHusband,FALSE,Lin Kuying,Wu Huoshi
+12265,11005,20528,20238,Undirected,林麗卿,張建國,林麗卿,張建邦,hasHusband,FALSE,Lin Liqing,Zhang Jianbang
+12268,11373,20529,20368,Undirected,林麗美,李合珠,林麗美,李合珠,hasHusband,FALSE,Reimi Hayashi,Li Hezhu
+12273,10506,20530,20095,Undirected,柯瑤碧,吳春甫,柯瑤碧,吳修齊,hasHusband,FALSE,Ke Yaoqi,Wu Xiuji
+12274,14376,20531,21172,Undirected,柯穆匏,顏雲年,柯穆匏,顏雲年,hasHusband,FALSE,Ke Muzheng,Yan Yunnian
+12280,12288,20542,20542,Undirected,梁丹丰,梁在正,梁鼎銘,梁鼎銘,hasHusband,TRUE,Liang Dingming,Liang Dingming
+12281,10826,20542,20177,Undirected,梁丹美,姜宗望,梁鼎銘,姜宗望,hasHusband,FALSE,Liang Dingming,Jiang Zongwang
+12282,11435,20542,20400,Undirected,梁丹貝,李焜培,梁鼎銘,李焜培,hasHusband,FALSE,Liang Dingming,Li Yipei
+12295,10553,20537,20114,Undirected,梁桂蘭,吳火獅,梁桂蘭,吳火獅,hasHusband,FALSE,Liang Guilan,Wu Huoshi
+12296,10042,20538,20009,Undirected,梁漸英,丘健賓,梁漸英,丘健賓,hasHusband,FALSE,Liang Jianying,Qiu Jianbin
+12297,14099,20539,21003,Undirected,梁白玲,陳瑞禾,梁白玲,郭金塔,hasHusband,FALSE,Liang Bailing,Guo Jinta
+12299,11221,20542,20319,Undirected,梁秀中,方偉煌,梁鼎銘,方偉煌,hasHusband,FALSE,Liang Dingming,Fang Weihuang
+12300,10736,20540,20172,Undirected,梁金英,嚴孝武,梁金英,嚴復,hasHusband,FALSE,Liang Jinying,Yan Fu
+12303,10825,20541,20176,Undirected,梁麗嫻,姚奇凱,梁麗嫻,姚兆元,hasHusband,FALSE,Liang Lixian,Yao Zhaoyuan
+12314,10525,20559,20102,Undirected,楊咏絮,吳森森,楊晏然,吳尚震,hasHusband,FALSE,Yang Yanran,Wu Shangzhen
+12331,11999,20548,20446,Undirected,楊嫦娥,林祖密,楊嫦娥,林定邦,hasHusband,FALSE,Yang Chang'e,Lin Dingbang
+12332,12691,20549,20689,Undirected,楊嬌,王永慶,楊嬌,王永慶,hasHusband,FALSE,Yang Jiao,Wang Yongqing
+12339,11941,20553,20440,Undirected,楊尾,林煥清,楊尾,林呈祿,hasHusband,FALSE,Ends,Lin Chenglu
+12340,12815,20554,20734,Undirected,楊岫雲,石志泉,楊岫雲,石鳳翔,hasHusband,FALSE,Yang Yanyun,Shi Fengxiang
+12341,14686,20555,21243,Undirected,楊弘美,黃達夫,楊弘美,黃玉麟,hasHusband,FALSE,Yang Hongmei,Huang Yulin
+12346,13434,20556,20921,Undirected,楊惠昭,謝敏初,楊惠昭,謝東閔,hasHusband,FALSE,Yang Huizhao,Xie Dongmin
+12347,10531,20557,20094,Undirected,楊惠玉,吳樹民,楊惠玉,吳三連,hasHusband,FALSE,Yang Huiyu,Wu Sanlian
+12362,11374,20572,20373,Undirected,楊月霞,李君晰,楊肇嘉,李崇禮,hasHusband,FALSE,Yang Zhaojia,Li Chongli
+12363,14395,20560,21175,Undirected,楊朝雲,顧祝同,楊朝雲,顧祝同,hasHusband,FALSE,Yang Chaoyun,Gu Zhutong
+12370,11954,20559,20485,Undirected,楊水心,林獻堂,楊晏然,林獻堂,hasHusband,FALSE,Yang Yanran,Lin Xiantang
+12371,11840,20559,20446,Undirected,楊水萍,林朝棟,楊晏然,林定邦,hasHusband,FALSE,Yang Yanran,Lin Dingbang
+12372,10604,20572,20133,Undirected,楊湘玲,吳金川,楊肇嘉,吳鏡秋,hasHusband,FALSE,Yang Zhaojia,Wu Jingqiu
+12374,13170,20572,20834,Undirected,楊湘薰,蔡萬才,楊肇嘉,蔡萬才,hasHusband,FALSE,Yang Zhaojia,Cai Wancai
+12378,12244,20563,20493,Undirected,楊瑞華,林頂立,楊瑞華,林真梓,hasHusband,FALSE,Yang Ruihua,Lin Zhenzi
+12379,11158,20564,20296,Undirected,楊瑪琍,彭蔭宣,楊瑪琍,彭晟,hasHusband,FALSE,Yang Mazhen,Peng Sheng
+12380,12250,20572,20485,Undirected,楊碧霞,林魁梧,楊肇嘉,林獻堂,hasHusband,FALSE,Yang Zhaojia,Lin Xiantang
+12382,10279,20566,20086,Undirected,楊端儀,劉文嶼,楊端儀,台南劉,hasHusband,FALSE,Yang Duanyi,Tainan Liu
+12383,13315,20572,20889,Undirected,楊素娥,許伯埏,楊肇嘉,許博允,hasHusband,FALSE,Yang Zhaojia,Xu Boyun
+12384,14540,20567,20089,Undirected,楊素月,黃天驥,楊素月,台南黃,hasHusband,FALSE,Yang Suyue,Tainan Huang
+12385,12213,20568,20485,Undirected,楊素英,林陸龍,楊素英,林獻堂,hasHusband,FALSE,Yang Suying,Lin Xiantang
+12387,12779,20569,20714,Undirected,楊維端,白先道,楊維端,白崇禧,hasHusband,FALSE,Yang Weiduan,Bai Chongxi
+12390,13813,20550,20317,Undirected,楊繡霞,鄭鴻源,楊子培,新竹鄭,hasHusband,FALSE,Yang Zipei,Xinzhu Zheng
+12392,13995,20572,21082,Undirected,楊翠霞,陳慶華,楊肇嘉,陳慶華,hasHusband,FALSE,Yang Zhaojia,Chen Qinghua
+12395,11695,20573,20458,Undirected,楊芙蓉,林尚志,楊芙蓉,林挺生,hasHusband,FALSE,Yang Furun,Lin Tingsheng
+12396,10928,20574,20208,Undirected,楊芝珊,居禮,楊芝珊,居定賢,hasHusband,FALSE,Yang Zhishan,Ju Dingxian
+12397,12189,20575,20087,Undirected,楊英英,林錫池,楊英英,台南林,hasHusband,FALSE,Yang Yingying,Lin from Tainan
+12400,13779,20577,21020,Undirected,楊藍水,鄭瑞麟,楊藍洲,鄭瑞麟,hasHusband,FALSE,Yang Lanzhou,Zheng Ruilin
+12401,12050,20577,20512,Undirected,楊藍玉,林耕陽,楊藍洲,林耕陽,hasHusband,FALSE,Yang Lanzhou,Lin Gengyang
+12402,13388,20577,20907,Undirected,楊藍磐,許鶴年,楊藍洲,許鶴年,hasHusband,FALSE,Yang Lanzhou,Xu Henian
+12403,10318,20577,20067,Undirected,楊藍菊,劉燦津,楊藍洲,劉燦津,hasHusband,FALSE,Yang Lanzhou,Liu Canzin
+12404,14601,20577,21233,Undirected,楊藍銀,黃榮泰,楊藍洲,黃榮泰,hasHusband,FALSE,Yang Lanzhou,Huang Rongtai
+12406,10918,20578,20206,Undirected,楊許梅,尤清山,楊許梅,尤清山,hasHusband,FALSE,Yang Xumei,You Qingshan
+12407,13625,20579,20968,Undirected,楊詠詩,辜斌甫,楊詠詩,辜顯榮,hasHusband,FALSE,Yang Yongshi,Gu Xianrong
+12408,12853,20561,20740,Undirected,楊郁文,竺培風,楊森,竺芝珊,hasHusband,FALSE,Yang Sen,Zhu Zhishan
+12409,11951,20580,20505,Undirected,楊銹美,林牧民,楊銹美,林維源,hasHusband,FALSE,Yang Rinmi,Lin Weiyuan
+12412,12237,20550,20485,Undirected,楊雪霞,林雲龍,楊子培,林獻堂,hasHusband,FALSE,Yang Zipei,Lin Xiantang
+12413,11159,20570,20296,Undirected,楊靄雲,彭蔭川,楊繼先,彭晟,hasHusband,FALSE,Yang Jixian,Peng Sheng
+12414,14295,20577,21172,Undirected,楊靜娟,顏吉霖,楊藍洲,顏雲年,hasHusband,FALSE,Yang Lanzhou,Yan Yunnian
+12417,12560,20585,20632,Undirected,楊麗花,洪文棟,楊麗花,洪文棟,hasHusband,FALSE,Yang Lihua,Hong Wendong
+12418,13325,20586,20889,Undirected,樊曼儂,許博允,樊曼儂,許博允,hasHusband,FALSE,Fan Mannon,Xu Boyun
+12426,10011,20588,20004,Undirected,段慧慧,丁善玖,段輔堯,丁唯農,hasHusband,FALSE,Duan Fuyao,Ding Weinong
+12445,13855,20589,21058,Undirected,毛瑞蘭,陳其洵,毛人鳳,陳嘉尚,hasHusband,FALSE,Mao Renfeng,Chen Jiashang
+12447,13198,20593,20839,Undirected,毛福梅,蔣介石,毛鼎和,蔣介石,hasHusband,FALSE,Mao Dinghe,Chiang Kai -shek
+12449,12444,20589,20592,Undirected,毛維摩,毛燮文,毛人鳳,毛贊廷,hasHusband,FALSE,Mao Renfeng,Mao Zhanting
+12450,10888,20593,20195,Undirected,毛英梅,宋孟果,毛鼎和,宋孟果,hasHusband,FALSE,Mao Dinghe,Song Mengguo
+12451,10905,20590,20195,Undirected,毛裔鳳,宋維坤,毛思誠,宋孟果,hasHusband,FALSE,Mao Sicheng,Song Mengguo
+12455,14380,20594,21173,Undirected,水文梅,顧國和,水文梅,顧宗瑞,hasHusband,FALSE,Hydroma,Gu Zongrui
+12456,10638,20595,20792,Undirected,江寶,呂春榮,江寶,萬華呂,hasHusband,FALSE,Jiangbao,Wanhua Lu
+12457,14204,20596,20202,Undirected,江彩雲,陳進富,江彩雲,宜蘭陳,hasHusband,FALSE,Jiang Caiyun,Yilan Chen
+12460,13930,20597,21070,Undirected,江愛,陳定國,江愛,陳定國,hasHusband,FALSE,Jiangai,Chen Dingguo
+12462,10747,20598,20172,Undirected,江氏,嚴復,江氏,嚴復,hasHusband,FALSE,Jiang,Yan Fu
+12464,14114,20600,21047,Undirected,江淑貞,陳田坦,江淑貞,陳中和,hasHusband,FALSE,Jiang Shuzhen,Chen Zhonghe
+12466,13770,20602,21024,Undirected,江陽春,鄭水木,江陽春,鄭興,hasHusband,FALSE,Koyo Spring,Zheng Xing
+12467,10187,20603,20036,Undirected,江青,俞啓威,江青,俞大維,hasHusband,FALSE,Jiang Qing,Yu Dawei
+12467,12442,20603,20591,Undirected,江青,毛澤東,江青,毛澤東,hasHusband,FALSE,Jiang Qing,Mao Zedong
+12468,13628,20604,20968,Undirected,池田君子,辜皆的,池田君子,辜顯榮,hasHusband,FALSE,Kimiko Ikeda,Gu Xianrong
+12469,11564,20606,20433,Undirected,汪伊君,林偉生,汪敬煦,林偉生,hasHusband,FALSE,Wang Jingyu,Lin Weisheng
+12470,12441,20606,20589,Undirected,汪伊聖,毛渝南,汪敬煦,毛人鳳,hasHusband,FALSE,Wang Jingyu,Mao Renfeng
+12471,13040,20606,20822,Undirected,汪伊賢,董豐盛,汪敬煦,董春風,hasHusband,FALSE,Wang Jingyu,Dong Chunfeng
+12475,14501,20607,21207,Undirected,汪宣範,黃世珍,汪永汴,黃世珍,hasHusband,FALSE,Wang Yongzheng,Huang Shizhen
+12476,10708,20608,20166,Undirected,汪幼蘭,唐曉東,汪褘成,唐縱,hasHusband,FALSE,Wang Yicheng,Tang Zong
+12477,10700,20607,20157,Undirected,汪懿範,周英才,汪永汴,周碧,hasHusband,FALSE,Wang Yongzheng,Zhoubi
+12487,11230,20605,20322,Undirected,汪積賢,方聲恆,汪捷三,方聲恆,hasHusband,FALSE,Wang Jie San,Fang Shengheng
+12488,11288,20607,20345,Undirected,汪網羞,曾慶餘,汪永汴,曾石岳,hasHusband,FALSE,Wang Yongzheng,Zeng Shiyue
+12489,13021,20607,20818,Undirected,汪蕙,董大成,汪永汴,董大成,hasHusband,FALSE,Wang Yongzheng,Dong Dacheng
+12491,13209,20609,20839,Undirected,汪長詩,蔣孝武,汪長詩,蔣介石,hasHusband,FALSE,Wang Changshi,Chiang Kai -shek
+12494,13560,20612,20958,Undirected,沈允,趙元德,沈孝先,趙廷箴,hasHusband,FALSE,Shen Xiaoxian,Zhao Tingzhen
+12511,10403,20614,20535,Undirected,沈明美,吳世雄,沈明美,桃園吳,hasHusband,FALSE,Shen Mingmei,Taoyuan Wu
+12512,12607,20615,20645,Undirected,沈曼麗,游敬熙,沈曼麗,游彌堅,hasHusband,FALSE,Shen Manli,You Mi
+12514,13486,20617,20936,Undirected,沈玲婷,譚景元,沈玲婷,譚文勤,hasHusband,FALSE,Shen Lingting,Tan Wenqin
+12529,13736,20624,21008,Undirected,津根靜香,鄧晁熙,津根靜香,鄧文岳,hasHusband,FALSE,Jingen Shizuka,Deng Wenyue
+12538,13756,20638,21012,Undirected,洪娉,鄭寧權,洪蘭友,鄭寧權,hasHusband,FALSE,Hong Lanyou,Zheng Ningquan
+12540,11011,20638,20240,Undirected,洪嫻,張德昌,洪蘭友,張德昌,hasHusband,FALSE,Hong Lanyou,Zhang Dechang
+12541,14258,20638,21157,Undirected,洪嬋,陸驊,洪蘭友,陸驊,hasHusband,FALSE,Hong Lanyou,Land
+12545,14622,20643,21242,Undirected,洪寬寬,黃炎生,淡水洪,黃炎生,hasHusband,FALSE,Freshwater flood,Huang Yansheng
+12546,10432,20630,20128,Undirected,洪小貴,吳天達,洪小貴,吳英彪,hasHusband,FALSE,Hong Xiaogui,Wu Yingbiao
+12548,11418,20643,20385,Undirected,洪彬彬,李朝章,淡水洪,李朝章,hasHusband,FALSE,Freshwater flood,Li Chaozhang
+12551,10472,20641,20104,Undirected,洪悠紀,吳德朗,洪遜欣,吳德朗,hasHusband,FALSE,Hun Xunxin,Wu Delang
+12563,14361,20641,21172,Undirected,洪智惠,顏祥霖,洪遜欣,顏雲年,hasHusband,FALSE,Hun Xunxin,Yan Yunnian
+12565,14479,20641,21200,Undirected,洪朋,魏康成,洪遜欣,魏火曜,hasHusband,FALSE,Hun Xunxin,Wei Fire
+12571,13240,20643,20851,Undirected,洪淑子,蕭秀淮,淡水洪,蕭秀淮,hasHusband,FALSE,Freshwater flood,Xiao Xiuhuai
+12573,13843,20641,21049,Undirected,洪滿惠,陳以明,洪遜欣,陳以明,hasHusband,FALSE,Hun Xunxin,Chen Yiming
+12577,10461,20629,20095,Undirected,洪瓊慧,吳平原,洪壽南,吳修齊,hasHusband,FALSE,Hongshounan,Wu Xiuji
+12578,13593,20635,20967,Undirected,洪碧梧,辛文恭,洪碧梧,辛連生,hasHusband,FALSE,Hong Biwu,Xin Liansheng
+12582,13575,20643,20961,Undirected,洪秀子,趙清雲,淡水洪,趙清雲,hasHusband,FALSE,Freshwater flood,Zhao Qingyun
+12583,10476,20636,20535,Undirected,洪秀華,吳志揚,洪秀華,桃園吳,hasHusband,FALSE,Hong Xiuhua,Taoyuan Wu
+12585,11218,20641,20316,Undirected,洪美惠,文錫圭,洪遜欣,文錫圭,hasHusband,FALSE,Hun Xunxin,Wenxi Kei
+12587,10030,20637,21206,Undirected,洪若惠,丁瑞魚,洪若惠,鹿港丁,hasHusband,FALSE,Hong Ruohui,Kugang Daeda
+12590,10913,20643,20200,Undirected,洪謙謙,宋進英,淡水洪,宋進英,hasHusband,FALSE,Freshwater flood,Song Jinying
+12591,10594,20639,20535,Undirected,洪貴美,吳運光,洪貴美,桃園吳,hasHusband,FALSE,Hongami,Taoyuan Wu
+12593,12119,20643,20518,Undirected,洪進治,林蚶,淡水洪,林蚶,hasHusband,FALSE,Freshwater flood,Forestry
+12596,10817,20642,20175,Undirected,洪錦屏,城貴霖,洪錦屏,城仲模,hasHusband,FALSE,Hong Jinping,Cheng Zhong Mo
+12598,10431,20634,20128,Undirected,洪雪蓉,吳天授,洪水龍,吳英彪,hasHusband,FALSE,Flood dragon,Wu Yingbiao
+12600,14449,20643,21191,Undirected,洪黎黎,高湯盤,淡水洪,高湯盤,hasHusband,FALSE,Freshwater flood,Soup plate
+12608,13026,20646,20820,Undirected,溫子華,董建成,溫應星,董建華,hasHusband,FALSE,Wen Yingxing,Dong Jianhua
+12612,12496,20648,20613,Undirected,溫淑美,沈君岳,溫淑美,沈宗瀚,hasHusband,FALSE,Wen Shumei,Shen Zonghan
+12619,12201,20649,20458,Undirected,溫靜如,林鎮源,溫靜如,林挺生,hasHusband,FALSE,Gentle,Lin Tingsheng
+12621,12786,20650,20716,Undirected,漢菊德,白秀雄,漢寶德,白秀雄,hasHusband,FALSE,Hanke,Bai Xiuxiong
+12625,13442,20653,20921,Undirected,潘影清,謝東閔,潘影清,謝東閔,hasHusband,FALSE,Pan Yingqing,Xie Dongmin
+12626,10590,20657,20095,Undirected,潘文慧,吳貞良,潘貫,吳修齊,hasHusband,FALSE,Pan Guan,Wu Xiuji
+12629,12152,20657,20087,Undirected,潘淑慧,林資深,潘貫,台南林,hasHusband,FALSE,Pan Guan,Lin from Tainan
+12630,10787,20654,20175,Undirected,潘秀華,城仲模,潘秀華,城仲模,hasHusband,FALSE,Pan Xiuhua,Cheng Zhong Mo
+12631,13864,20655,21047,Undirected,潘繡汝,陳啓川,潘繡汝,陳中和,hasHusband,FALSE,Pan Xiuru,Chen Zhonghe
+12634,11635,20658,20485,Undirected,潮田樂子,林夔龍,潮田樂子,林獻堂,hasHusband,FALSE,Chaotian Lezi,Lin Xiantang
+12635,13031,20659,20822,Undirected,烏絨,董春風,烏絨,董春風,hasHusband,FALSE,Woolen,Dong Chunfeng
+12636,12377,20660,20577,Undirected,焦淑英,楊燧人,焦淑英,楊藍洲,hasHusband,FALSE,Jiao Shuying,Yang Lanzhou
+12637,10601,20661,20535,Undirected,熊倉典子,吳運雄,熊倉典子,桃園吳,hasHusband,FALSE,Noriko Kumakura,Taoyuan Wu
+12639,10972,20662,20268,Undirected,王世瑛,張君勳,王世憲,張祖澤,hasHusband,FALSE,Wang Shixian,Zhang Zuze
+12650,12293,20668,20542,Undirected,王友嫻,梁敏天,王友嫻,梁鼎銘,hasHusband,FALSE,Wang Youxian,Liang Dingming
+12653,12858,20671,20741,Undirected,王圭容,簡又新,王圭容,簡建勳,hasHusband,FALSE,Wang Guirong,Jian Jianxun
+12654,12298,20672,20542,Undirected,王外千,梁砥中,王外千,梁鼎銘,hasHusband,FALSE,Wang Waiqian,Liang Dingming
+12658,13122,20675,20644,Undirected,王如璧,蔡永新,王如璧,清水蔡惠如,hasHusband,FALSE,Wang Ruyi,Qingshui Cai
+12659,10666,20676,20155,Undirected,王如芬,周宗熙,王如芬,周煥璋,hasHusband,FALSE,Wang Rufen,Zhou Huanzhang
+12661,10776,20667,20171,Undirected,王安安,嚴雋泰,王兆槐,嚴淦,hasHusband,FALSE,Wang Zhaohuai,Yan Fu
+12662,11697,20678,20505,Undirected,王寶英,林履信,王寶英,林維源,hasHusband,FALSE,Wang Baoying,Lin Weiyuan
+12665,11101,20680,20300,Undirected,王彩雲,張聘三,王彩雲,彰化銀行張伯欣,hasHusband,FALSE,Wang Caiyun,Changhua Bank Zhang Boxin
+12667,10583,20681,20095,Undirected,王念平,吳英辰,王念平,吳修齊,hasHusband,FALSE,Wang Nianping,Wu Xiuji
+12669,10834,20682,20178,Undirected,王愛月,姜紹謨,王愛月,姜紹謨,hasHusband,FALSE,Wang Aiyue,Kang -sho -sha
+12670,14255,20683,21153,Undirected,王慶蓉,陶鴻翔,王慶蓉,陶一珊,hasHusband,FALSE,Wang Qingrong,Tao Yishan
+12672,10667,20684,20155,Undirected,王懿敏,周宗隆,王懿敏,周煥璋,hasHusband,FALSE,Wang Yimin,Zhou Huanzhang
+12681,10080,20664,20019,Undirected,王文湘,He應欽,王伯群,He應欽,hasHusband,FALSE,Wang Boqun,He Yingqin
+12685,13864,20686,21047,Undirected,王昌,陳啓川,王昌,陳中和,hasHusband,FALSE,Wang Chang,Chen Zhonghe
+12689,10747,20688,20172,Undirected,王氏,嚴復,王氏,嚴復,hasHusband,FALSE,Wang's,Yan Fu
+12697,14074,20699,21068,Undirected,王淑儀,陳清汾,王舅舅,陳守山,hasHusband,FALSE,Wang,Chen Shoushan
+12698,14558,20690,21242,Undirected,王淑女,黃宜彥,王淑女,黃炎生,hasHusband,FALSE,Lady,Huang Yansheng
+12699,12605,20703,20645,Undirected,王淑敏,游彌堅,王賡,游彌堅,hasHusband,FALSE,King,You Mi
+12706,10411,20691,20095,Undirected,王琴,吳俊傑,王琴,吳修齊,hasHusband,FALSE,Wang Qin,Wu Xiuji
+12708,10247,20689,20050,Undirected,王瑞慧,劉培森,王永慶,劉培森,hasHusband,FALSE,Wang Yongqing,Liu Peisen
+12709,11387,20689,20371,Undirected,王瑞瑜,李宗昌,王永慶,李宗昌,hasHusband,FALSE,Wang Yongqing,Li Zongchang
+12710,12336,20689,20552,Undirected,王瑞華,楊定一,王永慶,楊定一,hasHusband,FALSE,Wang Yongqing,Yang Dingyi
+12712,12690,20689,20689,Undirected,王碧鑾,王永在,王永慶,王永慶,hasHusband,TRUE,Wang Yongqing,Wang Yongqing
+12713,13544,20693,20950,Undirected,王秀,賴森林,王秀,賴森林,hasHusband,FALSE,Wang Xiu,Lai Forest
+12714,12184,20694,20087,Undirected,王秀蓮,林錫山,王秀蓮,台南林,hasHusband,FALSE,Wang Xiulian,Lin from Tainan
+12717,13509,20695,20938,Undirected,王美修,谷正綱,王美修,谷蘭皋,hasHusband,FALSE,Wang Meixiu,Gu Lanyu
+12718,13590,20696,20967,Undirected,王美璉,辛忠衡,王美璉,辛連生,hasHusband,FALSE,Wang Meilian,Xin Liansheng
+12722,11589,20698,20505,Undirected,王臻英,林剛義,王臻英,林維源,hasHusband,FALSE,Wang Zhenying,Lin Weiyuan
+12726,11529,20701,20513,Undirected,王英英,林人權,王英英,林自西,hasHusband,FALSE,Wang Yingying,Lin Zixi
+12728,10874,20704,20188,Undirected,王誠儀,孫義宣,王賢甲,孫琴風,hasHusband,FALSE,Wang Xianjia,Sun Qinfeng
+12729,10212,21196,20040,Undirected,王貞婉,倪哈奚斯,高雄企行王,倪哈奚斯,hasHusband,FALSE,Wang from Gaoxiong,Nihamus
+12730,11368,21196,20364,Undirected,王貞慧,李克溫,高雄企行王,李克溫,hasHusband,FALSE,Wang from Gaoxiong,Li Kewen
+12731,12557,21196,20634,Undirected,王貞淑,洪慶麟,高雄企行王,洪水龍,hasHusband,FALSE,Wang from Gaoxiong,Flood dragon
+12732,11765,21196,20455,Undirected,王貞秀,林慶祥,高雄企行王,林慶祥,hasHusband,FALSE,Wang from Gaoxiong,Lin Qingxiang
+12733,14421,21196,21186,Undirected,王貞美,馮明雄,高雄企行王,馮明雄,hasHusband,FALSE,Wang from Gaoxiong,Feng Mingxiong
+12734,13971,20689,21079,Undirected,王貴雲,陳徹,王永慶,陳徹,hasHusband,FALSE,Wang Yongqing,Chen Che
+12737,13226,20705,20839,Undirected,王采玉,蔣肇聰,王采玉,蔣介石,hasHusband,FALSE,Wang Caiyu,Chiang Kai -shek
+12739,13184,20707,20174,Undirected,王釧如,蔡辰洋,王釧如,國泰蔡,hasHusband,FALSE,Wang Yiru,Cathay Cai
+12744,10469,20708,20094,Undirected,王錦霞,吳得民,王錦霞,吳三連,hasHusband,FALSE,Wang Jinxia,Wu Sanlian
+12747,10655,20689,20143,Undirected,王雪惠,周令侃,王永慶,周令侃,hasHusband,FALSE,Wang Yongqing,Zhou Lingkan
+12748,10427,20689,20098,Undirected,王雪敏,吳國雄,王永慶,吳國雄,hasHusband,FALSE,Wang Yongqing,Wu Guoxiong
+12749,10999,20689,20235,Undirected,王雪洸,張鈁,王永慶,張鈁,hasHusband,FALSE,Wang Yongqing,Lofty
+12750,12144,20689,20519,Undirected,王雪清,林豐欽,王永慶,林豐欽,hasHusband,FALSE,Wang Yongqing,Lin Fengqin
+12751,10377,20689,20080,Undirected,王雪紅,區永喜,王永慶,區永喜,hasHusband,FALSE,Wang Yongqing,District Yongxi
+12752,12861,20689,20743,Undirected,王雪齡,簡明仁,王永慶,簡明仁,hasHusband,FALSE,Wang Yongqing,Conciseness
+12755,13400,20699,20913,Undirected,王香禪,謝介石,王舅舅,謝介石,hasHusband,FALSE,Wang,Xie Jieshi
+12756,13862,20710,21047,Undirected,王麗卿,陳啓安,王麗卿,陳中和,hasHusband,FALSE,Wang Liqing,Chen Zhonghe
+12757,14633,20711,21218,Undirected,王麗玉,黃益人,王麗玉,黃子欽,hasHusband,FALSE,Wang Liyu,Huang Ziqin
+12761,11039,20712,20279,Undirected,甘寶釵,張月澄,甘得中,張聰明,hasHusband,FALSE,Gifted,Zhang smart
+12764,11411,20712,20359,Undirected,甘珍釵,李昆耀,甘得中,李仲義,hasHusband,FALSE,Gifted,Lee's friendship
+12765,13160,20713,20174,Undirected,甘盡,蔡紅,甘盡,國泰蔡,hasHusband,FALSE,Be happy,Cathay Cai
+12767,12799,20712,20723,Undirected,甘脆釵,盧慶雲,甘得中,盧安,hasHusband,FALSE,Gifted,Lu'an
+12773,13253,20714,20856,Undirected,白先慧,薛聯寶,白崇禧,薛聯寶,hasHusband,FALSE,Bai Chongxi,Xue Lianbao
+12776,12796,20714,20722,Undirected,白先智,盧大偉,白崇禧,盧大偉,hasHusband,FALSE,Bai Chongxi,Lu Dawei
+12781,10932,20715,20208,Undirected,白曉霞,居龍,白曉霞,居定賢,hasHusband,FALSE,Bai Xiaoxia,Ju Dingxian
+12783,12309,20714,20570,Undirected,白法婕,楊偉業,白崇禧,楊繼先,hasHusband,FALSE,Bai Chongxi,Yang Jixian
+12787,13656,20716,20974,Undirected,白鈴玉,邱創煥,白秀雄,邱創煥,hasHusband,FALSE,Bai Xiuxiong,Qiu Chuanghuan
+12788,12283,20717,20536,Undirected,白阿淑,梁其煙,白阿淑,梁其煙,hasHusband,FALSE,Bai Ashu,Liang Qiyan
+12789,13510,20718,20938,Undirected,皮以書,谷正鼎,皮以書,谷蘭皋,hasHusband,FALSE,Book,Gu Lanyu
+12790,12279,20719,20542,Undirected,盛守白,梁中銘,盛守白,梁鼎銘,hasHusband,FALSE,Sheng Shoubai,Liang Dingming
+12792,11943,20720,20506,Undirected,盛關頤,林熊徵,盛宣懷,林維讓,hasHusband,FALSE,Sheng Xuanhuai,Lin Weirang
+12793,12597,20721,20643,Undirected,盧乖,洪長庚,盧乖,淡水洪,hasHusband,FALSE,Lu Lu,Freshwater flood
+12794,14219,20723,21144,Undirected,盧千壽,陳隆志,盧安,陳隆志,hasHusband,FALSE,Lu'an,Chen Longzhi
+12795,13312,20723,20885,Undirected,盧千惠,許世楷,盧安,許世楷,hasHusband,FALSE,Lu'an,Xu Shikai
+12798,10857,20724,20182,Undirected,盧慕貞,孫文,盧慕貞,孫大成,hasHusband,FALSE,Lu Muzhen,Sun Dacheng
+12803,12657,20728,21196,Undirected,盧英,王天賞,盧英,高雄企行王,hasHusband,FALSE,Lu Ying,Wang from Gaoxiong
+12805,11192,20729,20304,Undirected,盧采貞,徐贏洲,盧采貞,徐清山,hasHusband,FALSE,Lu Caizhen,Xu Qingshan
+12806,10354,20730,20086,Undirected,盧願,劉錫五,盧願,台南劉,hasHusband,FALSE,Lu wish,Tainan Liu
+12807,13608,20731,20967,Undirected,盧鳳尾,辛西淮,盧鳳尾,辛連生,hasHusband,FALSE,Lu Fengwei,Xin Liansheng
+12810,11942,20732,20506,Undirected,石原光子,林熊光,石原光子,林維讓,hasHusband,FALSE,Mitsuko Ishihara,Lin Weirang
+12813,14128,20733,21047,Undirected,石川治子,陳田銘,石川治子,陳中和,hasHusband,FALSE,Haruko Ishikawa,Chen Zhonghe
+12818,10654,20734,20142,Undirected,石淑宜,呂鳳章,石鳳翔,呂鳳章,hasHusband,FALSE,Shi Fengxiang,Lu Fengzhang
+12832,13225,20734,20839,Undirected,石靜宜,蔣緯國,石鳳翔,蔣介石,hasHusband,FALSE,Shi Fengxiang,Chiang Kai -shek
+12835,12124,20735,20506,Undirected,神山澄子,林衡志,神山澄子,林維讓,hasHusband,FALSE,Sumiko Kamiyama,Lin Weirang
+12837,13858,20736,21075,Undirected,秦舜英,陳勉修,秦汾,陳履安,hasHusband,FALSE,Qinfen,Chen Lingan
+12838,13530,20171,20943,Undirected,秦舜華,賈德懷,嚴淦,賈德懷,hasHusband,FALSE,Yan Fu,Jia Dehuai
+12839,10105,20737,20019,Undirected,秦虹波,He縱炎,秦虹波,He應欽,hasHusband,FALSE,Qin Hongbo,He Yingqin
+12865,14348,20744,21166,Undirected,簡淡月,顏滄波,簡淡月,顏國年,hasHusband,FALSE,Light moon,Yan Guonian
+12867,11681,20746,20505,Undirected,簡碧霞,林宗敬,簡碧霞,林維源,hasHusband,FALSE,Jian Bixia,Lin Weiyuan
+12868,13948,20747,21075,Undirected,粘龍音,陳履義,粘龍音,陳履安,hasHusband,FALSE,Sticky dragon sound,Chen Lingan
+12872,14554,20756,21221,Undirected,羅佩珍,黃宗堯,羅萬俥,黃宗堯,hasHusband,FALSE,Luo Wanyi,Huang Zongyao
+12878,11548,20752,20479,Undirected,羅月瑩,林佾洲,羅月瑩,林清文,hasHusband,FALSE,Luo Yueying,Lin Qingwen
+12881,13837,20753,21074,Undirected,羅次穎,陳三立,羅次穎,陳寶箴,hasHusband,FALSE,Luo Ciying,Chen Baozhen
+12883,13292,20755,20875,Undirected,羅玉蘭,蘇重光,羅玉蘭,蘇紹文,hasHusband,FALSE,Luo Yulan,Su Shaowen
+12884,11420,20756,20387,Undirected,羅秀卿,李枝盈,羅萬俥,李枝盈,hasHusband,FALSE,Luo Wanyi,Li Zhiying
+12885,12530,20756,20625,Undirected,羅秀春,洪上琳,羅萬俥,洪上琳,hasHusband,FALSE,Luo Wanyi,Hong Shanglin
+12889,12284,20757,20542,Undirected,羅蓮姿,梁又銘,羅蓮姿,梁鼎銘,hasHusband,FALSE,Luo Lianzi,Liang Dingming
+12898,10680,20760,20153,Undirected,翁文苑,周浚源,翁瑞春,周浚源,hasHusband,FALSE,Weng Ruichun,Zhou Junyuan
+12900,13594,20759,20967,Undirected,翁梅,辛文炳,翁木,辛連生,hasHusband,FALSE,Wengmu,Xin Liansheng
+12901,11857,20760,20446,Undirected,翁梅苑,林根生,翁瑞春,林定邦,hasHusband,FALSE,Weng Ruichun,Lin Dingbang
+12904,13337,20758,20893,Undirected,翁淑治,許子秋,翁,許子秋,hasHusband,FALSE,Weng,Xu Ziqiu
+12905,14320,20758,21172,Undirected,翁淑霞,顏惠霖,翁,顏雲年,hasHusband,FALSE,Weng,Yan Yunnian
+12906,13274,20761,20866,Undirected,翁清鏡,蘇文如,翁紹煥,蘇文如,hasHusband,FALSE,Weng Shaohuan,Su Wenru
+12910,10357,20760,20076,Undirected,翁秀貞,劉闊才,翁瑞春,劉闊才,hasHusband,FALSE,Weng Ruichun,Liu Kuocai
+12912,13499,20762,20938,Undirected,翁翠君,谷恆,翁翠君,谷蘭皋,hasHusband,FALSE,Weng Cuijun,Gu Lanyu
+12914,14498,20760,21204,Undirected,翁芷香,魏邦彥,翁瑞春,魏邦彥,hasHusband,FALSE,Weng Ruichun,Weibangyan
+12918,13828,20761,21038,Undirected,翁錚錚,鍾騫,翁紹煥,鍾騫,hasHusband,FALSE,Weng Shaohuan,Zhongzhong
+12919,13688,20761,20986,Undirected,翁鏘鏘,郭天乙,翁紹煥,郭天乙,hasHusband,FALSE,Weng Shaohuan,Guo Tianyi
+12920,10677,20764,21031,Undirected,翁麗娟,周正剛,翁麗娟,金石堂周,hasHusband,FALSE,Weng Lijuan,Jinshitang Week
+12928,10985,20766,20232,Undirected,聶氏,張子武,聶爾康,張子武,hasHusband,FALSE,Nie Erkang,Zhang Ziwu
+12934,11852,20768,20505,Undirected,胡淑瑛,林松壽,胡淑瑛,林維源,hasHusband,FALSE,Hu Shuying,Lin Weiyuan
+12935,11146,20769,20293,Undirected,胡秀文,彭戰存,胡秀文,彭戰存,hasHusband,FALSE,Hu Xiuwen,Peng Zhancun
+12937,14132,20771,21115,Undirected,胡雅香,陳由賢,胡雅香,陳由豪,hasHusband,FALSE,Hu Yaxiang,Chen Youhao
+12939,12683,20773,20689,Undirected,范文華,王文祥,范文華,王永慶,hasHusband,FALSE,Fan Wenhua,Wang Yongqing
+12940,10657,20774,20162,Undirected,范青,周信義,范青,周陳玉樹,hasHusband,FALSE,Fan Qing,Zhou Chen Yushu
+12943,10796,20776,20175,Undirected,莊富淑,城振銘,莊富淑,城仲模,hasHusband,FALSE,Zhuang Fushu,Cheng Zhong Mo
+12945,10805,20778,20175,Undirected,莊愛姬,城燦樹,莊愛姬,城仲模,hasHusband,FALSE,Zhuang Aiji,Cheng Zhong Mo
+12948,11972,20781,20446,Undirected,莊榮榮,林瑞騰,莊榮榮,林定邦,hasHusband,FALSE,Zhuang Rongrong,Lin Dingbang
+12949,10804,20761,20175,Undirected,莊添治,城燦桐,翁紹煥,城仲模,hasHusband,FALSE,Weng Shaohuan,Cheng Zhong Mo
+12950,14279,20782,21163,Undirected,莊琇鸞,韓石泉,莊琇鸞,韓子星,hasHusband,FALSE,Zhuang Yan,Han Zixing
+12951,10413,20783,20095,Undirected,莊碧珠,吳俊陞,莊碧珠,吳修齊,hasHusband,FALSE,Zhuang Bizhu,Wu Xiuji
+12952,11539,20784,20446,Undirected,莊秋渠,林仲衡,莊秋渠,林定邦,hasHusband,FALSE,Zhuang Qiuqu,Lin Dingbang
+12953,14040,20785,21075,Undirected,莊素貞,陳正修,莊素貞,陳履安,hasHusband,FALSE,Zhuang Suzhen,Chen Lingan
+12954,14279,20782,21163,Undirected,莊綉鸞,韓石泉,莊琇鸞,韓子星,hasHusband,FALSE,Zhuang Yan,Han Zixing
+12957,10366,20787,20086,Undirected,莊采芳,劉青風,莊采芳,台南劉,hasHusband,FALSE,Zhuang Caifang,Tainan Liu
+12959,10116,20788,20019,Undirected,華水華,He輯五,華水華,He應欽,hasHusband,FALSE,Hua Shuihua,He Yingqin
+12960,12623,20791,20652,Undirected,萬嗣明,潘執守,萬紹謀,潘執守,hasHusband,FALSE,Wan Shao Mou,Pan Pan
+12967,12802,20791,20727,Undirected,萬彥姣,盧業竑,萬紹謀,盧業竑,hasHusband,FALSE,Wan Shao Mou,Lu Yehuan
+12968,12840,20791,20738,Undirected,萬彥娟,程展,萬紹謀,程展,hasHusband,FALSE,Wan Shao Mou,Exhibition
+12969,10057,20791,20014,Undirected,萬彥嬋,于葆理,萬紹謀,于葆理,hasHusband,FALSE,Wan Shao Mou,Yu Yili
+12970,13500,20789,20938,Undirected,萬由陪,谷泰,萬由陪,谷蘭皋,hasHusband,FALSE,Accompany,Gu Lanyu
+12971,10784,20790,20171,Undirected,萬祥瑛,嚴養和,萬祥瑛,嚴淦,hasHusband,FALSE,Wan Xiangying,Yan Fu
+12975,14575,20793,21228,Undirected,葉冬梅,黃成金,葉冬梅,黃成金,hasHusband,FALSE,Ye Dongmei,Huang Chengjin
+12979,11415,20795,20383,Undirected,葉如淳,李景隆,葉如淳庭,李景隆,hasHusband,FALSE,Ye Ruchun Ting,Li Jinglong
+12983,11353,20799,20357,Undirected,葉文可,朱漢民,葉明勳,朱漢民,hasHusband,FALSE,Ye Mingxun,Zhu Hanmin
+12984,12527,20799,20622,Undirected,葉文心,沙正治,葉明勳,沙正治,hasHusband,FALSE,Ye Mingxun,Sha Zhengzhi
+12986,11452,20799,20409,Undirected,葉文茲,李維仁,葉明勳,李維仁,hasHusband,FALSE,Ye Mingxun,Li Weiren
+12990,10941,20801,20216,Undirected,葉森,席裕強,葉森,席鑑庭,hasHusband,FALSE,Ye Sen,Xi Jianting
+12992,11273,20803,20334,Undirected,葉款,曹賜瑩,葉款,曹永和,hasHusband,FALSE,Leaf model,Cao Yonghe
+12994,10743,20804,20171,Undirected,葉淑英,嚴淦,葉淑英,嚴淦,hasHusband,FALSE,Ye Shuying,Yan Fu
+12996,13864,20805,21047,Undirected,葉清金,陳啓川,葉清金,陳中和,hasHusband,FALSE,Ye Qingjin,Chen Zhonghe
+13000,13313,20811,20889,Undirected,葉白,許丙,葉貓貓,許博允,hasHusband,FALSE,Leaf cat,Xu Boyun
+13011,11850,20807,20480,Undirected,葉鏡月,林東淦,葉爾純,林溫如,hasHusband,FALSE,Ya Erchun,Lin Wenru
+13012,10858,20813,20185,Undirected,葉雪珍,孫景華,葉雪珍,孫景華,hasHusband,FALSE,Ye Xuezhen,Sun Jinghua
+13013,13941,20814,21075,Undirected,葛玫,陳履定,葛玫,陳履安,hasHusband,FALSE,Ge Mei,Chen Lingan
+13014,13524,20815,20941,Undirected,葛珉,費騮,葛珉,費驊,hasHusband,FALSE,Ge Mo,Puppet
+13015,10259,20820,20053,Undirected,董亦萍,劉廣斌,董建華,劉廣斌,hasHusband,FALSE,Dong Jianhua,Liu Guangbin
+13024,11156,20820,20292,Undirected,董小萍,彭蔭剛,董建華,彭孟緝,hasHusband,FALSE,Dong Jianhua,Peng Mengli
+13032,14534,20823,20089,Undirected,董梨,黃天益,董梨,台南黃,hasHusband,FALSE,Dong Pear,Tainan Huang
+13041,14596,20825,21232,Undirected,蔡串,黃朝碧,蔡串,黃朝琴,hasHusband,FALSE,Cai Chuan,Huang Chaoqin
+13051,11938,20644,20485,Undirected,蔡佩琨,林烈堂,清水蔡惠如,林獻堂,hasHusband,FALSE,Qingshui Cai,Lin Xiantang
+13057,10603,20832,20132,Undirected,蔡創楣,吳金台,蔡碖,吳金台,hasHusband,FALSE,Cai Yan,Wu Jintai
+13059,12059,20832,20513,Undirected,蔡只,林自西,蔡碖,林自西,hasHusband,FALSE,Cai Yan,Lin Zixi
+13061,12405,20830,20577,Undirected,蔡啓怡,楊蘭洲,蔡法平,楊藍洲,hasHusband,FALSE,Cai Faping,Yang Lanzhou
+13063,10632,20830,20792,Undirected,蔡啓愉,呂天爵,蔡法平,萬華呂,hasHusband,FALSE,Cai Faping,Wanhua Lu
+13064,11935,20830,20441,Undirected,蔡啓懷,林濬哲,蔡法平,林坤鐘,hasHusband,FALSE,Cai Faping,Lin Kunzhong
+13065,12405,20830,20577,Undirected,蔡啟怡,楊蘭洲,蔡法平,楊藍洲,hasHusband,FALSE,Cai Faping,Yang Lanzhou
+13068,11935,20830,20441,Undirected,蔡啟懷,林濬哲,蔡法平,林坤鐘,hasHusband,FALSE,Cai Faping,Lin Kunzhong
+13071,11998,20644,20505,Undirected,蔡嬌霞,林祖壽,清水蔡惠如,林維源,hasHusband,FALSE,Qingshui Cai,Lin Weiyuan
+13079,14557,20837,21232,Undirected,蔡寅,黃宗海,蔡道文,黃朝琴,hasHusband,FALSE,Cai Daowen,Huang Chaoqin
+13087,13209,20828,20839,Undirected,蔡惠媚,蔣孝武,蔡惠媚,蔣介石,hasHusband,FALSE,Cai Huimei,Chiang Kai -shek
+13113,13327,20834,20893,Undirected,蔡明玟,許哲銘,蔡萬才,許子秋,hasHusband,FALSE,Cai Wancai,Xu Ziqiu
+13114,13349,20834,20890,Undirected,蔡明純,許明仁,蔡萬才,許啓祐,hasHusband,FALSE,Cai Wancai,Xu Qiyou
+13119,10090,20829,20020,Undirected,蔡桂英,He永,蔡桂英,He永,hasHusband,FALSE,Cai Guiying,How forever
+13132,12411,20826,20583,Undirected,蔡淑奿,楊陵祥,蔡培火,楊陵祥,hasHusband,FALSE,Cai Peihuo,Yang Lingxiang
+13133,11061,20826,20256,Undirected,蔡淑姈,張漢裕,蔡培火,張漢裕,hasHusband,FALSE,Cai Peihuo,Zhang Hanyu
+13134,13877,20174,21059,Undirected,蔡淑媛,陳國和,國泰蔡,陳國和,hasHusband,FALSE,Cathay Cai,Chen Guohe
+13135,12711,20826,20692,Undirected,蔡淑慧,王登全,蔡培火,王登全,hasHusband,FALSE,Cai Peihuo,Wang Dengquan
+13136,11971,20826,20492,Undirected,蔡淑文,林瑞雲,蔡培火,林瑞雲,hasHusband,FALSE,Cai Peihuo,Lin Ruiyun
+13138,13547,20826,20952,Undirected,蔡淑皜,賴淳彥,蔡培火,賴淳彥,hasHusband,FALSE,Cai Peihuo,Lai Chunyan
+13139,13852,20174,21053,Undirected,蔡淑貞,陳光博,國泰蔡,陳光博,hasHusband,FALSE,Cathay Cai,Chen Guangbo
+13141,10088,20831,20024,Undirected,蔡湘蘋,He榮庭,蔡湘蘋,He義,hasHusband,FALSE,Cai Xiang Ping,He He Yi
+13144,12550,20174,20631,Undirected,蔡玉串,洪恭逢,國泰蔡,洪恭逢,hasHusband,FALSE,Cathay Cai,Hong Gongfeng
+13145,10675,20174,20150,Undirected,蔡玉梅,周東寶,國泰蔡,周東寶,hasHusband,FALSE,Cathay Cai,Zhou Dongbao
+13146,11265,20174,20334,Undirected,蔡玉蘭,曹永裕,國泰蔡,曹永和,hasHusband,FALSE,Cathay Cai,Cao Yonghe
+13152,10041,20833,21206,Undirected,蔡秀瓊,丁錫勛,蔡秀瓊,鹿港丁,hasHusband,FALSE,Cai Xiuqiong,Kugang Daeda
+13154,13793,20644,20317,Undirected,蔡秋霞,鄭肇基,清水蔡惠如,新竹鄭,hasHusband,FALSE,Qingshui Cai,Xinzhu Zheng
+13155,13123,20086,20644,Undirected,蔡笑珍,蔡永賜,台南劉,清水蔡惠如,hasHusband,FALSE,Tainan Liu,Qingshui Cai
+13161,13326,20836,20889,Undirected,蔡純純,許博文,蔡進季,許博允,hasHusband,FALSE,Cai Jinji,Xu Boyun
+13175,10067,20827,20016,Undirected,蔡蕙心,He壽山,蔡得一,He傳,hasHusband,FALSE,Cai Deyi,How
+13179,10308,20174,20065,Undirected,蔡貴惠,劉清川,國泰蔡,劉清川,hasHusband,FALSE,Cathay Cai,Liu Qingchuan
+13180,11518,20174,20446,Undirected,蔡貴敏,林中寬,國泰蔡,林定邦,hasHusband,FALSE,Cathay Cai,Lin Dingbang
+13181,13035,20174,20824,Undirected,蔡貴清,董炯鑫,國泰蔡,董炯鑫,hasHusband,FALSE,Cathay Cai,Dong Jiongxin
+13182,13657,20174,20975,Undirected,蔡貴照,邱嘉雄,國泰蔡,邱嘉雄,hasHusband,FALSE,Cathay Cai,Qiu Jiaxiong
+13212,12287,20841,20542,Undirected,蔣希嫻,梁在平,蔣希嫻,梁鼎銘,hasHusband,FALSE,Jiang Xixian,Liang Dingming
+13213,13947,20842,21075,Undirected,蔣平,陳履碚,蔣平,陳履安,hasHusband,FALSE,Jiang Ping,Chen Lingan
+13215,13224,20839,20839,Undirected,蔣方良,蔣經國,蔣介石,蔣介石,hasHusband,TRUE,Chiang Kai -shek,Chiang Kai -shek
+13219,10889,20839,20196,Undirected,蔣瑞春,宋式倉,蔣介石,宋式倉,hasHusband,FALSE,Chiang Kai -shek,Song -style warehouse
+13221,12854,20839,20740,Undirected,蔣瑞蓮,竺芝珊,蔣介石,竺芝珊,hasHusband,FALSE,Chiang Kai -shek,Zhu Zhishan
+13227,10244,20846,20076,Undirected,蔣苔蘭,劉國康,蔣苔蘭,劉闊才,hasHusband,FALSE,Chiang Matan,Liu Kuocai
+13228,14270,20839,21162,Undirected,蔣華秀,韋永成,蔣介石,韋永成,hasHusband,FALSE,Chiang Kai -shek,Wei Yongcheng
+13238,13968,20849,21115,Undirected,蕭潤,陳彩庚,蕭潤,陳由豪,hasHusband,FALSE,Xiao Run,Chen Youhao
+13239,13295,20850,20881,Undirected,蕭瑛華,衣復恩,蕭瑛華,衣復恩,hasHusband,FALSE,Xiao Yinghua,Yifu
+13241,14130,20852,21115,Undirected,蕭米容,陳由哲,蕭米容,陳由豪,hasHusband,FALSE,Xiao Mirong,Chen Youhao
+13243,12516,20847,20618,Undirected,蕭美妙,沈祈彰,蕭安居,沈祈彰,hasHusband,FALSE,Xiao Anju,Shen Qichang
+13244,10641,20847,20140,Undirected,蕭美完,呂泉生,蕭安居,呂泉生,hasHusband,FALSE,Xiao Anju,Lu Quansheng
+13245,14180,20847,21128,Undirected,蕭美德,陳能通,蕭安居,陳能通,hasHusband,FALSE,Xiao Anju,Chen Nengtong
+13246,14093,20847,21111,Undirected,蕭美懷,陳炳郁,蕭安居,陳炳郁,hasHusband,FALSE,Xiao Anju,Chen Bingyu
+13247,12278,20847,20533,Undirected,蕭美玉,柯設偕,蕭安居,柯維思,hasHusband,FALSE,Xiao Anju,Kevis
+13248,14081,20847,21104,Undirected,蕭美珠,陳溪圳,蕭安居,陳溪圳,hasHusband,FALSE,Xiao Anju,Chenxizhen
+13249,11944,20854,20506,Undirected,蕭翠香,林熊祥,蕭翠香,林維讓,hasHusband,FALSE,Xiao Cuixiang,Lin Weirang
+13255,12427,20858,20588,Undirected,藍以恪,段輔堯,藍以恪,段輔堯,hasHusband,FALSE,Lan Yike,Duan Fuyao
+13257,11002,20859,20282,Undirected,藍奎,張山鐘,藍高全,張豐緒,hasHusband,FALSE,Lan Gaoquan,Zhang Fengxu
+13261,14305,20860,21172,Undirected,藍錦綿,顏德潤,藍高川,顏雲年,hasHusband,FALSE,River,Yan Yunnian
+13264,11953,20861,20485,Undirected,藤井愛子,林猶龍,藤井愛子,林獻堂,hasHusband,FALSE,Aiko Fujii,Lin Xiantang
+13265,12553,20862,20641,Undirected,蘇厲珠,洪慶徹,蘇厲珠,洪遜欣,hasHusband,FALSE,Su Lizhu,Hun Xunxin
+13266,12604,20875,20645,Undirected,蘇君琦,游宗熙,蘇紹文,游彌堅,hasHusband,FALSE,Su Shaowen,You Mi
+13267,13825,20875,21035,Undirected,蘇君瑋,錢致榕,蘇紹文,錢致榕,hasHusband,FALSE,Su Shaowen,Qian Zhirong
+13269,13569,20875,20957,Undirected,蘇君瑩,趙廣緒,蘇紹文,趙廣緒,hasHusband,FALSE,Su Shaowen,Zhao Guangxu
+13270,12463,20875,20599,Undirected,蘇君瑾,江海泰,蘇紹文,江海泰,hasHusband,FALSE,Su Shaowen,Jiang Haitai
+13271,10430,20863,20128,Undirected,蘇岡,吳天惠,蘇岡,吳英彪,hasHusband,FALSE,Sugang,Wu Yingbiao
+13275,14306,20867,21172,Undirected,蘇春江,顏德馨,蘇春江,顏雲年,hasHusband,FALSE,Su Chunjiang,Yan Yunnian
+13276,11536,20868,20431,Undirected,蘇曉薪,林仲平,蘇曉薪,林伯奏,hasHusband,FALSE,Su Xiao salary,Lin Bo
+13278,10167,20870,20035,Undirected,蘇森枝,侯永松,蘇森枝,侯雨利,hasHusband,FALSE,Sussen,Hou Yuli
+13279,12915,20871,20761,Undirected,蘇淑瑾,翁赫曦,蘇淑瑾,翁紹煥,hasHusband,FALSE,Su Shujin,Weng Shaohuan
+13280,14618,20872,20089,Undirected,蘇添愿,黃溪泉,蘇添愿,台南黃,hasHusband,FALSE,Su Tianyi,Tainan Huang
+13282,10721,20874,20172,Undirected,蘇素珍,嚴仲熊,蘇素珍,嚴復,hasHusband,FALSE,Su Suzhen,Yan Fu
+13285,10065,20876,20020,Undirected,蘇美智,He冠德,蘇英挺,He永,hasHusband,FALSE,Su Ying Ting,How forever
+13286,12334,20876,20551,Undirected,蘇美雪,楊子汀,蘇英挺,楊子汀,hasHusband,FALSE,Su Ying Ting,Yang Ziting
+13290,13939,20877,21075,Undirected,蘇莉,陳履凱,蘇莉,陳履安,hasHusband,FALSE,Su Li,Chen Lingan
+13291,12556,20878,20641,Undirected,蘇貴姿,洪慶陽,蘇貴姿,洪遜欣,hasHusband,FALSE,Su Guizi,Hun Xunxin
+13293,10148,20879,20035,Undirected,蘇錦倩,侯博義,蘇錦倩,侯雨利,hasHusband,FALSE,Su Jinqian,Hou Yuli
+13294,11574,20880,20087,Undirected,蘇麵,林全福,蘇麵,台南林,hasHusband,FALSE,Noodle,Lin from Tainan
+13297,12473,20881,20605,Undirected,衣淑凡,汪士弘,衣復恩,汪捷三,hasHusband,FALSE,Yifu,Wang Jie San
+13306,12938,20883,20772,Undirected,袁旉,舒岸立,袁守謙,舒岸立,hasHusband,FALSE,Yuan Shouqian,Shu Anli
+13307,12944,20883,20777,Undirected,袁旔,莊志澄,袁守謙,莊志澄,hasHusband,FALSE,Yuan Shouqian,Dawn
+13308,13007,20883,20812,Undirected,袁旖,葉貴恩,袁守謙,葉貴恩,hasHusband,FALSE,Yuan Shouqian,Ye Guien
+13310,12308,20883,20570,Undirected,袁閼,楊偉人,袁守謙,楊繼先,hasHusband,FALSE,Yuan Shouqian,Yang Jixian
+13311,12931,20884,20767,Undirected,西山經子,胡均發,西山經子,胡均發,hasHusband,FALSE,Nishiyama Mergo,Hu Junfa
+13316,14637,20886,21247,Undirected,許倪,黃秀卿,許倪,黃秀卿,hasHusband,FALSE,Xu Ni,Huang Xiuqing
+13334,11180,20888,20310,Undirected,許娟娟,徐正青,許勝發,徐鳳鳴,hasHusband,FALSE,Xu Shengfa,Xu Fengming
+13335,10776,20892,20171,Undirected,許婉禎,嚴雋泰,許婉禎,嚴淦,hasHusband,FALSE,Xu Wanzheng,Yan Fu
+13336,10522,20888,20114,Undirected,許嫺嫺,吳東進,許勝發,吳火獅,hasHusband,FALSE,Xu Shengfa,Wu Huoshi
+13340,13328,20890,20890,Undirected,許張愛簾,許啓祐,許啓祐,許啓祐,hasHusband,TRUE,Xu Qiyou,Xu Qiyou
+13346,13254,20889,20857,Undirected,許敏華,薩摩斯_查理,許博允,薩摩斯,hasHusband,FALSE,Xu Boyun,Samsus
+13347,14395,20896,21175,Undirected,許文容,顧祝同,許文容,顧祝同,hasHusband,FALSE,Xu Wenrong,Gu Zhutong
+13353,14490,20898,21200,Undirected,許月桂,魏炳炎,許月桂,魏火曜,hasHusband,FALSE,Xu Yuegui,Wei Fire
+13364,11453,20901,20381,Undirected,許淑敏,李維禎,許淑敏,李春生,hasHusband,FALSE,Xu Shumin,Li Chunsheng
+13365,11965,20893,20489,Undirected,許瀞心,林瑞光,許子秋,林瑞光,hasHusband,FALSE,Xu Ziqiu,Lin Ruiguang
+13366,11112,20889,20258,Undirected,許玉暄,張裕泰,許博允,張炎虎,hasHusband,FALSE,Xu Boyun,Zhang Yanhu
+13367,12305,20902,20543,Undirected,許玉燕,楊三郎,許玉燕,楊克彰,hasHusband,FALSE,Xu Yuyan,Yang Kezhang
+13368,11423,20889,20390,Undirected,許瑞暖,李榮龍,許博允,李榮龍,hasHusband,FALSE,Xu Boyun,Li Ronglong
+13374,14631,20889,21222,Undirected,許碧瑜,黃當時,許博允,黃崇仁,hasHusband,FALSE,Xu Boyun,Huang Chongren
+13375,14304,20889,21172,Undirected,許碧霞,顏德修,許博允,顏雲年,hasHusband,FALSE,Xu Boyun,Yan Yunnian
+13376,12318,20889,20550,Undirected,許秀子,楊國斌,許博允,楊子培,hasHusband,FALSE,Xu Boyun,Yang Zipei
+13381,13591,20905,20967,Undirected,許那美,辛忠道,許那美,辛連生,hasHusband,FALSE,Xu Nami,Xin Liansheng
+13382,10962,20889,20228,Undirected,許雪,張伯勳,許博允,張園,hasHusband,FALSE,Xu Boyun,Zhangyuan
+13397,12745,20910,20689,Undirected,詹樣,王長庚,詹樣,王永慶,hasHusband,FALSE,Sample,Wang Yongqing
+13399,11012,20912,20232,Undirected,談國芬,張心治,談國芬,張子武,hasHusband,FALSE,Talk about Guofen,Zhang Ziwu
+13419,14444,20917,21191,Undirected,謝妍妍,高智裕,謝妍妍,高湯盤,hasHusband,FALSE,Xie Yanyan,Soup plate
+13425,12495,20926,20613,Undirected,謝寧秀,沈君山,謝灝齡,沈宗瀚,hasHusband,FALSE,Xie Yiling,Shen Zonghan
+13427,12249,20921,20461,Undirected,謝式冰,林高德,謝東閔,林敬義,hasHusband,FALSE,Xie Dongmin,Lin Jingyi
+13428,10412,20921,20094,Undirected,謝式如,吳俊民,謝東閔,吳三連,hasHusband,FALSE,Xie Dongmin,Wu Sanlian
+13433,13616,20919,20968,Undirected,謝戴慶,辜啓允,謝戴慶,辜顯榮,hasHusband,FALSE,Xie Yingqing,Gu Xianrong
+13444,12895,20922,20760,Undirected,謝桂英,翁廷茂,謝桂英,翁瑞春,hasHusband,FALSE,Katsura and Ei,Weng Ruichun
+13456,13304,20926,20883,Undirected,謝渝秀,袁旂,謝灝齡,袁守謙,hasHusband,FALSE,Xie Yiling,Yuan Shouqian
+13458,14297,20925,21172,Undirected,謝滿,顏國年,謝滿,顏雲年,hasHusband,FALSE,Gratitude,Yan Yunnian
+13466,14088,20915,21108,Undirected,謝綺蘭,陳炘,謝國城,陳炘,hasHusband,FALSE,Xie Guocheng,Stagnant
+13467,11633,20933,20469,Undirected,謝罕見,林堉琪,謝隆盛,林榮三,hasHusband,FALSE,Xie Longsheng,Lin Rongsan
+13468,10665,20929,20162,Undirected,謝美芬,周安雄,謝美芬,周陳玉樹,hasHusband,FALSE,Xie Meifen,Zhou Chen Yushu
+13469,10507,20930,20095,Undirected,謝美鈴,吳昭男,謝美鈴,吳修齊,hasHusband,FALSE,Xie Meiling,Wu Xiuji
+13471,10806,20931,20175,Undirected,謝肇雪,城燦煌,謝肇雪,城仲模,hasHusband,FALSE,Xie Zhaoxue,Cheng Zhong Mo
+13473,11007,20918,20237,Undirected,謝蕙芳,張建祥,謝成源,張建祥,hasHusband,FALSE,Xie Chengyuan,Zhang Jianxiang
+13479,13480,20934,20936,Undirected,譚乃麗,譚伯羽,譚乃麗,譚文勤,hasHusband,FALSE,Tan Naili,Tan Wenqin
+13482,13517,20935,20941,Undirected,譚安蜜,費宗浩,譚安蜜,費驊,hasHusband,FALSE,Tan Anmi,Puppet
+13488,13299,20936,20882,Undirected,譚淑,袁仲頤,譚文勤,袁仲頤,hasHusband,FALSE,Tan Wenqin,Yuan Zhongyi
+13489,14194,20936,21075,Undirected,譚祥,陳誠,譚文勤,陳履安,hasHusband,FALSE,Tan Wenqin,Chen Lingan
+13490,13283,20937,20875,Undirected,譚素容,蘇紹文,譚素容,蘇紹文,hasHusband,FALSE,Tan Surong,Su Shaowen
+13491,10002,20936,20002,Undirected,譚艾令,Ricahrd_B._Palmer,譚文勤,Ricahrd_B._Palmer,hasHusband,FALSE,Tan Wenqin,Ricahrd_B._Palmer
+13492,13856,20936,21054,Undirected,譚韻,陳冠澄,譚文勤,陳冠澄,hasHusband,FALSE,Tan Wenqin,Chen Guancheng
+13514,13954,20940,21075,Undirected,貝諾仁,陳平-1,貝諾仁,陳履安,hasHusband,FALSE,Benno,Chen Lingan
+13519,10012,20941,20004,Undirected,費宗清,丁善理,費驊,丁唯農,hasHusband,FALSE,Puppet,Ding Weinong
+13540,11546,20949,20479,Undirected,賴明秋,林佾康,賴明秋,林清文,hasHusband,FALSE,Lai Mingqiu,Lin Qingwen
+13543,10922,20945,20208,Undirected,賴曉倫,居文,賴名湯,居定賢,hasHusband,FALSE,Lai Ming Tang,Ju Dingxian
+13549,10415,20953,20095,Undirected,賴蓮樵,吳修齊,賴蓮樵,吳修齊,hasHusband,FALSE,Lai Lianyu,Wu Xiuji
+13551,13289,20950,20876,Undirected,賴銅梅,蘇英挺,賴森林,蘇英挺,hasHusband,FALSE,Lai Forest,Su Ying Ting
+13552,12800,20950,20725,Undirected,賴銅照,盧智超,賴森林,盧智超,hasHusband,FALSE,Lai Forest,Lu Zhichao
+13554,12425,20954,20588,Undirected,賴靜芬,段光復,賴靜芬,段輔堯,hasHusband,FALSE,Lai Jingfen,Duan Fuyao
+13574,13027,20960,20820,Undirected,趙洪娉,董建華,趙洪娉,董建華,hasHusband,FALSE,Zhao Hongyi,Dong Jianhua
+13577,12988,20966,20807,Undirected,趙漱青,葉書田,趙鍾麒,葉爾純,hasHusband,FALSE,Zhao Zhongqi,Ya Erchun
+13578,13521,20962,20941,Undirected,趙珊,費宗澄,趙珊,費驊,hasHusband,FALSE,Zhao Shan,Puppet
+13579,12845,20963,20839,Undirected,趙申德,章孝慈,趙申德,蔣介石,hasHusband,FALSE,Zhao Shende,Chiang Kai -shek
+13582,13648,20965,20969,Undirected,趙蘭坤,連震東,趙蘭坤,連戰,hasHusband,FALSE,Zhao Lankun,Launch of war
+13601,11232,20967,20324,Undirected,辛永蓮,方雲祥,辛連生,方雲祥,hasHusband,FALSE,Xin Liansheng,Fang Yunxiang
+13606,10599,20967,20535,Undirected,辛美慧,吳運東,辛連生,桃園吳,hasHusband,FALSE,Xin Liansheng,Taoyuan Wu
+13607,11425,20967,20392,Undirected,辛美智,李正明,辛連生,李正明,hasHusband,FALSE,Xin Liansheng,Li Zhengming
+13611,13846,20968,21050,Undirected,辜仲玉,陳俊哲,辜顯榮,陳俊哲,hasHusband,FALSE,Gu Xianrong,Chen Junzhe
+13619,10989,20968,20242,Undirected,辜懷如,張安平,辜顯榮,張敏鈺,hasHusband,FALSE,Gu Xianrong,Zhang Minyu
+13620,13559,20968,20958,Undirected,辜懷箴,趙元修,辜顯榮,趙廷箴,hasHusband,FALSE,Gu Xianrong,Zhao Tingzhen
+13621,12930,20968,20767,Undirected,辜懷群,胡其龍,辜顯榮,胡均發,hasHusband,FALSE,Gu Xianrong,Hu Junfa
+13624,10028,20968,21206,Undirected,辜敦治,丁瑞彬,辜顯榮,鹿港丁,hasHusband,FALSE,Gu Xianrong,Kugang Daeda
+13626,14682,20968,21243,Undirected,辜津治,黃逢平,辜顯榮,黃玉麟,hasHusband,FALSE,Gu Xianrong,Huang Yulin
+13629,13233,20968,20848,Undirected,辜秀治,蕭成美,辜顯榮,蕭成美,hasHusband,FALSE,Gu Xianrong,Xiao Chengmei
+13630,14198,20968,21137,Undirected,辜註治,陳贊治,辜顯榮,陳贊治,hasHusband,FALSE,Gu Xianrong,Chen Zanzhi
+13633,13915,20968,21068,Undirected,辜麗卿,陳守實,辜顯榮,陳守山,hasHusband,FALSE,Gu Xianrong,Chen Shoushan
+13637,11540,20969,20431,Undirected,連夏甸,林伯奏,連戰,林伯奏,hasHusband,FALSE,Launch of war,Lin Bo
+13638,13966,20969,21094,Undirected,連惠心,陳弘元,連戰,陳查某,hasHusband,FALSE,Launch of war,Chen Chamou
+13641,11195,20970,20310,Undirected,連月,徐風和,連月,徐鳳鳴,hasHusband,FALSE,Consecutive month,Xu Fengming
+13642,11845,20971,20466,Undirected,連柑,林木桂,連柑,林木桂,hasHusband,FALSE,Mandarin,Lin Mugui
+13644,14656,20969,21254,Undirected,連秋漢,黃綺堂,連戰,黃綺堂,hasHusband,FALSE,Launch of war,Huang Qitang
+13649,11206,20973,20315,Undirected,連鯤菁,戴怡德,連鯤菁,戴鳳倚,hasHusband,FALSE,Lian Ji Jing,Dai Fengyi
+13652,10937,20977,20213,Undirected,邱伊伶,巫宗源,邱文慶,巫宗源,hasHusband,FALSE,Qiu Wenqing,Wu Zongyuan
+13654,14127,20974,21047,Undirected,邱佩琳,陳田鈺,邱創煥,陳中和,hasHusband,FALSE,Qiu Chuanghuan,Chen Zhonghe
+13669,10307,20978,20060,Undirected,邱秀Cun,劉清井,邱秀Cun,劉明朝,hasHusband,FALSE,Qiu Xiucun,Liu Mingchao
+13670,10788,20979,20175,Undirected,邱秀梅,城偉峻,邱秀梅,城仲模,hasHusband,FALSE,Qiu Xiumei,Cheng Zhong Mo
+13674,11608,20980,20440,Undirected,邱誠,林呈祿,邱誠,林呈祿,hasHusband,FALSE,Qiu Cheng,Lin Chenglu
+13675,13970,20978,20085,Undirected,邱阿慎,陳彩龍,邱秀Cun,台中陳,hasHusband,FALSE,Qiu Xiucun,Taichung Chen
+13680,14248,20983,21153,Undirected,邵湘聆,陶一珊,邵湘聆,陶一珊,hasHusband,FALSE,Shao Xianglin,Tao Yishan
+13681,13580,20984,20959,Undirected,郎英,趙耀東,郎醒石,趙棣華,hasHusband,FALSE,Lang Xingshi,Zhao Yanhua
+13683,10575,20987,20125,Undirected,郭以德,吳翰周,郭天恩,吳翰周,hasHusband,FALSE,Guo Tianen,Wu Hanzhou
+13684,14595,20989,21232,Undirected,郭佩雲,黃朝琴,郭左淇,黃朝琴,hasHusband,FALSE,Guo Zuoqi,Huang Chaoqin
+13690,10214,20987,20042,Undirected,郭婉容,倪文亞,郭天恩,倪文亞,hasHusband,FALSE,Guo Tianen,Ni Wenya
+13690,10273,20987,20056,Undirected,郭婉容,劉慶瑞,郭天恩,劉慶瑞,hasHusband,FALSE,Guo Tianen,Liu Qingrui
+13691,11032,20987,20243,Undirected,郭嬗容,張文Cun,郭天恩,張文Cun,hasHusband,FALSE,Guo Tianen,Zhang Wencun
+13692,12093,20987,20515,Undirected,郭孋容,林莊生,郭天恩,林莊生,hasHusband,FALSE,Guo Tianen,Lin Zhuangsheng
+13702,14203,20990,21138,Undirected,郭希韞,陳逢源,郭希韞,陳逢源,hasHusband,FALSE,Guo Xizheng,Chen Fengyuan
+13713,10096,20993,20019,Undirected,郭文璐,He紹弇,郭文璐,He應欽,hasHusband,FALSE,Guo Wenlu,He Yingqin
+13714,12095,20992,20458,Undirected,郭文艷,林蔚山,郭德焜,林挺生,hasHusband,FALSE,Guo Dezheng,Lin Tingsheng
+13715,11683,20994,20505,Undirected,郭春,林宗賢,郭春,林維源,hasHusband,FALSE,Guo Chun,Lin Weiyuan
+13717,12691,20995,20689,Undirected,郭月蘭,王永慶,郭月蘭,王永慶,hasHusband,FALSE,Guo Yuelan,Wang Yongqing
+13719,12908,20997,20760,Undirected,郭珍珠,翁瑞春,郭珍珠,翁瑞春,hasHusband,FALSE,Guo Pear,Weng Ruichun
+13720,10000,21003,20000,Undirected,郭瑛玉,Dan_Bird,郭金塔,Dan_Bird,hasHusband,FALSE,Guo Jinta,Dan_bird
+13722,14683,20991,21243,Undirected,郭碧玉,黃逢春,郭廷俊,黃玉麟,hasHusband,FALSE,Guo Tingjun,Huang Yulin
+13723,14564,20998,21247,Undirected,郭秀幸,黃川津,郭秀幸,黃秀卿,hasHusband,FALSE,Guo Xiuxing,Huang Xiuqing
+13724,14564,20999,21247,Undirected,郭秀辜,黃川津,郭秀辜,黃秀卿,hasHusband,FALSE,Guo Xiugu,Huang Xiuqing
+13725,14343,21000,21172,Undirected,郭美錦,顏欽賢,郭美錦,顏雲年,hasHusband,FALSE,Guo Meijin,Yan Yunnian
+13726,13402,21003,20915,Undirected,郭蕙玉,謝南強,郭金塔,謝國城,hasHusband,FALSE,Guo Jinta,Xie Guocheng
+13728,11538,21001,20431,Undirected,郭豫芬,林仲秋,郭豫倫,林伯奏,hasHusband,FALSE,Guo Yulun,Lin Bo
+13731,10583,21004,20095,Undirected,郭靜萱,吳英辰,郭靜萱,吳修齊,hasHusband,FALSE,Guo Jingxuan,Wu Xiuji
+13737,12680,21009,20689,Undirected,鄧美苓,王文淵,鄧美苓,王永慶,hasHusband,FALSE,Deng Meiling,Wang Yongqing
+13742,12133,21011,20506,Undirected,鄭和枝,林衡達,鄭和枝,林維讓,hasHusband,FALSE,Geong -ki Branch,Lin Weirang
+13749,12995,21024,20797,Undirected,鄭壽美,葉淑雄,鄭興,葉廷珪,hasHusband,FALSE,Zheng Xing,Ye Tingyi
+13757,11508,21013,20427,Undirected,鄭寵兒,杜祖誠,鄭寵兒,杜聰明,hasHusband,FALSE,Zheng Yaya,Du Chongming
+13763,12125,21014,20506,Undirected,鄭昭枝,林衡恢,鄭昭枝,林維讓,hasHusband,FALSE,Zheng Zhaizhi,Lin Weirang
+13764,10809,21015,20175,Undirected,鄭月惠,城益男,鄭月惠,城仲模,hasHusband,FALSE,Zheng Yuehui,Cheng Zhong Mo
+13765,11718,21016,20469,Undirected,鄭查某,林建生,鄭查某,林榮三,hasHusband,FALSE,Zheng Chamou,Lin Rongsan
+13772,12520,21018,20620,Undirected,鄭淑卿,沈葆楨,鄭淑卿,沈葆楨,hasHusband,FALSE,Zheng Shuqing,Shen Zhen
+13774,13595,21019,20967,Undirected,鄭添貴,辛文蘭,鄭添貴,辛連生,hasHusband,FALSE,Zheng Tiangui,Xin Liansheng
+13775,13323,20888,20888,Undirected,鄭溫溫,許勝發,許勝發,許勝發,hasHusband,TRUE,Xu Shengfa,Xu Shengfa
+13776,12519,21024,20619,Undirected,鄭火貴,沈翰林,鄭興,沈翰林,hasHusband,FALSE,Zheng Xing,Shen Hanlin
+13780,14440,21021,21187,Undirected,鄭瑩,高承恕,鄭瑩,高信,hasHusband,FALSE,Zheng Ying,High tronel
+13787,13854,21025,21150,Undirected,鄭真,陳公亮,鄭貞文,陳靜齋,hasHusband,FALSE,Zheng Zhenwen,Chen Jingzhai
+13790,12335,21010,20584,Undirected,鄭綿綿,楊孟霖,鄭周敏,楊鴻游,hasHusband,FALSE,Zheng Zhoumin,Yang Hongyou
+13791,12680,21022,20689,Undirected,鄭美笭,王文淵,鄭美笭,王永慶,hasHusband,FALSE,Zheng Meizhen,Wang Yongqing
+13792,12176,21023,20505,Undirected,鄭翩翩,林金生-1,鄭翩翩,林維源,hasHusband,FALSE,Zheng Pician,Lin Weiyuan
+13799,13405,20317,20913,Undirected,鄭蓁蓁,謝喆兟,新竹鄭,謝介石,hasHusband,FALSE,Xinzhu Zheng,Xie Jieshi
+13802,10129,21026,20030,Undirected,鄭貴蓮,余政憲,鄭貴蓮,余登發,hasHusband,FALSE,Zheng Guilian,Yu Dengfa
+13805,14073,21024,21115,Undirected,鄭銀治,陳清曉,鄭興,陳由豪,hasHusband,FALSE,Zheng Xing,Chen Youhao
+13807,13363,21028,20893,Undirected,鄭雪梨,許洸瑜,鄭雪梨,許子秋,hasHusband,FALSE,Zheng Snow Prix,Xu Ziqiu
+13808,13345,20317,20889,Undirected,鄭靜吟,許敏欣,新竹鄭,許博允,hasHusband,FALSE,Xinzhu Zheng,Xu Boyun
+13812,11631,20317,20485,Undirected,鄭順娘,林垂訓,新竹鄭,林獻堂,hasHusband,FALSE,Xinzhu Zheng,Lin Xiantang
+13817,12453,21029,20592,Undirected,金梅琳,毛高文,金梅琳,毛贊廷,hasHusband,FALSE,Jin Meilin,Mao Zhanting
+13819,10943,21032,20216,Undirected,金竹琴,席鑑庭,金竹琴,席鑑庭,hasHusband,FALSE,Golden bamboo,Xi Jianting
+13820,11729,21033,20087,Undirected,金紫蝶,林忠雄,金紫蝶,台南林,hasHusband,FALSE,Golden purple butterfly,Lin from Tainan
+13824,14327,21034,21167,Undirected,錢慧麗,顏政雄,錢慧麗,顏岫峰,hasHusband,FALSE,Qian Huili,Yan Yanfeng
+13826,13651,21036,20981,Undirected,鍾任君,邱仕豐,鍾任君,邱阿雄,hasHusband,FALSE,Zhong Renjun,Qiu Axion
+13827,14428,21037,21187,Undirected,鍾佩華,高信,鍾佩華,高信,hasHusband,FALSE,Zhong Peihua,High tronel
+13829,10303,21039,20086,Undirected,鍾惠玲,劉正雄,鍾惠玲,台南劉,hasHusband,FALSE,Zhong Huiling,Tainan Liu
+13830,11680,21040,20505,Undirected,鍾鑾嬌,林宗慎,鍾鑾嬌,林維源,hasHusband,FALSE,Cheating,Lin Weiyuan
+13831,14119,21041,21047,Undirected,鐘慧喜,陳田柏,鐘慧喜,陳中和,hasHusband,FALSE,Zhong Huixi,Chen Zhonghe
+13832,14124,21042,21047,Undirected,鐘素娥,陳田稻,鐘素娥,陳中和,hasHusband,FALSE,Zhong Su'e,Chen Zhonghe
+13833,10704,21043,20162,Undirected,闕尾娘,周陳玉樹,闕尾娘,周陳玉樹,hasHusband,FALSE,Palace girl,Zhou Chen Yushu
+13838,11579,21046,20087,Undirected,陳不纏,林全金,陳不纏,台南林,hasHusband,FALSE,Be entangled,Lin from Tainan
+13841,11488,21048,20423,Undirected,陳乖,李騰嶽,陳乖,李騰嶽,hasHusband,FALSE,Obedient,Li Tengyue
+13847,13186,21051,20174,Undirected,陳保枝,蔡辰男,陳保枝,國泰蔡,hasHusband,FALSE,Chen Baozhi,Cathay Cai
+13853,12647,21047,20666,Undirected,陳光芬,王傅芳,陳中和,王傅芳,hasHusband,FALSE,Chen Zhonghe,Wang Fufang
+13859,14595,21055,21232,Undirected,陳印蓮,黃朝琴,陳印蓮,黃朝琴,hasHusband,FALSE,Chen Yinlian,Huang Chaoqin
+13893,10729,21061,20172,Undirected,陳大蕾,嚴大為,陳大蕾,嚴復,hasHusband,FALSE,Chen Dalei,Yan Fu
+13897,11302,21137,20336,Undirected,陳奕奕,曾浴沂,陳贊治,曾依仁,hasHusband,FALSE,Chen Zanzhi,Zeng Yiren
+13899,14672,21064,21259,Undirected,陳娥,黃聯登,陳娥,黃聯登,hasHusband,FALSE,Chen'e,Huang Liandeng
+13900,10028,21065,21206,Undirected,陳婉如,丁瑞彬,陳婉如,鹿港丁,hasHusband,FALSE,Chen Wanru,Kugang Daeda
+13902,10597,21066,20535,Undirected,陳媛梅,吳運彰,陳媛梅,桃園吳,hasHusband,FALSE,Chen Yuanmei,Taoyuan Wu
+13923,11256,21068,20334,Undirected,陳安慧,曹昌祺,陳守山,曹永和,hasHusband,FALSE,Chen Shoushan,Cao Yonghe
+13924,13324,21068,20889,Undirected,陳安瀾,許博偉,陳守山,許博允,hasHusband,FALSE,Chen Shoushan,Xu Boyun
+13925,11524,21068,20498,Undirected,陳安琪,林于昉,陳守山,林秋江,hasHusband,FALSE,Chen Shoushan,Lin Qiujiang
+13926,12682,21068,20689,Undirected,陳安靜,王文潮,陳守山,王永慶,hasHusband,FALSE,Chen Shoushan,Wang Yongqing
+13931,12632,21071,20656,Undirected,陳宿,潘致祥,陳宿,潘致祥,hasHusband,FALSE,Chen Su,Pan Zhixiang
+13933,11634,21072,20469,Undirected,陳寶月,林堉璘,陳寶月,林榮三,hasHusband,FALSE,Chen Baoyue,Lin Rongsan
+13934,10428,21068,20099,Undirected,陳寶珠,吳培銓,陳守山,吳培銓,hasHusband,FALSE,Chen Shoushan,Wu Peizheng
+13937,10669,21068,20146,Undirected,陳寶釵,周敏益,陳守山,周敏益,hasHusband,FALSE,Chen Shoushan,Zhou Minyi
+13938,13005,21068,20810,Undirected,陳寶霞,葉萬福,陳守山,葉萬福,hasHusband,FALSE,Chen Shoushan,Ye Wanfu
+13942,14409,21075,21181,Undirected,陳履寧,馬振榮,陳履安,馬振榮,hasHusband,FALSE,Chen Lingan,Ma Zhenrong
+13949,13387,21075,20906,Undirected,陳履遵,許餘定,陳履安,許餘定,hasHusband,FALSE,Chen Lingan,Xu Yuding
+13950,12312,21089,20545,Undirected,陳己,楊六合,陳星恆,楊六合,hasHusband,FALSE,Chen Xingheng,Yang Liuhe
+13952,11944,21073,20506,Undirected,陳師桓,林熊祥,陳寶琛,林維讓,hasHusband,FALSE,Chen Baochen,Lin Weirang
+13955,10126,21075,20028,Undirected,陳幸,余傳韜,陳履安,余菊,hasHusband,FALSE,Chen Lingan,Yu Ju
+13969,13169,21142,20174,Undirected,陳彩蓮,蔡萬德,陳長壽,國泰蔡,hasHusband,FALSE,Chen Changshou,Cathay Cai
+13980,13499,21047,20938,Undirected,陳怡君,谷恆,陳中和,谷蘭皋,hasHusband,FALSE,Chen Zhonghe,Gu Lanyu
+13984,10442,21047,20095,Undirected,陳怡慈,吳威德,陳中和,吳修齊,hasHusband,FALSE,Chen Zhonghe,Wu Xiuji
+13992,10517,21081,20114,Undirected,陳惠珠,吳東明,陳惠珠,吳火獅,hasHusband,FALSE,Chen Huizhu,Wu Huoshi
+13993,11202,21075,20311,Undirected,陳愉,應禮賢,陳履安,應禮賢,hasHusband,FALSE,Chen Lingan,Ying Li Xian
+13994,13389,20085,20909,Undirected,陳愛珠,詹位,台中陳,詹國,hasHusband,FALSE,Taichung Chen,Zhan State
+13996,10793,21083,20175,Undirected,陳招,城夭壽,陳招,城仲模,hasHusband,FALSE,Chen Zhao,Cheng Zhong Mo
+13997,11766,21084,20469,Undirected,陳招治,林慶章,陳招治,林榮三,hasHusband,FALSE,Chen Zhaizhi,Lin Rongsan
+14005,11359,21086,20354,Undirected,陳政治,朱華陽,陳政治,朱昭陽,hasHusband,FALSE,Chen politics,Zhu Zhaoyang
+14007,14588,21115,21231,Undirected,陳敏子,黃昭睿,陳由豪,黃昭睿,hasHusband,FALSE,Chen Youhao,Huang Zhaorui
+14008,14586,21115,21230,Undirected,陳文子,黃明富,陳由豪,黃明富,hasHusband,FALSE,Chen Youhao,Huang Mingfu
+14009,14654,20202,21259,Undirected,陳文惠,黃維幸,宜蘭陳,黃聯登,hasHusband,FALSE,Yilan Chen,Huang Liandeng
+14012,12870,21047,20749,Undirected,陳文芳,紀陸驤,陳中和,紀陸驤,hasHusband,FALSE,Chen Zhonghe,Ji Luyi
+14014,10191,21074,20036,Undirected,陳新午,俞大維,陳寶箴,俞大維,hasHusband,FALSE,Chen Baozhen,Yu Dawei
+14016,11505,21088,20427,Undirected,陳明珠,杜祖信,陳明珠,杜聰明,hasHusband,FALSE,Chen Mingzhu,Du Chongming
+14019,10480,20202,20106,Undirected,陳映雪,吳成文,宜蘭陳,吳成文,hasHusband,FALSE,Yilan Chen,Wu Chengwen
+14026,12574,21091,20641,Undirected,陳月,洪火煉,陳月,洪遜欣,hasHusband,FALSE,Chen Yue,Hun Xunxin
+14028,14254,21093,21153,Undirected,陳東彥,陶鴻慶,陳東彥,陶一珊,hasHusband,FALSE,Chen Dongyan,Tao Yishan
+14031,14567,21095,21222,Undirected,陳桂花,黃得時,陳桂花,黃崇仁,hasHusband,FALSE,Chen Guihua,Huang Chongren
+14032,10464,21137,20103,Undirected,陳桃桃,吳幼璋,陳贊治,吳幼璋,hasHusband,FALSE,Chen Zanzhi,Wu Youzhang
+14043,13752,21089,20317,Undirected,陳氏,鄭如蘭,陳星恆,新竹鄭,hasHusband,FALSE,Chen Xingheng,Xinzhu Zheng
+14044,13507,21101,20938,Undirected,陳氏1,谷正倫,陳氏1,谷蘭皋,hasHusband,FALSE,Chen's 1,Gu Lanyu
+14046,14689,21115,21262,Undirected,陳水蓮,黃金相,陳由豪,黃金相,hasHusband,FALSE,Chen Youhao,Golden phase
+14050,13660,21047,20977,Undirected,陳淀,邱文慶,陳中和,邱文慶,hasHusband,FALSE,Chen Zhonghe,Qiu Wenqing
+14052,11904,20202,20473,Undirected,陳淑娟,林永鑫,宜蘭陳,林永鑫,hasHusband,FALSE,Yilan Chen,Lin Yongxin
+14054,10551,21151,20102,Undirected,陳淑巧,吳源源,陳鴻鳴,吳尚震,hasHusband,FALSE,Chen Hongming,Wu Shangzhen
+14055,14317,21068,21172,Undirected,陳淑惠,顏惠然,陳守山,顏雲年,hasHusband,FALSE,Chen Shoushan,Yan Yunnian
+14056,11409,20202,20396,Undirected,陳淑惠-1,李文雄,宜蘭陳,李清枝,hasHusband,FALSE,Yilan Chen,Li Qingzhi
+14057,12011,20085,20498,Undirected,陳淑惠-2,林秋江,台中陳,林秋江,hasHusband,FALSE,Taichung Chen,Lin Qiujiang
+14058,11426,20202,20393,Undirected,陳淑慈,李汝浩,宜蘭陳,李汝浩,hasHusband,FALSE,Yilan Chen,Li Ruhao
+14059,12869,21100,20748,Undirected,陳淑玲,紀威廉,陳武璋,紀威廉,hasHusband,FALSE,Chen Wuzhen,Ji William
+14060,12561,21068,20632,Undirected,陳淑瑩,洪文樑,陳守山,洪文棟,hasHusband,FALSE,Chen Shoushan,Hong Wendong
+14063,13985,21100,21080,Undirected,陳淑芳,陳怡榮,陳武璋,陳怡榮,hasHusband,FALSE,Chen Wuzhen,Chen Yirong
+14065,10868,21121,20182,Undirected,陳淑英-1,孫科,陳秋光,孫大成,hasHusband,FALSE,Chen Qiuguang,Sun Dacheng
+14066,14695,20202,21265,Undirected,陳淑華,黃顯崇,宜蘭陳,黃顯崇,hasHusband,FALSE,Yilan Chen,Huang Xianchong
+14067,14611,20202,21238,Undirected,陳淑蓉,黃河濱,宜蘭陳,黃河濱,hasHusband,FALSE,Yilan Chen,Yellow River
+14068,10262,21103,20086,Undirected,陳淑貞,劉德勇,陳淑貞,台南劉,hasHusband,FALSE,Chen Shuzhen,Tainan Liu
+14070,11932,20202,20481,Undirected,陳淑齡,林澄源,宜蘭陳,林澄源,hasHusband,FALSE,Yilan Chen,Lin Chengyuan
+14094,11235,21089,20327,Undirected,陳焦桐,施江南,陳星恆,施瑞呈,hasHusband,FALSE,Chen Xingheng,Shi Ruichi
+14098,10254,21112,20086,Undirected,陳瑞珠-1,劉子祥,陳瑞珠-1,台南劉,hasHusband,FALSE,Chen Ruizhu-1,Tainan Liu
+14100,11572,21113,20087,Undirected,陳瑞菊,林全成,陳瑞菊,台南林,hasHusband,FALSE,Chen Ruiju,Lin from Tainan
+14102,14532,21085,20089,Undirected,陳瑳瑳,黃天橫,陳振能架子,台南黃,hasHusband,FALSE,Chen Zhenneng,Tainan Huang
+14103,13730,21138,21003,Undirected,陳璧月,郭金塔,陳逢源,郭金塔,hasHusband,FALSE,Chen Fengyuan,Guo Jinta
+14105,11855,21092,20505,Undirected,陳瓊枝,林柏壽,陳望曾,林維源,hasHusband,FALSE,Chen Wangge,Lin Weiyuan
+14106,11626,21092,20485,Undirected,陳瓊碧,林垂拱,陳望曾,林獻堂,hasHusband,FALSE,Chen Wangge,Lin Xiantang
+14108,11938,21114,20485,Undirected,陳甜,林烈堂,陳甜,林獻堂,hasHusband,FALSE,Chen Tian,Lin Xiantang
+14137,11321,21116,20336,Undirected,陳研子,曾金澤,陳研子,曾依仁,hasHusband,FALSE,Chen Yanzi,Zeng Yiren
+14138,10168,21117,20035,Undirected,陳碧華,侯永都,陳碧華,侯雨利,hasHusband,FALSE,Chen Bihua,Hou Yuli
+14142,10009,21119,21206,Undirected,陳秀娥,丁叔豪,陳秀娥,鹿港丁,hasHusband,FALSE,Chen Xiu'e,Kugang Daeda
+14143,11672,21138,20445,Undirected,陳秀蓉,林宏,陳逢源,林宏,hasHusband,FALSE,Chen Fengyuan,Lin Hong
+14145,14355,21047,21172,Undirected,陳秀霞,顏甘霖,陳中和,顏雲年,hasHusband,FALSE,Chen Zhonghe,Yan Yunnian
+14146,11462,21047,20412,Undirected,陳秋,李茂笙,陳中和,李茂笙,hasHusband,FALSE,Chen Zhonghe,Li Maosheng
+14148,11115,21047,20282,Undirected,陳秋蟾,張豐緒,陳中和,張豐緒,hasHusband,FALSE,Chen Zhonghe,Zhang Fengxu
+14149,12324,21122,20572,Undirected,陳秦,楊基煒,陳秦,楊肇嘉,hasHusband,FALSE,Chen Qin,Yang Zhaojia
+14156,11624,21123,20441,Undirected,陳簪,林坤鐘,陳簪,林坤鐘,hasHusband,FALSE,Chen Zhe,Lin Kunzhong
+14157,12877,20202,20751,Undirected,陳紅棗,羅文堂,宜蘭陳,羅文堂,hasHusband,FALSE,Yilan Chen,Luo Wentang
+14163,12465,21075,20601,Undirected,陳綏華,江濤,陳履安,江濤,hasHusband,FALSE,Chen Lingan,Jiang Tao
+14167,12946,21047,20779,Undirected,陳綺霞,莊文英,陳中和,莊文英,hasHusband,FALSE,Chen Zhonghe,Zhuang Wenying
+14169,13303,21150,20883,Undirected,陳繽芬,袁守謙,陳靜齋,袁守謙,hasHusband,FALSE,Chen Jingzhai,Yuan Shouqian
+14170,11383,21047,20369,Undirected,陳美,李子彬,陳中和,李子彬,hasHusband,FALSE,Chen Zhonghe,Li Zibin
+14173,13465,21125,20918,Undirected,陳翠娥,謝稼田,陳翠娥,謝成源,hasHusband,FALSE,Chen Cui'e,Xie Chengyuan
+14175,14316,21126,21172,Undirected,陳聰美,顏惠澤,陳聰美,顏雲年,hasHusband,FALSE,Chen Congmei,Yan Yunnian
+14176,10112,21127,20024,Undirected,陳肅容,He義,陳肅容,He義,hasHusband,FALSE,Chen Surong,He He Yi
+14182,14566,21130,21218,Undirected,陳芳英,黃彰人,陳芳英,黃子欽,hasHusband,FALSE,Chen Fangying,Huang Ziqin
+14183,11949,21073,20506,Undirected,陳芷芳,林爾康,陳寶琛,林維讓,hasHusband,FALSE,Chen Baochen,Lin Weirang
+14184,11479,21047,20366,Undirected,陳英,李開榮,陳中和,李南,hasHusband,FALSE,Chen Zhonghe,Li Nan
+14188,13185,21059,20174,Undirected,陳藤枝,蔡辰洲,陳國和,國泰蔡,hasHusband,FALSE,Chen Guohe,Cathay Cai
+14189,13112,21133,20834,Undirected,陳藹玲,蔡明忠,陳藹玲,蔡萬才,hasHusband,FALSE,Chen Yiling,Cai Wancai
+14193,13608,21134,20967,Undirected,陳詠雪,辛西淮,陳詠雪,辛連生,hasHusband,FALSE,Chen Yongxue,Xin Liansheng
+14195,11333,21135,20354,Undirected,陳諸,朱四海,陳諸,朱昭陽,hasHusband,FALSE,Distinguish,Zhu Zhaoyang
+14196,12564,21047,20633,Undirected,陳謹,洪有達,陳中和,洪有達,hasHusband,FALSE,Chen Zhonghe,Hong Youda
+14197,11240,21136,20327,Undirected,陳謹-1,施瑞呈,陳謹-1,施瑞呈,hasHusband,FALSE,Chen Jin-1,Shi Ruichi
+14209,13689,21140,20987,Undirected,陳金枝,郭天恩,陳金英,郭天恩,hasHusband,FALSE,Chen Jinying,Guo Tianen
+14210,10368,21145,20077,Undirected,陳金治,劉順天,陳雙興,劉順天,hasHusband,FALSE,Chen Shuangxing,Liu Shuntian
+14211,11154,21140,20295,Undirected,陳金英,彭清靠,陳金英,彭明敏,hasHusband,FALSE,Chen Jinying,Peng Mingmin
+14212,13192,21109,20174,Undirected,陳銀卿,蔡鎮宇,陳炳林,國泰蔡,hasHusband,FALSE,Chen Binglin,Cathay Cai
+14215,10984,21089,20231,Undirected,陳鏡兒,張媽興,陳星恆,張媽興,hasHusband,FALSE,Chen Xingheng,Zhang Ma Xing
+14217,11160,21143,20296,Undirected,陳長玲,彭蔭時,陳長玲,彭晟,hasHusband,FALSE,Chen Changling,Peng Sheng
+14227,12316,21108,20550,Undirected,陳雙美,楊國喜,陳炘,楊子培,hasHusband,FALSE,Stagnant,Yang Zipei
+14231,11537,21146,20431,Undirected,陳雪娥,林仲江,陳雪娥,林伯奏,hasHusband,FALSE,Chen Xue'e,Lin Bo
+14233,10316,21132,20077,Undirected,陳雪鳳,劉炳華,陳萬富,劉順天,hasHusband,FALSE,Chen Wanfu,Liu Shuntian
+14234,11934,20202,20482,Undirected,陳雲端,林濁水,宜蘭陳,林濁水,hasHusband,FALSE,Yilan Chen,Linzhuangshui
+14236,10453,21047,20101,Undirected,陳靜,吳寬輝,陳中和,吳寬輝,hasHusband,FALSE,Chen Zhonghe,Wu Kuanhui
+14237,13487,21147,20936,Undirected,陳靜中,譚景錫,陳靜中,譚文勤,hasHusband,FALSE,Chen Jingzhong,Tan Wenqin
+14238,11454,21148,20381,Undirected,陳靜敏,李維興,陳靜敏,李春生,hasHusband,FALSE,Chen Jingmin,Li Chunsheng
+14239,12679,21149,20689,Undirected,陳靜文,王文洋,陳靜文,王永慶,hasHusband,FALSE,Chen Jingwen,Wang Yongqing
+14245,10944,21145,20217,Undirected,陳麗容,康寧祥,陳雙興,康寧祥,hasHusband,FALSE,Chen Shuangxing,Kanning
+14246,14308,21152,21172,Undirected,陳麗美,顏惠亮,陳麗美,顏雲年,hasHusband,FALSE,Chen Limei,Yan Yunnian
+14247,13252,21047,20855,Undirected,陳麗霞,薛福生,陳中和,薛福生,hasHusband,FALSE,Chen Zhonghe,Xue Fusheng
+14250,10576,21155,20126,Undirected,陶素珍,吳芝生,陶素珍,吳芝生,hasHusband,FALSE,Tao Suzhen,Wu Zhisheng
+14251,14448,21156,21187,Undirected,陶至真,高湞瑚,陶至真,高信,hasHusband,FALSE,Tao Zhizhen,High tronel
+14257,11131,21153,20287,Undirected,陶鴻英,張靖生,陶一珊,張靖生,hasHusband,FALSE,Tao Yishan,Zhang Jingsheng
+14259,11170,21158,20303,Undirected,陸小曼,徐志摩,陸小曼,徐志摩,hasHusband,FALSE,Lu Xiaoman,Xu Zhimo
+14259,12735,21158,20703,Undirected,陸小曼,王賡,陸小曼,王賡,hasHusband,FALSE,Lu Xiaoman,King
+14261,10581,21160,20127,Undirected,雷愛玲,吳英布,雷法章,吳英布,hasHusband,FALSE,Rayfazer,Wu Yingbu
+14262,11289,21160,20338,Undirected,雷愛珞,曾憲揆,雷法章,曾憲揆,hasHusband,FALSE,Rayfazer,Zeng Xianzheng
+14264,11474,21160,20397,Undirected,雷愛璉,李錫福,雷法章,李清秋,hasHusband,FALSE,Rayfazer,Li Qingqiu
+14265,10820,21163,20175,Undirected,雷招治,城阿全,韓子星,城仲模,hasHusband,FALSE,Han Zixing,Cheng Zhong Mo
+14267,11029,21159,20242,Undirected,雷欣雲,張敏鈺,雷欣雲,張敏鈺,hasHusband,FALSE,Lei Xinyun,Zhang Minyu
+14269,13945,21161,21075,Undirected,靳文穎,陳履慶,靳文穎,陳履安,hasHusband,FALSE,Jin Wenying,Chen Lingan
+14276,10113,21163,20025,Undirected,韓淑馨,He耀輝,韓子星,He耀輝,hasHusband,FALSE,Han Zixing,He Yaohui
+14294,11117,21165,20279,Undirected,顏千鶴,張超英,顏千鶴,張聰明,hasHusband,FALSE,Yan Qianhe,Zhang smart
+14296,13426,21172,20924,Undirected,顏善,謝師熊,顏雲年,謝汝銓,hasHusband,FALSE,Yan Yunnian,Xie Ruyi
+14298,10073,21172,20017,Undirected,顏媛美,He宗英,顏雲年,He宗英,hasHusband,FALSE,Yan Yunnian,He Zongying
+14299,14206,21172,20202,Undirected,顏媞,陳逸松,顏雲年,宜蘭陳,hasHusband,FALSE,Yan Yunnian,Yilan Chen
+14300,13865,21172,21057,Undirected,顏嫆,陳啓招,顏雲年,陳啓招,hasHusband,FALSE,Yan Yunnian,Chen Qizhao
+14321,11130,21172,20255,Undirected,顏慈美,張雨田,顏雲年,張添根,hasHusband,FALSE,Yan Yunnian,Zhang Tiangen
+14324,10690,21172,20157,Undirected,顏扁,周碧,顏雲年,周碧,hasHusband,FALSE,Yan Yunnian,Zhoubi
+14335,14624,21172,21232,Undirected,顏智美,黃燦堂,顏雲年,黃朝琴,hasHusband,FALSE,Yan Yunnian,Huang Chaoqin
+14341,10029,21166,21206,Undirected,顏梅,丁瑞鉠,顏國年,鹿港丁,hasHusband,FALSE,Yan Guonian,Kugang Daeda
+14342,14076,21169,21062,Undirected,顏梅玉,陳清波,顏溫溫,陳天來,hasHusband,FALSE,Yan Wenwen,Chen Tianlai
+14345,13806,21166,21027,Undirected,顏淑貞,鄭錦明,顏國年,鄭錦明,hasHusband,FALSE,Yan Guonian,Zheng Jinming
+14346,11169,21169,20304,Undirected,顏溫溫,徐干田,顏溫溫,徐清山,hasHusband,FALSE,Yan Wenwen,Xu Qingshan
+14356,12888,21172,20756,Undirected,顏真,羅萬俥,顏雲年,羅萬俥,hasHusband,FALSE,Yan Yunnian,Luo Wanyi
+14357,14092,21166,21110,Undirected,顏碧仙,陳炳華,顏國年,陳炳華,hasHusband,FALSE,Yan Guonian,Chen Binghua
+14358,10360,21166,20086,Undirected,顏碧秋,劉青和,顏國年,台南劉,hasHusband,FALSE,Yan Guonian,Tainan Liu
+14359,13618,21170,20968,Undirected,顏碧霞,辜岳甫,顏碧霞,辜顯榮,hasHusband,FALSE,Yan Bixia,Gu Xianrong
+14360,14489,21166,21200,Undirected,顏碧霞-1,魏火曜,顏國年,魏火曜,hasHusband,FALSE,Yan Guonian,Wei Fire
+14362,10405,21172,20095,Undirected,顏禎惠,吳亮宏,顏雲年,吳修齊,hasHusband,FALSE,Yan Yunnian,Wu Xiuji
+14363,11815,21172,20506,Undirected,顏絢美,林明成,顏雲年,林維讓,hasHusband,FALSE,Yan Yunnian,Lin Weirang
+14366,11161,21172,20298,Undirected,顏芬華,彭賜燈,顏雲年,彭賜燈,hasHusband,FALSE,Yan Yunnian,Peng Ci Lan
+14367,10660,21167,20144,Undirected,顏芬齡,周博生,顏岫峰,周博生,hasHusband,FALSE,Yan Yanfeng,Zhou Bosheng
+14368,11786,21172,20460,Undirected,顏華美,林政雄,顏雲年,林政雄,hasHusband,FALSE,Yan Yunnian,Lin Zhengxiong
+14369,10659,21167,21031,Undirected,顏蕙齡,周傅芳,顏岫峰,金石堂周,hasHusband,FALSE,Yan Yanfeng,Jinshitang Week
+14372,12754,21172,20709,Undirected,顏詩,王青山,顏雲年,王青山,hasHusband,FALSE,Yan Yunnian,Wang Qingshan
+14373,10233,21172,20049,Undirected,顏郁華,劉俊杰,顏雲年,劉俊杰,hasHusband,FALSE,Yan Yunnian,Liu Junjie
+14374,13962,21171,21094,Undirected,顏金月,陳建忠,顏金月,陳查某,hasHusband,FALSE,Yan Jinyue,Chen Chamou
+14375,10083,21172,20024,Undirected,顏雅美,He政廷,顏雲年,He義,hasHusband,FALSE,Yan Yunnian,He He Yi
+14377,14471,21166,21197,Undirected,顏麗珠,高雲霖,顏國年,高雲霖,hasHusband,FALSE,Yan Guonian,Gao Yunlin
+14378,11094,21173,20277,Undirected,顧善珍,張翊棟,顧宗瑞,張翊棟,hasHusband,FALSE,Gu Zongrui,Zhang Yidong
+14385,14700,21175,21269,Undirected,顧惠生,龔立帆,顧祝同,龔立帆,hasHusband,FALSE,Gu Zhutong,Sailing
+14387,11327,21173,20349,Undirected,顧榮珍,朱世慶,顧宗瑞,朱世慶,hasHusband,FALSE,Gu Zongrui,Zhu Shiqing
+14388,14252,21175,21153,Undirected,顧永生,陶鴻傑,顧祝同,陶一珊,hasHusband,FALSE,Gu Zhutong,Tao Yishan
+14390,13733,21175,21006,Undirected,顧珏生,鄒祖德,顧祝同,鄒祖德,hasHusband,FALSE,Gu Zhutong,Zou Zude
+14392,10935,21175,20211,Undirected,顧璉生,岑瑞琦,顧祝同,岑瑞琦,hasHusband,FALSE,Gu Zhutong,Cen Ruiqi
+14393,12778,21175,20714,Undirected,顧省生,白先誠,顧祝同,白崇禧,hasHusband,FALSE,Gu Zhutong,Bai Chongxi
+14398,13461,21175,20928,Undirected,顧錦生,謝煥邦,顧祝同,謝煥邦,hasHusband,FALSE,Gu Zhutong,Xie Huanbang
+14399,13561,21175,20955,Undirected,顧開生,趙同和,顧祝同,趙同和,hasHusband,FALSE,Gu Zhutong,Zhao Tonghe
+14400,13033,21173,20820,Undirected,顧麗真,董浩雲,顧宗瑞,董建華,hasHusband,FALSE,Gu Zongrui,Dong Jianhua
+14402,12780,21176,20714,Undirected,馬佩璋,白崇禧,馬佩璋,白崇禧,hasHusband,FALSE,Ma Peizheng,Bai Chongxi
+14406,12777,21179,20714,Undirected,馬嘉萬,白先義,馬嘉萬,白崇禧,hasHusband,FALSE,Ma Jiawan,Bai Chongxi
+14411,12833,21182,20734,Undirected,馬熙,石鳳翔,馬熙,石鳳翔,hasHusband,FALSE,Ma Xi,Shi Fengxiang
+14413,13527,21183,20942,Undirected,馬紹文,賀鳴琴,馬積善,賀膺才,hasHusband,FALSE,Ma Jishan,He Hecai
+14416,10611,21184,20134,Undirected,馬鳳歧,吳鐵城,馬鳳歧,吳鐵城,hasHusband,FALSE,Ma Fengqi,Wu Tiecheng
+14419,13037,21186,20820,Undirected,馮如琳,董立均,馮明雄,董建華,hasHusband,FALSE,Feng Mingxiong,Dong Jianhua
+14436,11416,20088,20362,Undirected,高平華,李曾禮,台南高,李兆偉,hasHusband,FALSE,Tainan Gao,Li Zhaowei
+14437,11469,20088,20381,Undirected,高慈美,李超然,台南高,李春生,hasHusband,FALSE,Tainan Gao,Li Chunsheng
+14445,11195,21190,20310,Undirected,高桂,徐風和,高桂,徐鳳鳴,hasHusband,FALSE,High school,Xu Fengming
+14451,11569,21192,20505,Undirected,高瑞英,林克恭,高瑞英,林維源,hasHusband,FALSE,Gao Ruiying,Lin Weiyuan
+14454,10567,20088,20120,Undirected,高秀園,吳秋微,台南高,吳秋微,hasHusband,FALSE,Tainan Gao,Wu Qiuwei
+14455,10567,20088,20120,Undirected,高秀圓,吳秋微,台南高,吳秋微,hasHusband,FALSE,Tainan Gao,Wu Qiuwei
+14456,14596,21193,21232,Undirected,高秀燕,黃朝碧,高秀燕,黃朝琴,hasHusband,FALSE,Gao Xiuyan,Huang Chaoqin
+14458,12936,21187,20770,Undirected,高穗珠,胡英祥,高信,胡英祥,hasHusband,FALSE,High tronel,Hu Yingxiang
+14464,13109,20088,20826,Undirected,高興華,蔡敬仁,台南高,蔡培火,hasHusband,FALSE,Tainan Gao,Cai Peihuo
+14465,13460,21194,20927,Undirected,高萍,謝然之,高萍,謝然之,hasHusband,FALSE,Gaoping,Xie Ranzhi
+14466,11943,21195,20506,Undirected,高賀千智子,林熊徵,高賀千智子,林維讓,hasHusband,FALSE,Chiko Takaga,Lin Weirang
+14469,10188,21187,20036,Undirected,高陵珠,俞啓運,高信,俞大維,hasHusband,FALSE,High tronel,Yu Dawei
+14470,14536,20088,20089,Undirected,高雅美,黃天縱-2,台南高,台南黃,hasHusband,FALSE,Tainan Gao,Tainan Huang
+14472,12194,21198,20087,Undirected,高靜雅,林錫瑞,高靜雅,台南林,hasHusband,FALSE,Gao Jingya,Lin from Tainan
+14473,13716,21199,20987,Undirected,高龍月,郭晃耀,高龍月,郭天恩,hasHusband,FALSE,High dragon moon,Guo Tianen
+14475,12554,21200,20634,Undirected,魏如圭,洪慶章,魏火曜,洪水龍,hasHusband,FALSE,Wei Fire,Flood dragon
+14484,11259,21200,20332,Undirected,魏淑昭,曹欽源,魏火曜,曹丁波,hasHusband,FALSE,Wei Fire,Cao Dingbo
+14485,12419,21200,20587,Undirected,魏淑順,歐陽培銓,魏火曜,歐陽培銓,hasHusband,FALSE,Wei Fire,Ouyang Peiyu
+14491,11578,21201,20087,Undirected,魏玉蘭,林全藻,魏玉蘭,台南林,hasHusband,FALSE,Wei Yulan,Lin from Tainan
+14492,13961,21202,21047,Undirected,魏秀玲,陳建平,魏秀玲,陳中和,hasHusband,FALSE,Wei Xiuling,Chen Zhonghe
+14494,10027,21203,21206,Undirected,魏罔,丁瑞圖,魏罔,鹿港丁,hasHusband,FALSE,Wei Wei,Kugang Daeda
+14495,13194,21200,20838,Undirected,魏美婉,蔡長庚,魏火曜,蔡長庚,hasHusband,FALSE,Wei Fire,Cai Changgeng
+14499,10518,21205,20114,Undirected,魏麗芳,吳東權,魏麗芳,吳火獅,hasHusband,FALSE,Wei Lifang,Wu Huoshi
+14503,11709,21218,20436,Undirected,黃久惠,林希廉,黃子欽,林劍清,hasHusband,FALSE,Huang Ziqin,Lin Jianqing
+14504,12955,20089,20786,Undirected,黃京華,莊維藩,台南黃,莊維藩,hasHusband,FALSE,Tainan Huang,Zhuang Weifan
+14506,13338,21222,20894,Undirected,黃佩珍,許宏章,黃崇仁,許宏章,hasHusband,FALSE,Huang Chongren,Xu Hongzhang
+14507,10738,21209,20172,Undirected,黃佩蓉,嚴孝章,黃佩蓉,嚴復,hasHusband,FALSE,Huang Peirong,Yan Fu
+14510,10757,21210,20172,Undirected,黃俐玥,嚴正,黃俐玥,嚴復,hasHusband,FALSE,Huang Lizhen,Yan Fu
+14513,12493,21222,20610,Undirected,黃勝珍,沈信章,黃崇仁,沈信章,hasHusband,FALSE,Huang Chongren,Sedimentation
+14514,11171,21212,21068,Undirected,黃勝美,徐懷達,黃勝美,陳守山,hasHusband,FALSE,Huang Shengmei,Chen Shoushan
+14526,11348,21214,20354,Undirected,黃坤卿,朱昭陽,黃坤卿,朱昭陽,hasHusband,FALSE,Huang Kunqing,Zhu Zhaoyang
+14541,13761,21215,21024,Undirected,黃女娥,鄭旺,黃女娥,鄭興,hasHusband,FALSE,Huang Nu'e,Zheng Xing
+14542,12610,21216,20646,Undirected,黃如霜,溫應星,黃如霜,溫應星,hasHusband,FALSE,Huang Ru Shuang,Wen Yingxing
+14544,12917,21232,20763,Undirected,黃娟娟,翁銘智,黃朝琴,翁銘智,hasHusband,FALSE,Huang Chaoqin,Weng Mingzhi
+14545,13177,20089,20835,Undirected,黃婉華,蔡西坤,台南黃,蔡西坤,hasHusband,FALSE,Tainan Huang,Cai Xikun
+14546,12525,21232,20621,Undirected,黃婷婷,沈長康,黃朝琴,沈長康,hasHusband,FALSE,Huang Chaoqin,Shen Changkang
+14547,10008,21242,21206,Undirected,黃媛媛,丁伯雄,黃炎生,鹿港丁,hasHusband,FALSE,Huang Yansheng,Kugang Daeda
+14548,10964,21217,20300,Undirected,黃嫣紅,張伯甫,黃嫣紅,彰化銀行張伯欣,hasHusband,FALSE,Huang Yanhong,Changhua Bank Zhang Boxin
+14569,10487,20089,20108,Undirected,黃德華,吳新英,台南黃,吳新英,hasHusband,FALSE,Tainan Huang,Wu Xinying
+14571,11377,21225,20362,Undirected,黃快,李增義,黃快,李兆偉,hasHusband,FALSE,Yellow fast,Li Zhaowei
+14573,14312,21226,21172,Undirected,黃慧琚,顏惠威,黃慧琚,顏雲年,hasHusband,FALSE,Huang Huiyi,Yan Yunnian
+14574,11323,21227,20336,Undirected,黃慧環,曾鴻基,黃慧環,曾依仁,hasHusband,FALSE,Huang Huihuan,Zeng Yiren
+14577,12393,21218,20571,Undirected,黃敏惠,楊聯傑,黃子欽,楊聯傑,hasHusband,FALSE,Huang Ziqin,Yang Lianjie
+14580,12277,21242,20534,Undirected,黃文文,柯良時,黃炎生,柯良時,hasHusband,FALSE,Huang Yansheng,Ke Liang Shi
+14584,12398,21222,20576,Undirected,黃早早,楊華玉,黃崇仁,楊華玉,hasHusband,FALSE,Huang Chongren,Yang Huayu
+14592,10343,21254,20072,Undirected,黃曉雯,劉茂霖,黃綺堂,劉茂霖,hasHusband,FALSE,Huang Qitang,Liu Maolin
+14593,10305,21254,20063,Undirected,黃曉鶯,劉永強,黃綺堂,劉永強,hasHusband,FALSE,Huang Qitang,Liu Yongqiang
+14594,13333,21222,20891,Undirected,黃會,許坤元,黃崇仁,許坤元,hasHusband,FALSE,Huang Chongren,Xu Kunyuan
+14597,13284,21243,20875,Undirected,黃杏苑,蘇繼光,黃玉麟,蘇紹文,hasHusband,FALSE,Huang Yulin,Su Shaowen
+14599,13562,21222,20956,Undirected,黃梅珍,趙大若,黃崇仁,趙大若,hasHusband,FALSE,Huang Chongren,Zhao Doruo
+14600,10728,20089,20170,Undirected,黃棠華,嚴克昌,台南黃,嚴克昌,hasHusband,FALSE,Tainan Huang,Yan Kechang
+14602,13412,21234,20921,Undirected,黃樣,謝在祺,黃樣,謝東閔,hasHusband,FALSE,Yellow -like,Xie Dongmin
+14603,11151,21235,20296,Undirected,黃次璇,彭晟,黃次璇,彭晟,hasHusband,FALSE,Huang Jixuan,Peng Sheng
+14610,11574,21237,20087,Undirected,黃河,林全福,黃河,台南林,hasHusband,FALSE,Yellow River,Lin from Tainan
+14612,13916,21239,21068,Undirected,黃淑女,陳守山,黃淑女,陳守山,hasHusband,FALSE,Lady,Chen Shoushan
+14613,14129,21245,21047,Undirected,黃淑惠,陳田錨,黃百祿,陳中和,hasHusband,FALSE,Huang Bailu,Chen Zhonghe
+14614,11706,21240,20505,Undirected,黃淑芬,林崇民,黃淑芬,林維源,hasHusband,FALSE,Huang Shufen,Lin Weiyuan
+14621,12342,20089,20577,Undirected,黃灼華,楊必得,台南黃,楊藍洲,hasHusband,FALSE,Tainan Huang,Yang Lanzhou
+14627,10371,21232,20086,Undirected,黃玲玲,劉鴻彰,黃朝琴,台南劉,hasHusband,FALSE,Huang Chaoqin,Tainan Liu
+14628,14121,21244,21047,Undirected,黃珧華,陳田民,黃珧華,陳中和,hasHusband,FALSE,Huang Yanhua,Chen Zhonghe
+14635,13183,21246,20174,Undirected,黃碧珠,蔡辰威,黃碧珠,國泰蔡,hasHusband,FALSE,Huang Bizhu,Cathay Cai
+14638,11006,21222,20236,Undirected,黃秀珍,張建生,黃崇仁,張建生,hasHusband,FALSE,Huang Chongren,Zhang Jiansheng
+14639,14567,21248,21222,Undirected,黃秀美,黃得時,黃秀美,黃崇仁,hasHusband,FALSE,Huang Xiumei,Huang Chongren
+14640,12997,21222,20806,Undirected,黃秋濤,葉炳松,黃崇仁,葉炳松,hasHusband,FALSE,Huang Chongren,Ye Bingsong
+14641,13953,21222,21076,Undirected,黃秋燕,陳常俊,黃崇仁,陳常俊,hasHusband,FALSE,Huang Chongren,Chen Changjun
+14642,14185,21222,21131,Undirected,黃秋英,陳茂麟,黃崇仁,陳茂麟,hasHusband,FALSE,Huang Chongren,Chen Maolin
+14643,12624,20089,20656,Undirected,黃端華,潘欽,台南黃,潘致祥,hasHusband,FALSE,Tainan Huang,Pan Zhixiang
+14645,10086,21249,20024,Undirected,黃素珠,He曜廷,黃素珠,He義,hasHusband,FALSE,Huang Suzhu,He He Yi
+14646,14314,21251,21172,Undirected,黃素美,顏惠憲,黃素美,顏雲年,hasHusband,FALSE,Huang Sumei,Yan Yunnian
+14647,10462,21250,20095,Undirected,黃素美-1,吳平治,黃素美-1,吳修齊,hasHusband,FALSE,Huang Sumei-1,Wu Xiuji
+14648,13750,21252,20317,Undirected,黃紡,鄭大明,黃紡,新竹鄭,hasHusband,FALSE,Yellow spinning,Xinzhu Zheng
+14649,12350,21253,20581,Undirected,黃紫雲,楊敦謨,黃紫雲,楊錫侯,hasHusband,FALSE,Huang Ziyun,Yang Xihou
+14657,12844,21255,20839,Undirected,黃美倫,章孝嚴,黃美倫,蔣介石,hasHusband,FALSE,Huang Meilun,Chiang Kai -shek
+14658,12368,20089,20562,Undirected,黃美幸,楊次雄,台南黃,楊次雄,hasHusband,FALSE,Tainan Huang,Yang Jixiong
+14659,11384,21222,20370,Undirected,黃美彌,李學睿,黃崇仁,李學睿,hasHusband,FALSE,Huang Chongren,Li Xuerui
+14666,11934,21256,20482,Undirected,黃美英,林濁水,黃美英,林濁水,hasHusband,FALSE,Huang Meiying,Linzhuangshui
+14667,11046,21247,20249,Undirected,黃美蓉,張根泉,黃秀卿,張根泉,hasHusband,FALSE,Huang Xiuqing,Zhang Genquan
+14669,11699,21257,20485,Undirected,黃美鳳,林崇仁,黃美鳳,林獻堂,hasHusband,FALSE,Huang Meifeng,Lin Xiantang
+14671,11571,21258,20087,Undirected,黃翠鶯,林全忠,黃翠鶯,台南林,hasHusband,FALSE,Huang Cui Ying,Lin from Tainan
+14674,11266,21218,20334,Undirected,黃芳江,曹永達,黃子欽,曹永和,hasHusband,FALSE,Huang Ziqin,Cao Yonghe
+14677,11983,20089,20440,Undirected,黃荷華,林益謙,台南黃,林呈祿,hasHusband,FALSE,Tainan Huang,Lin Chenglu
+14678,13623,20089,20968,Undirected,黃菖華,辜振甫,台南黃,辜顯榮,hasHusband,FALSE,Tainan Huang,Gu Xianrong
+14679,12592,21232,20640,Undirected,黃蘭君,洪輝雄,黃朝琴,洪輝雄,hasHusband,FALSE,Huang Chaoqin,Hong Huixiong
+14680,10474,21260,20535,Undirected,黃謙如,吳志剛,黃謙如,桃園吳,hasHusband,FALSE,Huang Qianru,Taoyuan Wu
+14681,11233,21242,20325,Undirected,黃貞貞,施武華,黃炎生,施武華,hasHusband,FALSE,Huang Yansheng,Shi Wuhua
+14688,13866,21232,21047,Undirected,黃金川,陳啓清,黃朝琴,陳中和,hasHusband,FALSE,Huang Chaoqin,Chen Zhonghe
+14692,14162,20089,21070,Undirected,黃阿嬌,陳紹馨,台南黃,陳定國,hasHusband,FALSE,Tainan Huang,Chen Dingguo
+14693,10934,21242,20210,Undirected,黃雙雙,山田博彥,黃炎生,山田博彥,hasHusband,FALSE,Huang Yansheng,Yamada Hiroya
+14694,13864,21264,21047,Undirected,黃雪,陳啓川,黃雪,陳中和,hasHusband,FALSE,Yellow snow,Chen Zhonghe
+14696,13075,21266,20174,Undirected,黃麗姿,蔡宏圖,黃麗姿,國泰蔡,hasHusband,FALSE,Huang Lizi,Cathay Cai
+14697,14537,20089,20089,Undirected,黃麗年,黃天育,台南黃,台南黃,hasHusband,TRUE,Tainan Huang,Tainan Huang
+14698,11324,21267,20336,Undirected,黎純真,曾鴻文,黎純真,曾依仁,hasHusband,FALSE,Li Chunzhen,Zeng Yiren
+14699,11029,21268,20242,Undirected,龔福明,張敏鈺,龔福明,張敏鈺,hasHusband,FALSE,Gong Fuming,Zhang Minyu
+14701,11948,21270,20505,Undirected,龔雲環,林爾嘉,龔雲環,林維源,hasHusband,FALSE,Gong Yunhuan,Lin Weiyuan
+10200,13210,20036,20839,Undirected,俞揚和,蔣孝章,俞大維,蔣介石,hasWife,FALSE,Yu Dawei,Chiang Kai -shek
+10206,11283,20036,20337,Undirected,俞明頤,曾廣珊,俞大維,曾國藩,hasWife,FALSE,Yu Dawei,Zeng Guofan
+10286,10526,20060,20123,Undirected,劉明哲,吳楚蘋,劉明朝,吳筱霞,hasWife,FALSE,Liu Mingchao,Wu Xiaoxia
+10365,10347,20086,20086,Undirected,劉青雲,劉貞,台南劉,台南劉,hasWife,TRUE,Tainan Liu,Tainan Liu
+10372,12040,20086,20509,Undirected,劉鴻烈,林美津,台南劉,林美津,hasWife,FALSE,Tainan Liu,Lin Meijin
+10381,10727,20083,20172,Undirected,南寧芳,嚴僖,南寧芳,嚴復,hasWife,FALSE,Nan Ningfang,Yan Fu
+10401,12428,20093,20589,Undirected,向新,毛人鳳,向新,毛人鳳,hasWife,FALSE,New,Mao Renfeng
+10491,10514,20114,20114,Undirected,吳明瑛,吳東勝,吳火獅,吳火獅,hasWife,TRUE,Wu Huoshi,Wu Huoshi
+10621,12001,20535,20087,Undirected,吳鴻森,林秀,桃園吳,台南林,hasWife,FALSE,Taoyuan Wu,Lin from Tainan
+10735,12300,20172,20540,Undirected,嚴孝斌,梁金英,嚴復,梁金英,hasWife,FALSE,Yan Fu,Liang Jinying
+10841,14277,20180,21164,Undirected,孔祥熙,韓玉梅,孔祥熙,韓玉梅,hasWife,FALSE,Kong Xiangxi,Han Yumei
+10889,13221,20196,20839,Undirected,宋式倉,蔣瑞蓮,宋式倉,蔣介石,hasWife,FALSE,Song -style warehouse,Chiang Kai -shek
+10895,12038,20200,20508,Undirected,宋文雄,林美惠,宋進英,林美惠,hasWife,FALSE,Song Jinying,Lin Meihui
+11089,11339,20275,20349,Undirected,張綠宇,朱建舜,張綠宇,朱世慶,hasWife,FALSE,Zhang Luyu,Zhu Shiqing
+11205,11055,20315,20282,Undirected,戴怡安,張毓奇,戴鳳倚,張豐緒,hasWife,FALSE,Dai Fengyi,Zhang Fengxu
+11298,10190,20337,20036,Undirected,曾昭掄,俞大絪,曾國藩,俞大維,hasWife,FALSE,Zeng Guofan,Yu Dawei
+11466,12589,20414,20638,Undirected,李蘭,洪蘭友,李蘭,洪蘭友,hasWife,FALSE,Li Lan,Hong Lanyou
+11587,13772,20435,21018,Undirected,林則徐,鄭淑卿,林則徐,鄭淑卿,hasWife,FALSE,Lin Zexu,Zheng Shuqing
+11610,11040,20446,20248,Undirected,林和平,張月雲,林定邦,張月雲,hasWife,FALSE,Lin Dingbang,Zhang Yueyun
+11735,11503,20506,20427,Undirected,林恆道,杜淑純,林維讓,杜聰明,hasWife,FALSE,Lin Weirang,Du Chongming
+11773,14144,20458,21120,Undirected,林挺生,陳秀鑾,林挺生,陳秀鑾,hasWife,FALSE,Lin Tingsheng,Chen Xiuyi
+11844,11455,20465,20410,Undirected,林木土,李緞,林木土,李緞j,hasWife,FALSE,Lin Mutu,Li satin J
+11874,11503,20471,20427,Undirected,林橫道,杜淑純,林橫道,杜聰明,hasWife,FALSE,Forestry,Du Chongming
+11886,11856,20446,20446,Undirected,林正昌,林查某,林定邦,林定邦,hasWife,TRUE,Lin Dingbang,Lin Dingbang
+12096,11241,20458,20328,Undirected,林蔚東,施瑤珍,林挺生,施瑤珍,hasWife,FALSE,Lin Tingsheng,Shi Yaozhen
+12327,11487,20547,20381,Undirected,楊大文,李順美,楊大文,李春生,hasWife,FALSE,Yang Dawen,Li Chunsheng
+12633,14491,20657,21201,Undirected,潘貫,魏玉蘭,潘貫,魏玉蘭,hasWife,FALSE,Pan Guan,Wei Yulan
+12852,13734,20740,21007,Undirected,竺友冰,鄔永揚,竺芝珊,鄔永揚,hasWife,FALSE,Zhu Zhishan,Wu Yongyang
+12871,12885,20750,20756,Undirected,紅上琳,羅秀春,紅上琳,羅萬俥,hasWife,FALSE,Hong Shanglin,Luo Wanyi
+13187,11072,20174,20263,Undirected,蔡辰鴻,張玉齡,國泰蔡,張玉齡,hasWife,FALSE,Cathay Cai,Zhang Yuling
+13441,10587,20920,20535,Undirected,謝有福,吳蘭芬,謝有福,桃園吳,hasWife,FALSE,Xie Youfu,Taoyuan Wu
+13503,12970,20938,20789,Undirected,谷華,萬由陪,谷蘭皋,萬由陪,hasWife,FALSE,Gu Lanyu,Accompany
+13523,12492,20941,20620,Undirected,費騄,沈佩申,費驊,沈葆楨,hasWife,FALSE,Puppet,Shen Zhen
+13659,10524,20976,20535,Undirected,邱慶源,吳梅芬,邱慶源,桃園吳,hasWife,FALSE,Qiu Qingyuan,Taoyuan Wu
+13686,11317,20988,20337,Undirected,郭剛基,曾紀芬,郭嵩燾,曾國藩,hasWife,FALSE,Guo Songzheng,Zeng Guofan
+13818,13025,21030,20820,Undirected,金樂琦,董建平,金樂琦,董建華,hasWife,FALSE,Jin Leqi,Dong Jianhua
+13940,11249,21075,20335,Undirected,陳履安,曹倩,陳履安,曹耀,hasWife,FALSE,Chen Lingan,Cao Yao
+14115,11320,21047,20346,Undirected,陳田城,曾裕貞,陳中和,曾裕貞,hasWife,FALSE,Chen Zhonghe,Zeng Yuzhen
+14315,10003,21172,20003,Undirected,顏惠民,一青和枝,顏雲年,一青和枝,hasWife,FALSE,Yan Yunnian,One blue branch
+14535,14470,20089,20088,Undirected,黃天縱,高雅美,台南黃,台南高,hasWife,FALSE,Tainan Huang,Tainan Gao
+

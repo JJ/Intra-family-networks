@@ -1,0 +1,611 @@
+\documentclass[sn-mathphys,Numbered]{sn-jnl}% Math and Physical Sciences Reference Style
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included here>
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+%%%%
+\raggedbottom
+
+\begin{document}
+
+\title[Intra-family links in the analysis of marital networks]{Intra-family links in the analysis of marital networks}
+
+\author*[1,2]{\fnm{JJ} \sur{Merelo}}\email{jmerelo@ugr.es, https://orcid.org/0000-0002-1385-9741}
+\author[3]{\fnm{M. Cristina} \sur{Molinari}}\email{cmolinar@unive.it, https://orcid.org/0000-0002-6380-6795}
+
+\affil*[1]{\url{https://scholar.google.com/citations?user=gFxqc64AAAAJ} \orgdiv{Department of Computer Engineering, Automatics and Robotics}, \orgname{University of Granada}, \city{Granada}, \country{SPAIN}}
+
+\affil[2]{\orgdiv{CITIC}, \orgname{University of Granada}, \city{Granada}, \country{SPAIN}}
+\affil[3]{\url{https://scholar.google.com/citations?user=MW116skAAAAJ} \orgdiv{Dipartimento di Economia}, \orgname{Ca' Foscari University of Venice}, \city{Venice}, \country{ITALY}}
+
+%%==================================%%
+%% sample for unstructured abstract %%
+%%==================================%%
+
+\abstract{Marriage networks, which represent the matrimonial connections between different families in a given historical and geographical milieu, rarely take into account one aspect of internal family dynamics, namely the existence of intra-family marriages. The inclusion of such marriages, represented in the graph by self-loops,  is essential in order to compute more accurate measures of centrality. In this paper, we discuss various procedures for incorporating these links into the analysis, with the requirement that they be compatible with the use of already available social network analysis software. We then apply them to two historical marriage networks, one from the Republic of Venice and the other from Taiwan. By comparing centrality measures for the baseline and modified networks,  we found that the most satisfactory of the proposed methods is the one that duplicates nodes of families with intra-family marriages and adds new edges that link these duplicated nodes to all the families to which the original node was connected. This procedure is computationally simple and conceptually sound, making it a useful tool for analysing marital networks.}
+
+\keywords{Social network analysis, alliance networks, self-loops, marital networks, pseudographs, centrality measures}
+
+%%\pacs[JEL Classification]{D8, H51}
+
+%%\pacs[MSC Classification]{35A01, 65L10, 65L12, 65L20, 65L70}
+
+\maketitle
+
+\section{Introduction}\label{sec1}
+
+Social network analysis has been widely used to study marital alliances in a given polity or historical milieu and to obtain  insights on economic, political and sociological issues.\footnote{For a list of contributions see Section~\ref{sec2}.}  Marriage (or marital) networks are usually built on a family level and they are represented by a graph where the nodes (vertices) are families, and an edge (arc) linking two nodes indicates the number of marriages between members of the two families (weighted network) or, less often, whether there is at least one matrimonial link or none between them (unweighted). More precisely, starting from a set of individuals and their matrimonial ties, the former is partitioned into families along patriarchal line, so a family is a group of relatives with a common surname. This is the usual simplification  to an unipartite network of what is, to start with, a bipartite graph where the two ``parties'' are the female and the male partitions of the family, and an edge joins the node of the groom's family to the one of the bride's family. A consequence of this  simplification is that an intra-family marriage, for example a marriage between two cousins with the same last name, is represented by an edge between two separates nodes in the bipartite graph but is transformed into a self-loop, i.e an edge that originates from and terminates in the same node, because in the unipartite network the groom's and the bride's family nodes are the same.
+
+The emergence of self-loops has disadvantages: since self-loops are often dropped in the analysis, useful information about the network of alliances is lost. Clearly, the loss in information depends on the number of self-loops which, in turn, is linked to the size of the families and their willingness to arrange internal marriages and still be considered a single family. Moreover, the existence of self-loops is also a cultural phenomenon. For example, in much of Africa marriage is exogamic and used as a way to create bonds between different clans, whereas in South Asian countries or in the Jew tradition, endogamic marriage is socially accepted and even encouraged \cite{luke2004marriage,kuper2001fraternity}.
+
+ In this paper, we are interested in how self-loops can affect centrality measures \cite{landherr2010critical}, such as betweenness centrality, eigenvalue centrality and PageRank. Centrality measures fall roughly in two fields: those using the adjacency matrix, like eigenvector centrality, and those using paths over the network. Since self-loops are represented by non-zero values on the diagonal of the adjacency matrix, the first type of measures could take self-loops into account and use them to compute matrix eigenvalues (eigenvector centrality) \cite{self:loops}. On the other hand, path-based measures typically work by \emph{travelling} or measuring the connections between one vertex and another, and such paths generally exclude self-loops. However, even when self-loops could be used in the analysis, they are usually dropped before creating the graph from which the computations are made, so they are not taken into account in any meaningful way.
+
+% --- paragraph about multigraphs and its justification
+Technically, networks that include self-loops are pseudographs or multigraphs \cite{chartrand2013first},\footnote{Some authors \cite{boesch1974synthesis} distinguish between pseudographs (multiple edges between nodes {\em and} loops) and multigraphs (multiple edges between nodes, but no loops); however, nowadays there is usually no distinction between them. Please note that there is no specific name for graphs with loops but {\em without} multiple edges between nodes.} whose main difference with regular graphs is the fact that there can be several edges joining two nodes or, as in this case, a node with itself;\footnote{Admittedly, this is a degenerate form of multigraph, since it only has double edges in the case a node is connected to itself, and just a single (weighted) edge.} this is why it could be argued that an effective treatment of networks that include self-loops should take this fact into account. Unfortunately, and despite pioneering efforts \cite{doi:10.1080/0022250X.2016.1219732} and  \cite{Shafie+2015+1+21}, for the time being it is impossible to perform comprehensive social network analysis, including node-level measurements as well as meso-level structures (modular structures such as communities), if marital networks are represented using multigraphs.\footnote{As a matter of fact, a marital network can be embedded in a larger network that might include other types of kin connections or even commercial or political relationships; so it is indeed a multigraph.}
+
+Due to the lack of either social analysis algorithms or software capable of handling self-loops, most recent papers  \cite{MaritalNetworksandPortfoliosofPrestige,CATINO2022318} keep applying the usual methodology of collapsing these graphs to single-mode graphs and then employ off-the-shelf social network analysis tools (such as the \texttt{igraph} R or Python library \cite{csardi2006igraph} or {\em Gephi} \cite{bastian2009gephi}). The use of such tools is essential for the democratization of social network analysis in historical, anthropological and sociological contexts, and
+being able to use them is set as the foundation of the proposals we present in this paper.
+
+To study the  influence of self-loops in the analysis of marital networks, we propose a selection of methods for converting bipartite networks that include self-loops into single-mode networks. Before presenting our proposals, we note that since centrality measures use paths over edges for their computation,  any method to incorporate self-loops involves the creation of new nodes and new edges connecting these ``artificial'' nodes to the old ones. Therefore, our alternative methods will differ in the way nodes and edges representing intra-marriages are incorporated into the graph.
+
+After describing three alternative methods for incorporating self-loops, we apply them to a dataset of marriages from the Republic of Venice and discuss their relative merits. Note that  it is complicated or even impossible to use an external measure to prove that the centrality values  obtained by including self-loops  are better than those obtained by excluding them. Therefore, we will validate our method
+ empirically, firstly by testing whether it is able to meaningfully incorporate self-loops into the calculation of centrality measures, without introducing uninterpretable artefacts that would obscure the analysis; and, secondly, whether the resulting ranking of nodes is able to better represent the status and position of families, as described in the original article in which  the dataset was first introduced.
+
+ Once we have chosen  the method that best satisfies the above requirements, we apply it to a second marriage network of Taiwanese elite families; this network has very different characteristic in terms of both the number of intra-marriages to be included,  and the structure of the graph. This will allow us to check the robustness of our method.
+
+This paper focus on marital networks, but the importance of self-loops is also acknowledged in other contexts. For example \cite{10.1371/journal.pone.0230941} proposes a method to analyze private vehicle commuting traffic networks in cases where intra-county traffic connections are significant. Their model, called CCME-SL, is able to  account for self-loops in community detection algorithms; \cite{zamborain2017network} and \cite{saura2018node}, instead, discuss the importance of  self-connections between nodes when studying the  persistence of metapopulations in geo-ecological networks and
+ suggest new network metrics to account for them. Different contexts have different interpretation on self-loops: in an online social network context \cite{SMITH2021472} it refers to re-posts of former content, for instance, and the paper studies its influence in the context of information diffusion among support groups. In an epidemiological setting \cite{LICHOTI20161}, it would be equivalent to self-contagions or contagions among members of the same community, although the cited paper analyzes commercial networks and its influence in the spreading of swine fever. In general, providing a tool that is able to use self-loops beyond high-level measures (like its number or existence in certain nodes) will contribute to a deeper understanding of social network dynamics in many different contexts.
+
+The rest of the paper is organized as follows: the next section is a brief survey of analyses of marital networks; next, Section~\ref{sec:datasets} presents the datasets we will be using; Section \ref{sec:methods} describes the steps of each proposed method and applies them to a specially selected social network, the Venetian Republic marital network; we then validate the methods that meets our requirements in a second network, the Taiwanese elite families network. A brief discussion follows in Section \ref{sec:sec12}. Finally, our conclusions are presented in Section \ref{sec13}.
+
+This paper has been developed in an open science environment, following the principles of Agile Science \cite{mereloguervos2022agile}. This guarantees in-time delivery, as well as a clear problem-solving orientation from the beginning. Milestones in the development of the paper can be checked in its repository.
+
+
+\section{A survey of marriage networks}\label{sec2}
+
+Marriage and kinship networks are an interesting source of insights into the social, economic and political dynamics of polities below a certain size,  where families are strongly linked by  mechanisms of  economic or social inheritance. After Padgett and Ansell's  pioneering analysis of marriage networks in the Grand Duchy of Florence \cite{10.2307/2781822}, they have been explored in many different cultures and historical periods:  marriages in medieval Venice have been studied to shed light on the pattern of long-distance trade \cite{10.1093/qje/qju006} and   on the careers of politicians \cite{Telek2017MarryingTR}.  In the Republic of Venice access to power was restricted to aristocrats and nobility was hereditary. This is why these two papers include all available  marriages between noble families; \cite{gooddoge}, on the other hand, limits his attention to the families of doges, the heads of the republic. Marriages in the Venetian Republic territory of Ragusa (present-day Dubrovnik) in the 16th, 18th and 19th centuries are the focus of  \cite{batagelj1996ragusan}.
+
+Marital networks in East Asian countries have also been extensively investigated:   \cite{MaritalNetworksandPortfoliosofPrestige} examines Taiwanese elite families (1895--1996),   \cite{lee2017strategizing}  the Joseon Dynasty  in Korea (1476--1910), and \cite{tackett2020evolution} the Tang aristocracy in China (618--906). Moving to Southeast Asia, namely the Philippines, \cite{cruz2017politician}  uses family network centrality to explain mayoral elections results in the first decade of the 2000s and \cite{haim2021family}  analyse the family networks of bureaucrats and their relationship with the effectiveness of public service delivery. To conclude this long list,
+Haitian elites are the subject of \cite{naidu2021social}, and  \cite{CATINO2022318} examine marriages among 'Ndrangheta families in the South of Italy. For more references see also \cite{battaglini2019social}.
+
+Centrality measures are at the heart of most of the papers listed above, but self-loops are not.  This article attempts to make a contribution in this area by discussing different ways of including intra-family connections and empirically testing them to find the most appropriate.  We will do this using two datasets that apply the usual approach of turning the bipartite marriage network to a unipartite network and that include a significant number of intra-family connections  overlooked in the original study. They are the Republic of Venice network by  Puga and Trefler \cite{10.1093/qje/qju006}  and the Taiwanese elite family network by  Dluho{\v{s}}ov{\'a} \cite{MaritalNetworksandPortfoliosofPrestige} that we present in the next section.
+
+\section{Datasets}\label{sec:datasets}
+
+
+<<marriage.datasets, echo=FALSE,warning=FALSE,message=FALSE>>=
+library(igraph)
+library(knitr)
+library(kableExtra)
+library(stringr)
+tablify <- function( graph, column ) {
+  m.table <- data.frame( Family=V(graph)$name, degree=vertex_attr(graph,column) )
+  names(m.table)[names(m.table) == "degree"] <- column
+  return( m.table[ order(m.table[[column]],decreasing = T),] )
+}
+
+load("venice-marriages.Rda")
+marriages <- marriages.raw[ marriages.raw$wife_familyname_std != '',] # Eliminates those that are not noble
+marriages.all <- marriages
+marriages.all.sn <- graph.data.frame(data.frame(marriages.all$husband_familyname_std,marriages.all$wife_familyname_std),directed=F)
+
+marriages.with.self.loops <- marriages.all[marriages.all$husband_familyname_std == marriages.all$wife_familyname_std,]
+families.with.self.loops <- unique(marriages.with.self.loops$husband_familyname_std)
+all.families <- unique(c(marriages.all$husband_familyname_std,marriages.all$wife_familyname_std))
+
+components <- components(marriages.all.sn)
+max.size <- max(components$csize)
+
+dataset.summary <- data.frame( dataset="Venice",
+                               main.component.percent=round(max.size/length(V(marriages.all.sn)$name)*100,2),
+                               marriages=nrow(marriages.all),
+                               self.loops=round( length(which(marriages.all$husband_familyname_std == marriages.all$wife_familyname_std))/nrow(marriages.all)*100,2),
+                               families=length(all.families),
+                               families.with.self.loops=length(families.with.self.loops),
+                               families.with.self.loops.percent=round(length(families.with.self.loops)/length(all.families)*100,2),
+                               degree.centrality=mean(degree(marriages.all.sn)),
+                               closeness.centrality=mean(closeness(marriages.all.sn)),
+                               clustering.coefficient=mean(transitivity(marriages.all.sn,type="local",isolates = "zero"))
+                               )
+
+# Repeat for Taiwan
+load("marriages-taiwan.RData")
+marriages.taiwan.sn <- graph.data.frame(data.frame(marriages.taiwan$husband_familyname_std,marriages.taiwan$wife_familyname_std),directed=F)
+marriages.with.self.loops.tw <- marriages.taiwan[marriages.taiwan$husband_familyname_std == marriages.taiwan$wife_familyname_std,]
+families.with.self.loops.tw <- unique(marriages.with.self.loops.tw$husband_familyname_std)
+all.families.tw <- unique(c(marriages.taiwan$husband_familyname_std,marriages.taiwan$wife_familyname_std))
+
+components <- components(marriages.taiwan.sn)
+max.size <- max(components$csize)
+
+dataset.summary <- t(rbind( dataset.summary,
+                          data.frame( dataset="Taiwan",
+                                      main.component.percent=round(max.size/length(V(marriages.taiwan.sn)$name)*100,2),
+
+                                      marriages=nrow(marriages.taiwan),
+                                      self.loops=round( length(which(marriages.taiwan$husband_familyname_std == marriages.taiwan$wife_familyname_std))/nrow(marriages.taiwan)*100,2),
+                                      families=length(unique(c(marriages.taiwan$husband_familyname_std,marriages.taiwan$wife_familyname_std))),
+                                      families.with.self.loops=length(families.with.self.loops.tw),
+                                      families.with.self.loops.percent=round(length(families.with.self.loops.tw)/length(all.families.tw)*100,2),
+
+                                      degree.centrality=mean(degree(marriages.taiwan.sn)),
+                                      closeness.centrality=mean(closeness(marriages.taiwan.sn)),
+                                      clustering.coefficient=mean(transitivity(marriages.taiwan.sn,type="local",isolates = "zero"))
+                          )
+))
+
+rownames(dataset.summary) <- c("Dataset", "Main component size", "Marriages","Self-loops (% of all marriages)","# Families", "# Families with self-loops", "% Families with self-loops", "Degree centrality (avg)","Closeness Centrality (avg)","Clustering coefficient (avg)")
+
+
+kable(dataset.summary,
+      caption="Summary of the original datasets used in this paper, which shows the differences between them in almost all aspects.\\protect\\label{tab:datasets}")
+@
+
+The dataset of marriages involving a noble husband in the Republic of Venice, from  \Sexpr{min(marriages[ !is.na(marriages$year),]$year)} to \Sexpr{max(marriages[ !is.na(marriages$year),]$year)}\footnote{The republic fell in 1797 but marriage records are available until \Sexpr{max(marriages[ !is.na(marriages$year),]$year)}.} is based on records from the \emph{Archivio di Stato di Venezia} and was digitized by Puga and Treffler \cite{10.1093/qje/qju006}. In the process,  family names were normalized to the most common spelling.\footnote{Venetian family names  sometimes have different spellings in the records, alternating between Venetian and Italian spelling.  For instance, "Cornaro" and "Corner" have been normalized to "Corner".} We have also eliminated  all marriages that include a non-patrician wife.\footnote{In the original dataset, these were marriages where the family name of the wife was not available, and therefore they could not be properly assigned to a node in the social network. These records can be used to study which families were more prone to marrying non-patricians and when, but they are  not necessary for the purposes of this paper.} The unipartite, undirected and weighted network thus obtained includes \Sexpr{length(V(marriages.all.sn))} nodes and \Sexpr{length(E(marriages.all.sn))} arcs. The total number of intra-marriages in this network  is \Sexpr{length(marriages.with.self.loops$husband_familyname_std)}, \Sexpr{round( length(which(marriages.all$husband_familyname_std == marriages.all$wife_familyname_std))/nrow(marriages.all)*100,2)}\% of all marriages.
+
+The next dataset we are going to use is Dluho{\v{s}}ov{\'a}'s  marital network of Taiwanese elite families \cite{MaritalNetworksandPortfoliosofPrestige}. The original database includes several types of kin relationships, from which we extracted the marriages to obtain a undirected weighted unipartite network as before. The original dataset includes family names in Chinese characters. We processed these names using machine translation and some manual corrections so that family names in this paper match those in the original one. In the resulting network, there are \Sexpr{vcount(marriages.taiwan.sn)} nodes and \Sexpr{ecount(marriages.taiwan.sn)} edges, making it much more sparse than the previous one. Out of the total number of edges, only \Sexpr{sum(is.loop(marriages.taiwan.sn) == TRUE)} are self-loops, that is, \Sexpr{round(sum(is.loop(marriages.taiwan.sn) == TRUE)/ecount(marriages.taiwan.sn)*100,2)}\% of the total number of marriages. This percentage is lower than the \Sexpr{round(sum(is.loop(marriages.all.sn) == TRUE)/ecount(marriages.all.sn)*100,2)}\% of the Venetian network,  but not in a totally different order of magnitude.
+
+A summary of the two datasets is shown in Table \ref{tab:datasets}; one can see that they are quite different from most points of view, the main one being the clustering coefficient. Both, however, correspond to cultures where the concept of ``family'' spans several generations, and, most importantly, include self-loops, so they are both adequate for our purposes. Please check the Declarations section for data and code availability.
+
+
+\section{Methods and results}\label{sec:methods}
+
+ In this section we propose three different methods to include self-loops in the analysis of marriage networks, and apply them to the Venetian dataset; as this network has the largest number of self-loops, it can give us a better idea of the usefulness of our proposals. The results obtained on this network will allow us to choose what looks the most appropriate method among the three proposed. To verify the quality of our selected method,  we apply it again to the Taiwanese dataset, a marital network  very different from the Venetian one.
+
+ For each method, we will first check whether it is able to meaningfully incorporate self loops into the calculation of centrality measures, and second, whether the resulting ranking of nodes is able to better  represent the status and position of families described in the original papers where the datasets were first introduced.
+
+ We will consider three of the measures most commonly used in social network analysis: betweenness, eigenvector and PageRank centrality.
+Betweenness centrality \cite{betweenness} is a measure of brokerage and bridging, that is, of how  well one family is able to intermediate between the others; it is a good first approximation of a family's power, reputation or influence. Eigenvector centrality \cite{BONACICH2007555} \cite{ruhnau2000eigenvector} has been used extensively in social network analysis and takes into account not only how well connected is a node but also the importance of such connections; PageRank centrality \cite{BRIN1998107}, as EV centrality, is defined recursively, but is based on the importance of all the in-coming ties. Other centrality measures would either be unrelated or unaffected by self-loops, such as closeness centrality, or would be affected in a trivial way, for example degree centrality.
+
+<<venice.setup, echo=FALSE,fig.height=4, fig.pos="h!tb", warning=FALSE,message=FALSE,cache=T,fig.cap="Venetian marital networks with self-loops eliminated; this will be our baseline graph.\\protect\\label{fig:venice:nsl}">>=
+marriages <- marriages[ marriages$husband_familyname_std != marriages$wife_familyname_std,]
+marriages.sn <- graph.data.frame(data.frame(marriages$husband_familyname_std,marriages$wife_familyname_std),directed=F)
+
+V(marriages.sn)$betweenness <- betweenness(marriages.sn)
+m.betweenness <- tablify( marriages.sn, "betweenness")
+V(marriages.sn)$eigen <-  unname(unlist(eigen_centrality(marriages.sn)$vector))
+m.eigen <- tablify( marriages.sn, "eigen")
+V(marriages.sn)$pr <- unname(unlist(page_rank(marriages.sn)$vector))
+m.pr <- tablify( marriages.sn, "pr")
+par(mar=c(0,0,0,0)+.1)
+V(marriages.sn)$color <- "blue"
+plot(marriages.sn,vertex.size=3,vertex.label=NA)
+@
+
+The baseline network  we will be working with is shown in Figure \ref{fig:venice:nsl}; self-loops have obviously been dropped. For the following discussion,  values of centrality measures calculated on this dataset will be used as a benchmark. The rankings of the top ten Venetian families for the three centrality measures we consider in this paper is shown in Table \ref{tab:venice.top10.noselfloops}.%
+<<venice.marriages, echo=FALSE,warning=FALSE,message=FALSE>>=
+venice.top10.noselfloops <- data.frame( family.bw = m.betweenness[1:10,]$Family,
+                                        betweennes.value = m.betweenness[1:10,]$betweenness,
+                                       family.ev = m.eigen[1:10,]$Family,
+                                       eigen.value = m.eigen[1:10,]$eigen,
+                                       family.pr = m.pr[1:10,]$Family,
+                                       pr.value = m.pr[1:10,]$pr)
+kable(venice.top10.noselfloops,
+      align="lr|lr|lr",
+      booktabs = T,
+      row.names = F,
+      col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
+      caption="Top ten families in the Venetian dataset, with self-loops excluded, according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.noselfloops}") %>% add_header_above(c("No self-loops"=6))
+@
+%
+
+%
+<<self.marriages, echo=F, message=F>>=
+library(dplyr)
+library(tidyr)
+library(tibble)
+
+marriages.self <- marriages.raw[ marriages.raw$husband_familyname_std == marriages.raw$wife_familyname_std,]
+sorted.marriages.self <- marriages.self %>% count(wife_familyname_std, sort=T)
+intra.marriages <- unique(marriages.self$wife_familyname_std)
+kable(sorted.marriages.self %>% head(.,10),
+      row.names = F,
+      col.names= c("Family","# Intra-family marriages"),
+      caption="Top 10 families by number of intra-family marriages.\\protect\\label{tab:intra}")
+all.names <- unique( c( marriages.raw$wife_familyname_std, marriages.raw$husband_familyname_std))
+all.marriages <- marriages.raw %>% select(husband_familyname_std,wife_familyname_std) %>% rowid_to_column() %>% pivot_longer(-rowid) %>% group_by(value) %>% summarise(n = n_distinct(rowid)) %>% arrange(desc(n))
+marriages.table <- left_join(all.marriages,sorted.marriages.self,by=c("value" = "wife_familyname_std"))
+marriages.table$intra.marriages.rate <- marriages.table$n.y / marriages.table$n.x
+@
+%
+Instead, Table \ref{tab:intra}  shows the top ten families in terms of the number of intra-marriages. As we can see form the table, the Contarini family has the highest number of internal marriages, accounting for \Sexpr{round(100*marriages.table[ marriages.table$value =="Contarini",]$intra.marriages.rate)}\%  of the total number of marriages.
+
+ Before presenting our proposals, notice that to incorporate self-loops, any method must create new nodes and new edges linking the new, ``artificial'' nodes to the old ones, since methods such as the PageRank and betweenness centrality use paths over edges for their computation; new edges will have to match, somehow, the intra-links we want to incorporate into the graph modelling the social network. Therefore the proposed method will differ in how they create new nodes.
+
+\subsection{Method 1: ``New nodes''}
+\label{ss:method1}
+
+<<nn.illustration,echo=F,fig.show="hold",out.width="50%",fig.cap="Illustration of the ``new node'' method, with the original network with a self-loop on the left and the modified network on the right. The original nodes are light blue, the \"replica\" ones  gold." >>=
+initial.matrix <- matrix(c(1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0),nrow=4,ncol=4)
+initial.graph <- graph_from_adjacency_matrix(initial.matrix,mode="undirected")
+V(initial.graph)$name <- c("A","B","C","D")
+V(initial.graph)$color <- "lightblue"
+plot(initial.graph)
+
+modified.matrix.nn <- matrix(c(0,1,1,1,0,
+                               0,0,0,0,0,
+                               0,0,0,1,1,
+                               0,0,0,0,1,
+                               0,0,0,0,0),nrow=5,ncol=5)
+modified.graph.nn <- graph_from_adjacency_matrix(modified.matrix.nn,mode="undirected")
+V(modified.graph.nn)$name <- c("A","A'","B","C","D")
+V(modified.graph.nn)$color <- "lightblue"
+V(modified.graph.nn)["A'"]$color <- "gold"
+layout <- layout_nicely(modified.graph.nn)
+par(mar=c(0,0,0,0)+.1)
+plot(modified.graph.nn,layout=layout)
+@
+%
+The first method tested is relatively simple and straightforward: for each node with $n$ self-loops, add a new node  connected {\em only} to the original one, with a weight equivalent to $n$. This is illustrated in Figure \ref{fig:nn.illustration}. In other words, we convert a self-loop into an edge between two nodes for the same family: the original node and the new one.
+
+<<newnodes, echo=F, cache=T>>=
+marriages.newnodes <- marriages.sn
+for ( n in sorted.marriages.self$wife_familyname_std ) {
+  new.name <- paste0(n,"'")
+  marriages.newnodes <- marriages.newnodes + vertex(new.name,color="yellow") + edge(n,new.name,weight=marriages.table[marriages.table$value == n,]$n.y)
+}
+@
+
+This method, trivial as it is, does not change the overall shape of the network, so the structural influence of these ``new'' nodes (and their edges) is lost. Once rendered, it might help visualize the placement of the families with some degree of intra-marriages, but little else; this could be achieved in other ways that do not involve changes in the network, such as the use of size or color in the visualization of nodes. Thus, we discard this method altogether.
+
+\subsection{Method 2: ``Split families''}
+\label{ss:method2}
+
+<<sf.illustration,echo=F,fig.show="hold",out.width="50%",fig.cap="Illustration of the ``split families'' method, with the original network with a self-loop on the left and the modified network (via the ``split families'' method) on the right. Female nodes have been painted gold. We have assumed that there is a single marriage between nodes, and thus C and B need to be either male or female each, while D is split in two different (and unconnected) nodes, since they do not have a self-loop.\\protect\\label{fig:sf.illustration}" >>=
+plot(initial.graph)
+
+modified.matrix.sf <- matrix(c(0,1,1,0,0,0,
+                               0,0,0,1,0,0,
+                               0,0,0,1,1,0,
+                               0,0,0,0,0,1,
+                               0,0,0,0,0,0,
+                               0,0,0,0,0,0),nrow=6,ncol=6)
+modified.graph.sf <- graph_from_adjacency_matrix(modified.matrix.sf,mode="undirected")
+V(modified.graph.sf)$name <- c("A-M","A-F","B-F","C-M","D-M","D-F")
+V(modified.graph.sf)$color <- "lightblue"
+V(modified.graph.sf)["A-F"]$color <- "gold"
+V(modified.graph.sf)["B-F"]$color <- "gold"
+V(modified.graph.sf)["D-F"]$color <- "gold"
+
+layout <- layout_nicely(modified.graph.sf)
+#angle <- 2*pi*5/8
+#RotMat <- matrix(c(cos(angle),sin(angle),-sin(angle), cos(angle)), ncol=2)
+#layout <- layout  %*% RotMat
+par(mar=c(0,0,0,0)+.1)
+plot(modified.graph.sf,layout=layout)
+@
+
+A different approach for taking intra-family ties into account is to consider husband and wives as different vertices of the graph; this would convert the ``raw'' bipartite graph (with the two parties being ``bride'' and ``groom'' nodes) in a single-party graph by simply relabeling the graph as a single-mode graph and analyzing it as such; this is illustrated in Figure \ref{fig:sf.illustration}. From a historical perspective, this makes sense only in contexts where marriages are not egalitarian, and female and male parts of a family are separate actors, belonging to different ``classes''; but, from a strictly pragmatic point of view, it is a simple way of treating a family's  marriages to itself  and marriages to other families equally. The side effect is that female and male nodes of the same family will be separated by, at least, one other node, unless there are intra-family marriages, of course; this is illustrated by node D in the Figure, that has been separated in nodes $D-F$ and $D-M$, which are not directly connected. Please note that, in this method, {\em all} nodes and edges are changed, since "M" nodes can be connected only to "F" nodes.
+
+<<split.families, echo=F, cache=T, fig.cap="Graph representation of data processed using the \"split families\" method, that considers separately husbands and wives in the marital network. The representation uses the default rendering algorithm in the {\\protect\\sf igraph} R package. \"Husband\" nodes are colored in blue, \"Wife\" nodes in gold.\\protect\\label{fig:sf}">>=
+marriages.sf <- data.frame(marriages.raw)
+marriages.sf$husband_familyname_std <- paste0(marriages.sf$husband_familyname_std,"-M")
+marriages.sf$wife_familyname_std <- paste0(marriages.sf$wife_familyname_std,"-F")
+marriages.sf <- marriages.sf[ marriages.sf$wife_familyname_std != '-F',]
+marriages.sf.sn <- graph.data.frame(data.frame(marriages.sf$husband_familyname_std,marriages.sf$wife_familyname_std),directed=F)
+V(marriages.sf.sn)$color <- "blue"
+V(marriages.sf.sn)[marriages.sf$wife_familyname_std]$color <- "gold"
+plot(marriages.sf.sn,vertex.size=3,vertex.label=NA)
+
+V(marriages.sf.sn)$betweenness <- betweenness(marriages.sf.sn)
+m.sf.betweenness <- tablify( marriages.sf.sn, "betweenness")
+V(marriages.sf.sn)$eigen <-  unname(unlist(eigen_centrality(marriages.sf.sn)$vector))
+m.sf.eigen <- tablify( marriages.sf.sn, "eigen")
+V(marriages.sf.sn)$pr <- unname(unlist(page_rank(marriages.sf.sn)$vector))
+m.sf.pr <- tablify( marriages.sf.sn, "pr")
+
+venice.top10.split.families <- data.frame( family.bw = m.sf.betweenness[1:10,]$Family,
+                                           betweennes.value = m.sf.betweenness[1:10,]$betweenness,
+                                           family.ev = m.sf.eigen[1:10,]$Family,
+                                           eigen.value = m.sf.eigen[1:10,]$eigen,
+                                           family.pr = m.sf.pr[1:10,]$Family,
+                                           pr.value = m.sf.pr[1:10,]$pr)
+kable(venice.top10.split.families,
+      align="lr|lr|lr",
+      booktabs = T,
+      row.names = F,
+      col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
+      caption="Top ten nodes in the Venetian dataset processed with the \"split families\" method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.split.families}") %>% add_header_above(c("Split families"=6))
+@
+
+To get some insight about the structure of the network with split families, the latter  is rendered in  Figure \ref{fig:sf} where male nodes are in blue and female nodes are in gold.\footnote{As mentioned in the caption of Figure \ref{fig:sf}, we are using the default node layout of the {\sf igraph} package; as indicated in the manual, this method is called {\sf layout\_nicely}, and  uses some heuristics to choose a specific layout based on the graph. Our point is that by incorporating new nodes and edges analogous to the existing ones, we do not need to add any special provision or layout algorithm to visualize the graph, except to highlight the newly added nodes.} The figure shows how some families seem to occupy the center through the ``husband'' nodes while others through their ``wife'' nodes, implying that some families achieve centrality by marrying their daughters (and providing dowry for it), while others, possibly more successful families, are sought for their position. Another interesting feature is that two small sub-networks, connecting a female of one family to the male of another, have been created; these sub-networks were originally connected through their ``other'' parts, so this is an artifact of this representation: We cannot pretend that the female and male part of a family is disconnected even if there are not intra-marriages. However, trying to correct this effect would lead to additional artefacts.
+
+Since differences in centrality values calculated on different networks are meaningless, to see how this method affects centrality measures we will compare family rankings. Top ten rankings for the split families network are shown in Table \ref{tab:venice.top10.split.families}.
+Comparing them with the benchmark of Table \ref{tab:venice.top10.noselfloops} is not an easy task, due to the fact that the original nodes have been  split and converted in others, but some facts emerge clearly nonetheless. The first, not surprising, is that the Contarinis, originally the most central family and also the one with the most intra-marriages, remain at the top of the ranking for both male and female. The second is that the family ranked fourth in the benchmark case, the Donatos, has now fallen (for both nodes) below the Morosinis who were originally  only in fifth place. According to Table~\ref{tab:intra} the Donatos only had 11 inter-marriages while the Morosinis had 23; this is why the Donatos had to give way.
+
+Other comparisons, however, are more difficult, because for the three centrality measure  of Table~\ref{tab:venice.top10.split.families}, the male and female nodes, once split, end up in different position in the rankings, making it difficult to measure the centrality of the family as a whole. Moreover,  from a historical or sociological point of view, it is  very difficult to interpret the ``male'' and ``female'' members of the family as different actors of the social network. Therefore, although this methodology for taking into account intra-family marriages  might open some interesting angles of research, we discard it.
+
+
+\subsection{Method 3: ``Duplicated node''}
+\label{ss:duplicated}
+
+The third method we propose is similar to the first one because it creates a new node for each family with intra-family connections, which is why we will call it {\em duplicated nodes}. As with Method 1, this new node is connected to the original one by an edge of weight equivalent to the number of intra-family marriages; however, it is now also linked to all the nodes to which the original node was connected; thus, the ``original'' node and its ``replica''  have all the same connections (possibly including connections with  ``replica'' nodes, of course), and  are also connected to each other.
+
+<<dup.illustration,echo=F,fig.show="hold",out.width="50%",fig.cap="Illustration of the \"duplication\" method, with the original network with a self-loop on the left and the modified network on the right. The original nodes are light blue, the \"replica\" ones  gold.\\protect\\label{fig:dup.illustration}" >>=
+plot(initial.graph)
+
+modified.matrix <- matrix(c(0,1,1,1,0,1,0,1,1,0,1,1,0,1,1,1,1,1,0,1,0,0,1,1,0),nrow=5,ncol=5)
+modified.graph <- graph_from_adjacency_matrix(modified.matrix,mode="undirected")
+V(modified.graph)$name <- c("A","A'","B","C","D")
+V(modified.graph)$color <- "lightblue"
+V(modified.graph)["A'"]$color <- "gold"
+layout <- layout_nicely(modified.graph)
+angle <- 2*pi*5/8
+RotMat <- matrix(c(cos(angle),sin(angle),-sin(angle), cos(angle)), ncol=2)
+layout <- layout  %*% RotMat
+par(mar=c(0,0,0,0)+.1)
+plot(modified.graph,layout=layout)
+@
+
+
+ To better understand how this method works, Figure \ref{fig:dup.illustration} illustrates its effects over the usual simplified network with four nodes and one self-loop for node A:  in practice, when  A is duplicated to its ``replica'' A', if originally there was a registered marriage between, let's say, the Contarini (A) and the Morosini (B), an additional "fictional marriages" (that is, an edge) will be created between the other Contarini (A') and the Morosini; as well as, of course, the Contarini-Contarini (A-A') weighted edge. The justification is that, to account for intra-family marriages, we must consider that large families have two (undistinguished) parts; this would account for the links that have been created between the different parts of the two (large) families. Then, of course, intra-family marriages will link these two parts of the family, which again are undistinguished.
+
+
+<<dup, echo=F, cache=T, fig.cap="Graph representation of data processed using the \"duplicated nodes\" method, that duplicates the node for families that have intra-connections; \"original\" nodes are colored in blue, \"replicated\" nodes in gold. The default rendering method in the {\\protect\\sf igraph} package has been used to place the nodes.\\protect\\label{fig:dup}" >>=
+marriages.dup <- data.frame(marriages)
+duplicates.h <- marriages.dup[ marriages.dup$husband_familyname_std %in% intra.marriages,]
+duplicates.h$husband_familyname_std <- paste0(duplicates.h$husband_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,duplicates.h)
+duplicates.w <- marriages.dup[ marriages.dup$wife_familyname_std %in% intra.marriages,]
+duplicates.w$wife_familyname_std <- paste0(duplicates.w$wife_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,duplicates.w)
+these.self.marriages <- data.frame(marriages.self)
+these.self.marriages$husband_familyname_std <- paste0(these.self.marriages$husband_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,these.self.marriages)
+marriages.dup.sn <- graph.data.frame(data.frame(marriages.dup$husband_familyname_std,marriages.dup$wife_familyname_std),directed=F)
+V(marriages.dup.sn)$color <- "blue"
+V(marriages.dup.sn)[these.self.marriages$husband_familyname_std]$color <- "gold"
+par(mar=c(0,0,0,0)+.1)
+plot(marriages.dup.sn,vertex.size=3,vertex.label=NA)
+@
+
+The Venetian network treated with the duplicated node method is shown in Figure~\ref{fig:dup}, with the "replica" nodes in gold; what we can observe in this image is that the nodes in gold, which are fewer in number that those in blue, are mainly located in the center of the graph. This tells us that families with intra-family marriages are more central than the others, i.e.  they have higher centrality measures and are thus placed in the center by the layout algorithm.
+
+<<r dup.tables, echo=F>>=
+V(marriages.dup.sn)$betweenness <- betweenness(marriages.dup.sn)
+m.dup.betweenness <- tablify( marriages.dup.sn, "betweenness")
+
+V(marriages.dup.sn)$eigen <-  unname(unlist(eigen_centrality(marriages.dup.sn)$vector))
+m.dup.eigen <- tablify( marriages.dup.sn, "eigen")
+
+V(marriages.dup.sn)$pr <- unname(unlist(page_rank(marriages.dup.sn)$vector))
+m.dup.pr <- tablify( marriages.dup.sn, "pr")
+
+venice.top10.dup <- data.frame( family.bw = m.dup.betweenness[ !grepl("'",m.dup.betweenness$Family),][1:10,]$Family,
+                                        betweennes.value = m.dup.betweenness[ !grepl("'",m.dup.betweenness$Family),][1:10,]$betweenness,
+                                       family.ev = m.dup.eigen[ !grepl("'",m.dup.eigen$Family),][1:10,]$Family,
+                                       eigen.value = m.dup.eigen[ !grepl("'",m.dup.eigen$Family),][1:10,]$eigen,
+                                       family.pr = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$Family,
+                                       pr.value = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$pr)
+kable(venice.top10.dup,
+      align="lr|lr|lr",
+      booktabs = T,
+      row.names = F,
+      col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
+      caption="Top ten nodes in the Venetian dataset processed with the {\\protect\\sf duplicated nodes} method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.dup}") %>% add_header_above(c("Duplicated nodes"=6))
+
+@
+
+We can now  compare the centrality measures obtained by the duplicated node method with the benchmark.  The new values are shown in  Table \ref{tab:venice.top10.dup}, where the ``replica'' nodes have been eliminated from the ranking because they have exactly the same values as the ``original'' one by design. A comparison of Tables \ref{tab:venice.top10.noselfloops} (left) and \ref{tab:venice.top10.dup} (left) shows that the addition of the ``replica'' nodes decreased betweenness centrality for every node of the ranking. To understand why, consider that betweenness centrality measures  how  much a certain node is "in-between", that is, how often it is found when going from one random node to another using the shortest path. Our procedure has increased the number of nodes and edges, thus the measures for specific nodes is bound to be affected; in particular, what  decreases per-node betweenness in the families shown in this ranking is the fact that other families have also duplicated their nodes, and this creates new nodes that will have the exact same short path passing through them; thus, the decrease in betweenness will be due mainly to the number of families with intra-marriages (duplicated nodes) that will still need to go through the node to get to other nodes. 
+
+But a more proper way to compare two networks with different structures is to look at rankings and how they are affected by the new method. We see that the top six families in terms of betweenness centrality retain their position,  but there are changes in the bottom four and, in particular, the Venier family, who did not belong to the original ranking, is now in seventh place. Overall, however, there are no drastic changes, which is good in this particular case because this would have been at odds with the other family status indicators  presented in the original paper.
+
+The effect on eigenvector centrality observed when comparing Table~\ref{tab:venice.top10.noselfloops} (center) and \ref{tab:venice.top10.dup} (center) is also  very small. The Contarini family, which we know has the highest number of intra-family marriages, is still the first in the ranking and the other families following the Contarini also  maintain their position, with the exception of the tenth place which is now held by the Pisani instead of the Loredan. As we mentioned above for betweenness centrality, the small variations are consistent with the other status indicators for Venetian families. Notice also that the swap in places of the  Pisani and the Loredan can be traced to the difference in internal marriages of the two families. From Table~\ref{tab:intra} we see that the Pisani family has  eight self-marriages while the Loredan only has four. Therefore, intra-marriages increase the (relative) centrality of the  families who have them.
+
+ Finally, we turn our attention to PageRank centrality. This is a measure  designed primarily  for directed graphs; when used in undirected graphs, as we are doing here, it gives a recursive measure of influence alternative to eigenvector centrality. As can be seen by comparing the rightmost column of Table ~\ref{tab:venice.top10.noselfloops}  and \ref{tab:venice.top10.dup}, for well-connected families, which are also those with a high number of intra-marriages, the changes are so negligible that the ranking of the first ten families remains the same.
+
+Beyond changes in rankings, the effects of the duplicating nodes method on a family's influence can be illustrated using the simple network of Figure~\ref{fig:dup.illustration}. If the  ``replica'' node (A') is interpreted as "another" part of the family that is not directly related (or not directly enough to prevent internal marriages) to "the original" one,  when the new edges are added, an alternative way of getting to any part of the family, either the original node (A) or the other, separate, part of the family (A'), is created. The splitting family method, which divides the family by gender, was also a way of introducing ``another'' part of the family, but the division it  introduced was fixed, whereas the duplicated node method simply indicates that there are different parts of the family, independent enough as to allow internal marriages, but still externally recognized as belonging to the same {\em casata} or dynastic house. Therefore, unlike the other methods studied so far, the duplicated nodes does have a straightforward interpretation in social terms.
+
+
+ 
+
+\subsection{The duplicated node method and the Taiwanese network}
+\label{ss:taiwan}
+
+<<setup.taiwan, cache=T, echo=F, message=F, fig.height=5, fig.pos="h!tb", fig.cap="The Taiwanese marriage network, using {\\protect\\sf graphopt} method for layout; this method is optimized for graphs with a large number of nodes.\\protect\\label{fig:taiwan:sn}">>=
+V(marriages.taiwan.sn)$eigen <- unname(unlist(eigen_centrality(marriages.taiwan.sn,scale=F)$vector))
+par(mar=c(0,0,0,0)+.1)
+plot(marriages.taiwan.sn, layout=layout_with_graphopt(marriages.taiwan.sn),vertex.label=NA,vertex.size=2)
+@
+
+We now apply the duplicated node method to the elite families marital network in Taiwan. The network is rendered in Figure \ref{fig:taiwan:sn}.
+%
+%
+<<taiwan.self, echo=F, message=F>>=
+marriages.taiwan.self <- marriages.taiwan[ marriages.taiwan$husband_familyname_std == marriages.taiwan$wife_familyname_std,]
+sorted.marriages.taiwan.self <- marriages.taiwan.self %>% count(wife_familyname_std, sort=T)
+kable(sorted.marriages.taiwan.self,
+      row.names = F,
+      col.names= c("Family name","# Intra-family marriages"),
+      caption="Intra-family marriages by family in the Taiwanese dataset.\\protect\\label{tab:intra:taiwan}")
+@
+%
+Table \ref{tab:intra:taiwan} lists all families with an intra-family marriage. The first two families in the table have two, the others only one. As indicated in Section~\ref{sec:datasets}, this network has been extracted from Dluho{\v{s}}ov{\'a} \cite{MaritalNetworksandPortfoliosofPrestige} who classifies the most prominent families between ``old'' and ``new'' ones, as well as so-called "Mainland ruling elite" families. Additionally,  using community analysis, the paper finds 11 communities, designated with letters from A to K, where letters are assigned in descending order of number of nodes; the "A" community, thus, is the largest with 4.33\% of the nodes\footnote{These communities cover 47\% of the nodes, excluding networks that are not in the main component, for instance, nodes with degree = 1, and other ones that are simply too small}. The main families in each community (referred to as  "networks" in the paper) are also indicated by a number in descending order of centrality: for instance, the Ling Xiantang family, labelled A1, is the most prominent family in the "A" community, the "Wufeng Ling family network".\footnote{Sometimes the Lin Xiantang family is also referred to as Wufeng Ling "upper" branch in the paper. We would like to point out  that the way families are identified is not uniform across the two social networks  we used in this paper. For example, in the Taiwanese network Wufeng Ling "upper" branch (A1, Lin Xiantang) and "lower" branch (A2, Ling Dingbang) are regarded as different families, and thus correspond to two different nodes. In the Venetian Republic network, instead, all branches of a family are assigned to a single node. This could be due to cultural differences or simply lack of data, and it possibly explains the difference in the number of self-loops in the two datasets.}
+
+
+
+<<taiwan.self.plot, echo=F, message=F>>=
+marriages.taiwan.no.self.loops.sn <- delete.edges(marriages.taiwan.sn,which(is.loop(marriages.taiwan.sn) == TRUE))
+V(marriages.taiwan.no.self.loops.sn)$betweenness <- betweenness(marriages.taiwan.no.self.loops.sn)
+V(marriages.taiwan.no.self.loops.sn)$eigen <- unname(unlist(eigen_centrality(marriages.taiwan.no.self.loops.sn)$vector))
+V(marriages.taiwan.no.self.loops.sn)$pr <- unname(unlist(page_rank(marriages.taiwan.no.self.loops.sn)$vector))
+
+m.taiwan.eigen <- tablify( marriages.taiwan.sn, "eigen")
+m.taiwan.nsl.eigen <- tablify( marriages.taiwan.no.self.loops.sn, "eigen")
+m.taiwan.nsl.betweenness <- tablify( marriages.taiwan.no.self.loops.sn, "betweenness")
+m.taiwan.nsl.pr <- tablify( marriages.taiwan.no.self.loops.sn, "pr")
+@
+
+<<taiwan.self.tables, echo=F, message=F>>=
+taiwan.top10.no.self.loops <- data.frame( family.bw = m.taiwan.nsl.betweenness[1:10,]$Family,
+                                        betweennes.value = m.taiwan.nsl.betweenness[1:10,]$betweenness,
+                                       family.ev = m.taiwan.nsl.eigen[1:10,]$Family,
+                                       eigen.value = m.taiwan.nsl.eigen[1:10,]$eigen,
+                                       family.pr = m.taiwan.nsl.pr[1:10,]$Family,
+                                       pr.value = m.taiwan.nsl.pr[1:10,]$pr)
+kable(taiwan.top10.no.self.loops,
+      align="lr|lr|lr",
+      booktabs = T,
+      row.names = F,
+      col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
+      caption="Top ten nodes in the Taiwanese elite families dataset with self-loops dropped according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:taiwan.top10.nsl}") %>% add_header_above(c("No self loops"=6))
+@
+
+As we did before, we first compute benchmark centrality measures when self-loops are eliminated. The resulting rankings for the ten top families are shown in Table \ref{tab:taiwan.top10.nsl} for  betweenness centrality, eigenvector centrality and and PageRank, respectively. Looking at the three tables, we immediately see a striking difference between the Taiwanese network and the Venetian one: in the benchmark measures for Venice (Table \ref{tab:venice.top10.noselfloops}) the most central family is the Contarini, the same for all three rankings. Furthermore, seven out of ten families appear in all three rankings and a total of only 13 families are found across the three rankings, i.e. all measures of centrality identify the same small group of families. In the Taiwanese dataset, instead, the first spot in the ranking is taken by a different family for each measure, and a family ranked first for one measure is not even in the top ten for another, as in the case of the Yan Fu family, which is first in eigenvector centrality but not in the top ten for betweenness centrality. Looking at the data, one notices that the  structure and composition of the network are totally different, the network is much more sparse, which causes different measures to increase the centrality of specific families depending not so much on their degree, but on the position they have in the network; this is also noticeable in the betweenness centrality measures, which in this case are two orders of magnitude greater than in the Venetian network.
+
+Having established in the previous section that the duplicated node method can provide us with a way to introduce self-loops in any of these centrality measures, let us then apply it to this network. As we can see from the rendering of the resulting network, shown in Figure \ref{fig:dup.taiwan}, duplicating nodes only adds 16 new nodes in a network with numerous families; this is in sharp contrast with the Venetian network of Figure \ref{fig:dup} which, as we said,  had less nodes and  proportionally many more self-loops. So this is obviously an extreme case of network with intra-family ties: a very small percentage of families are big enough to allow internal marriages. As the following analysis shows, they do, however, have an impact on centrality measures.
+%
+<<taiwan.dup, echo=F, cache=T, fig.cap="The Taiwanese network using the \"duplication\" method; \"original\" nodes are colored in blue, \"replicated\" nodes in gold. The {\\protect\\sf graphopt} method has been used to place the nodes, as in the previous figure.\\protect\\label{fig:dup.taiwan}" >>=
+marriages.taiwan.nsl <- marriages.taiwan[ marriages.taiwan$husband_familyname_std != marriages.taiwan$wife_familyname_std,]
+
+marriages.dup <- data.frame(marriages.taiwan.nsl)
+intra.marriages.taiwan <- unique(marriages.taiwan.self$wife_familyname_std)
+
+duplicates.h <- marriages.dup[ marriages.dup$husband_familyname_std %in% intra.marriages.taiwan,]
+duplicates.h$husband_familyname_std <- paste0(duplicates.h$husband_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,duplicates.h)
+
+duplicates.w <- marriages.dup[ marriages.dup$wife_familyname_std %in% intra.marriages.taiwan,]
+duplicates.w$wife_familyname_std <- paste0(duplicates.w$wife_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,duplicates.w)
+
+these.self.marriages <- data.frame(marriages.taiwan.self)
+these.self.marriages$husband_familyname_std <- paste0(these.self.marriages$husband_familyname_std,"'")
+marriages.dup <- rbind(marriages.dup,these.self.marriages)
+
+marriages.dup.sn <- graph.data.frame(data.frame(marriages.dup$husband_familyname_std,marriages.dup$wife_familyname_std),directed=F)
+V(marriages.dup.sn)$color <- rgb(0,0,1,0.5)
+V(marriages.dup.sn)[these.self.marriages$husband_familyname_std]$color <- "gold"
+par(mar=c(0,0,0,0)+.1)
+plot(marriages.dup.sn,layout=layout_with_graphopt(marriages.dup.sn),vertex.size=2,vertex.label=NA)
+@
+%
+
+<<taiwan.dup.tables, echo=F>>=
+V(marriages.dup.sn)$betweenness <- betweenness(marriages.dup.sn)
+m.dup.betweenness <- tablify( marriages.dup.sn, "betweenness")
+
+V(marriages.dup.sn)$eigen <-  unname(unlist(eigen_centrality(marriages.dup.sn)$vector))
+m.dup.eigen <- tablify( marriages.dup.sn, "eigen")
+
+V(marriages.dup.sn)$pr <- unname(unlist(page_rank(marriages.dup.sn)$vector))
+m.dup.pr <- tablify( marriages.dup.sn, "pr")
+
+taiwan.top10.dup <- data.frame( family.bw = m.dup.betweenness[ !grepl("'",m.dup.betweenness$Family),][1:10,]$Family,
+                                        betweennes.value = m.dup.betweenness[ !grepl("'",m.dup.betweenness$Family),][1:10,]$betweenness,
+                                       family.ev = m.dup.eigen[ !grepl("'",m.dup.eigen$Family),][1:10,]$Family,
+                                       eigen.value = m.dup.eigen[ !grepl("'",m.dup.eigen$Family),][1:10,]$eigen,
+                                       family.pr = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$Family,
+                                       pr.value = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$pr)
+kable(taiwan.top10.dup,
+      align="lr|lr|lr",
+      booktabs = T,
+      row.names = F,
+      col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
+      caption="Top ten nodes in the Taiwanese dataset processed with the {\\protect\\sf duplicated nodes} method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:taiwan.top10.dup}") %>% add_header_above(c("Duplicated nodes"=6))
+@
+
+Let us see how the introduction of these new ties impacts the rankings of the three centrality measures considered. The results are shown in Table \ref{tab:taiwan.top10.dup}.  A first look indicates that even though we have only introduced 16 new nodes with their edges, there is a considerable effect in all the rankings. However, the impact varies from one ranking to the next. We compare the benchmark and the new ranking in turn.
+
+Starting with betweenness centrality and comparing Tables \ref{tab:taiwan.top10.dup} (left) and \ref{tab:taiwan.top10.nsl} (left), we see that only the top two families and the sixth keep their position in the ranking. In addition, one family, Tainan Liu, which  in the benchmark case was included in the top ten in fourth place, drops out of the new ranking. The fact that there are small corrections in the families included in the top ten ranking matches what happens with the Venetian marital network. Another common feature is the decrease in betweenness centrality values, although the change is now on a different scale: in the Venetian network the value was almost halved while in this network there is only a small correction; this can be explained by the small number of families with self-loops, which implies that  the information we are adding to the network should not have such a big {\em numeric} impact, although, as we have seen, it has an impact in the rankings. 
+
+What really sets this case apart is that the changes are not induced {\em directly} by the introduction of new nodes and edges, because the families that change their position in the ranking are not those with self-links; in fact, there are only two families with (a single) intra-marriage, among those that are in the top ten for betweenness centrality; these are Lin Dingbang and Tainan Liu, and for both  betweenness centrality {\em decreases}, for the Tainan Liu family to the point that it drops out from the ranking.
+
+Since the Tainan Liu family is also the one that tops one of the other two rankings, we should probably analyze its position in the network to illustrate how it achieves it and how it is impacted by the addition of new nodes; the ego network, that is the sub-network that includes all nodes connected to Tainan Liu, is shown in Figure \ref{fig:ego:tainan_liu}. As it can be seen, it is (mostly) a star-type network: The Tainan Liu family serves as connection for a good number of nodes, and most of them can only connect to the rest of the network through it. The ego network also includes two of the 16 nodes that have been added; in such a sparsely connected network, the addition of new nodes and their corresponding edges is bound to have a great local impact. The fact that many nodes are only connected through the Tainan Liu family explains its high eigenvector and Page Rank centrality; on the other hand, since another node has been added in this version of the network, it provides alternative paths to the many nodes connected to it, thus decreasing its centrality, critically in this case, since it makes the family drop from the eigenvector centrality ranking. This is a totally intended effect of the introduction of new nodes and edges for families with intra-marriages.
+%
+<<taiwan.dup.liu, echo=F, fig.cap="{\\protect\\em Ego} network for the Tainan Liu family.\\protect\\label{fig:ego:tainan_liu}">>=
+list_of_edges <- E(marriages.dup.sn)[.from(c("Tainan Liu"))]
+tainan.liu.neighborhood <- subgraph.edges(marriages.dup.sn, list_of_edges)
+tainan.liu.ego.network <- induced.subgraph(marriages.dup.sn, V(tainan.liu.neighborhood)$name)
+plot(tainan.liu.ego.network,layout=layout_with_graphopt(tainan.liu.ego.network),vertex.size=4)
+@
+%
+
+If we compare Tables  \ref{tab:taiwan.top10.nsl} (center) and \ref{tab:taiwan.top10.dup} (center), which show the rankings in terms of eigenvector centrality, the situation is different: The Tainan Liu family, which was not among the top ten families in the benchmark case, rises to first place in the duplicated nodes ranking; moreover, all the top ten families in the new ranking were not in the benchmark top ten. Also notice that four out of the top five families in the new ranging have self-loops (all of them except Lin Xiantang). 
+
+Since the ranking has totally changed, we need to ground these results to what was
+published in the original paper. This is not straightforward because, as explained at the beginning of this subsection, families were classified along two dimensions, size and centrality, represented as letters and numbers, respectively. In what follow we will try to use  this classification  to understand what type of families are raised to the top in the duplicated node ranking. Looking at the top five families for eigenvector centrality in the new ranking  (center column of Table \ref{tab:taiwan.top10.dup}) we find,  in descending order, Tainan Liu family (A3), Qingshui Cai (A7), Lin Xiantang (A1), Ling Dinbang (A2) and Ling Weiyuan (F1). On the other hand, in the benchmark ranking without self-loops,  in the top two positions there are, in descending order, Yan Fu (F3) and Lin Weirang (F2), followed by Wan Shao Mou, which is not even listed in the largest or most prominent families,\footnote{See p. 139 of \cite{MaritalNetworksandPortfoliosofPrestige}.}) and then Yan Yunnian (B1) and another unlisted family, Jia Dehuai. 
+
+Since  the most prominent families by size are identified with the first letters of the  alphabet and by centrality  with smaller numbers, the duplicated nodes method seems better able to identify the most prominent families. In other words, looking at eigenvector centrality, the ranking without self-loops put  seemingly more irrelevant families, either from smaller communities or less central) at the top, while the new ranking picks families from the A cluster and with small numbers. 
+
+Finally, the PR rankings, shown in Tables \ref{tab:taiwan.top10.nsl} (right) and  \ref{tab:taiwan.top10.dup} (right), do not change too much when including self-loops in the way of duplicated nodes (as it was the case with the Venetian marriage network). The top four families in the ranking do not vary:  Chen Zhonghe is J1 (unnamed in the original paper), Yan Fu (F3), Yan Yunnian (B1) and Cheng Zhong Mo (A12) families, scattered over different networks. Wu Xiuji (B10) has substitute of Tainan Liu (A3) in fifth place, and Lin Weirang (F1) in the next one. The B group corresponds to the Jilong Yan network, also composed by {\em old} families. This change in ranking is certainly more difficult to interpret, since both A and B families are {\em old}. However, it is interesting to note that the Lin Weirang family, which is mentioned in Dluho{\v{s}}ov{\'a}'s paper, section 5.1, as the link of the F network (Banqiao Lin, old) with the C network (ROC Mainland ruling family, mainland elite families) and the J network (Gaoxiang Chen, old), has been boosted with respect to the benchmark ranking, where it was in  8th place. Although not a family including self-loops itself, this does show how the structural changes induced by the duplicated method can make the resulting PageRank better reflect the actual status of a single node within the network.
+
+
+\section{Discussion}\label{sec:sec12}
+
+In this section we discuss the soundness of the three methods and how they affect various dimensions of the graph on which they are applied. In particular, we will consider four aspects: first, whether the method introduces structural changes at the node level; second, whether and how the new edges brings changes at the community level; third, whether it produces artefacts that have no plausible explanation; and, fourth, how it accounts for the importance of intra-family marriages. Table \ref{tab:reqs} contains a summary of our conclusions, based on the results of Section~\ref{sec:methods}.
+%
+\begin{table}[h!tbp]
+		\centering
+		\caption{Summary of features of the three methods we have introduced for accounting for intra-family marriages.\label{tab:reqs}}
+		\begin{tabular}{|l|c|c|c|c|c|}
+		\hline
+		\textbf{Method} & \textbf{Structural} & \textbf{Community} & \textbf{Artifacts} \\
+		 & \textbf{changes} & \textbf{changes} &  \\
+		\hline
+		{\em New nodes}        & No  & No  & Yes \\
+		\hline
+		{\em Split families}   & Yes & Yes & Yes  \\
+		\hline
+		{\em Duplicated nodes} & No  & (Yes) & No  \\
+		\hline
+		\end{tabular}
+		\end{table}
+%
+
+Looking at the checklist shown in Table~\ref{tab:reqs}, the ``duplicated nodes'' method of Section~\ref{ss:duplicated} stands out above the other two. Firstly, it does not introduce structural changes at the node level, since the ``replica'' nodes are structurally equivalent to the original ones, whereas the new nodes in the ``split family method'' are not. Secondly, it does  introduce changes in the community, due to the new edges, but this effect is intentional and obviously introduces global structural changes, as we have seen in the previous section. This result  is also achieved by the ``split family method'', but not by the ``new nodes'' method which, by adding a single weighted edge for each family with intra-marriages, fails in this respect.  Finally, what really distinguishes  the ``duplicated nodes'' method from the other two is that it does not create unexplained artifacts: the new nodes it introduces can be interpreted as {\em other} representatives of the family. In practice,  the {\sf duplicated nodes} method takes into account  the fact that families with some amount  of intra-family marriages are, by custom  or law, large enough to have more than one "actor" or to have agency in several directions. However, the two nodes of the same family will be, from the analytic point of view, indistinguishable from each other, and externally considered the same, which is why they have exactly the same values for all centrality measures. The fact that they are linked to each other also accounts for their intra-family marriages, and explains how the latter contribute to family  cohesion. 
+
+The {\em new nodes} method (Subsection \ref{ss:method1}), by contrast, introduces other nodes that are only linked to the original ones, and thus have no real interpretation, and  the "split nodes" method (Subsection \ref{ss:method2}), by dividing every family along gender lines, treats the male and female parts of the family  as separated agencies and introduces the undesirable artifact that there might be two nodes of the same family that are not linked to each other, as only families with self-loops have such a link. Moreover, with the ``split family'' method,  measures of centrality are structurally different for female and male nodes of the same family, and thus impossible to ground in the family  social reality, as explained above.
+
+All three methods proposed are heuristic, and their validity can only be ascertained post-hoc, by empirically verifying whether they better represent the social or historical status and position of the families. Of course, self-links could be also investigated in other ways outside the field of social network analysis; for instance, we could simply look at the percentage of intra-family marriages versus. inter-family marriages. However, if we acknowledge that marriages form social links, social network analysis offers the researcher quantitative insights at the actor (family) and  meso (community) level that would otherwise not be available, and excluding intra-family marriages from it  could lead to quantitative errors that are difficult to overcome. 
+
+
+\section{Conclusion}\label{sec13}
+
+Intra-family ties are an important part of the dynamics of marital networks; however, they have so far rarely been taken into account when computing centrality measures. In this paper we propose alternative  ways to  incorporate these intra-family ties into the graph representing the marriage network; all of the methods suggested are compatible with the use of  existing  social network analysis software.
+
+After empirically testing three alternative methods with two (very different) marriage datasets, one from the Republic of Venice and the other from Taiwanese elite families  across the 19th-20th centuries, we conclude that the most meaningful way to introduce self-loops is the ``duplicated nodes'' method. This creates a ``replica'' node for each family with non-zero internal marriages and connects it to the original node with an edge whose weight is equal to the number of internal marriages in the family; it also connects the ``replicas'' node to all other nodes to which the original node was connected. The advantage of this method is that it makes it possible to estimate the influence of intra-family marriages into the structure of the whole network, without producing artefacts. These ``replica'' nodes share the same actor-level measures with the node they mirror. and have a well-founded meaning, as they can be interpreted as "another representation'' of the family. 
+
+We show that the ``duplicated nodes'' method is able to create family rankings, with respect to the three main centrality measures we consider, that better reflect the family social status, as reported by the original paper in which the two networks were first introduced. This is also the case with a very small percentage of self-loops, whether they are calculated with respect to the total number of marriages or the total number of families. 
+
+Another advantage of the method is that it is not computationally intensive and can be performed either manually, by manipulating the spreadsheet, or using any data-oriented scripting language such as R or Python. In the near future,  we plan to publish  a library, using the language R and possibly other languages, to allow  this method to be easily used,  so that as more marital network datasets become available, it will be possible to study their general dynamics even in the presence of extensive intra-family ties.
+
+An additional improvement to this method would be to adjust the weights of the new edges, so that we are able to approximate, in the case of EV centrality, its value computed using self-loops. That way we could validate numerically, as well as qualitatively, the results obtained. Additional validation can be reached by applying the {\sf duplicated nodes} method to other networks with self-loops, such as the ones mentioned in the Introduction and Section~\ref{sec2}.
+
+\backmatter
+
+\section*{Declarations}
+
+\begin{itemize}
+\item {\em Funding}: This work is supported by the Ministerio Espa\~{n}ol de Econom\'{\i}a y
+Competitividad (Spanish Ministry of Competitivity and Economy) under project
+PID2020-115570GB-C22 (DemocratAI::UGR). Funding for open access charge has been provided by the  Universidad de Granada / CBUA.
+\item {\em Availability of data and materials}: Data is available from \url{https://github.com/JJ/Intra-family-networks/} in R data format, and originally from \url{https://diegopuga.org/data/venice/} and \url{https://
+doi.org/10.6084/m9.figshare.12639104.v1}. License is the same as the rest of the project, that is, GPL.
+\item {\em Code availability:} Code is embedded in the source of the paper at \url{https://github.com/JJ/Intra-family-networks/blob/main/paper/main.Rtex}.\footnote{{\bf Note to reviewers}: so as not to interfere with the review process, this repository is for the time being private.} As the rest of the paper and project, it is available under the GPL license.
+\item Authors' contributions: JJM and MCM have written the paper and performed the analysis shown in it, JJM wrote the code embedded in the paper. MCM has performed extensive revision and suggestions, and proposed new analysis and hypotheses.
+\end{itemize}
+
+\noindent
+%If any of the sections are not relevant to your manuscript, please include the heading and write `Not applicable' for that section.
+
+\section*{Conflict of interest}
+
+There is no conflict of interest.
+
+\bibliography{patrician,marriage,self-loops}% common bib file
+\end{document}
