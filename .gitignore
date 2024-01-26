@@ -1,0 +1,16 @@
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+#LaTeX
+*.aux
+*.tex
+*.bbl
+*.log
+*.pdf
+*.gz
+
+# Knitr
+cache/
