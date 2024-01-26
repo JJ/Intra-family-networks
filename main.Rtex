@@ -17,6 +17,7 @@
 \usepackage{algorithmicx}%
 \usepackage{algpseudocode}%
 \usepackage{listings}%
+\usepackage{array}%
 %%%%
 \raggedbottom
 
@@ -188,6 +189,7 @@ plot(marriages.sn,vertex.size=3,vertex.label=NA)
 
 The baseline network  we will be working with is shown in Figure \ref{fig:venice:nsl}; self-loops have obviously been dropped. For the following discussion,  values of centrality measures calculated on this dataset will be used as a benchmark. The rankings of the top ten Venetian families for the three centrality measures we consider in this paper is shown in Table \ref{tab:venice.top10.noselfloops}.%
 <<venice.marriages, echo=FALSE,warning=FALSE,message=FALSE>>=
+library(kableExtra)
 venice.top10.noselfloops <- data.frame( family.bw = m.betweenness[1:10,]$Family,
                                         betweennes.value = m.betweenness[1:10,]$betweenness,
                                        family.ev = m.eigen[1:10,]$Family,
@@ -195,13 +197,12 @@ venice.top10.noselfloops <- data.frame( family.bw = m.betweenness[1:10,]$Family,
                                        family.pr = m.pr[1:10,]$Family,
                                        pr.value = m.pr[1:10,]$pr)
 kable(venice.top10.noselfloops,
-      align="lr|lr|lr",
+      align=c("l","r","l","r","l","r"),
       booktabs = T,
       row.names = F,
       col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
-      caption="Top ten families in the Venetian dataset, with self-loops excluded, according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.noselfloops}") %>% add_header_above(c("No self-loops"=6))
+      caption="Top ten families in the Venetian dataset, with self-loops excluded, according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.noselfloops}") %>% add_header_above(c("No self-loops"=6)) %>% column_spec(1, border_left=T  ) %>% column_spec(2, border_right=T  ) %>% column_spec(4, border_right=T  ) %>% column_spec(6, border_right=T  )  
 @
-%
 
 %
 <<self.marriages, echo=F, message=F>>=
