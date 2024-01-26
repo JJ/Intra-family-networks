@@ -316,11 +316,11 @@ venice.top10.split.families <- data.frame( family.bw = m.sf.betweenness[1:10,]$F
                                            family.pr = m.sf.pr[1:10,]$Family,
                                            pr.value = m.sf.pr[1:10,]$pr)
 kable(venice.top10.split.families,
-      align="lr|lr|lr",
+      align=c("l","r","l","r","l","r"),
       booktabs = T,
       row.names = F,
       col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
-      caption="Top ten nodes in the Venetian dataset processed with the \"split families\" method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.split.families}") %>% add_header_above(c("Split families"=6))
+      caption="Top ten nodes in the Venetian dataset processed with the \"split families\" method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.split.families}") %>% add_header_above(c("Split families"=6)) %>% column_spec(1, border_left=T  ) %>% column_spec(2, border_right=T  ) %>% column_spec(4, border_right=T  ) %>% column_spec(6, border_right=T  )  
 @
 
 To get some insight about the structure of the network with split families, the latter  is rendered in  Figure \ref{fig:sf} where male nodes are in blue and female nodes are in gold.\footnote{As mentioned in the caption of Figure \ref{fig:sf}, we are using the default node layout of the {\sf igraph} package; as indicated in the manual, this method is called {\sf layout\_nicely}, and  uses some heuristics to choose a specific layout based on the graph. Our point is that by incorporating new nodes and edges analogous to the existing ones, we do not need to add any special provision or layout algorithm to visualize the graph, except to highlight the newly added nodes.} The figure shows how some families seem to occupy the center through the ``husband'' nodes while others through their ``wife'' nodes, implying that some families achieve centrality by marrying their daughters (and providing dowry for it), while others, possibly more successful families, are sought for their position. Another interesting feature is that two small sub-networks, connecting a female of one family to the male of another, have been created; these sub-networks were originally connected through their ``other'' parts, so this is an artifact of this representation: We cannot pretend that the female and male part of a family is disconnected even if there are not intra-marriages. However, trying to correct this effect would lead to additional artefacts.
@@ -393,11 +393,11 @@ venice.top10.dup <- data.frame( family.bw = m.dup.betweenness[ !grepl("'",m.dup.
                                        family.pr = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$Family,
                                        pr.value = m.dup.pr[ !grepl("'",m.dup.pr$Family),][1:10,]$pr)
 kable(venice.top10.dup,
-      align="lr|lr|lr",
+      align=c("l","r","l","r","l","r"),
       booktabs = T,
       row.names = F,
       col.names= c("Family","Betweenness","Family","EV centrality","Family","PageRank"),
-      caption="Top ten nodes in the Venetian dataset processed with the {\\protect\\sf duplicated nodes} method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.dup}") %>% add_header_above(c("Duplicated nodes"=6))
+      caption="Top ten nodes in the Venetian dataset processed with the {\\protect\\sf duplicated nodes} method  according to the three centrality measures: Betweenness (left), EV centrality (middle), PageRank (right).\\protect\\label{tab:venice.top10.dup}") %>% add_header_above(c("Duplicated nodes"=6)) %>% column_spec(1, border_left=T  ) %>% column_spec(2, border_right=T  ) %>% column_spec(4, border_right=T  ) %>% column_spec(6, border_right=T  )  
 
 @
 
